@@ -29,6 +29,7 @@ FIX = {
     "pesangan": "pasangan", "nomor": "nombor", "pakayan": "pakaian",
     "-pakayan": "-pakaian", "figurah": "figura", "-figurah": "-figura",
     "chao": "ciao", "sahaja?": "sahaja.", "obses": "obses",
+    "kepamis": "kepamist", "-kepamis": "-kepamist", "pamis": "pamist", "pamis.": "pamist.",
 }
 
 # (key, word to find, nth occurrence) -> time on the cut timeline
@@ -71,6 +72,16 @@ def loudness_db(path: Path, hop=0.05):
 def main():
     data = json.loads(TRANSCRIPT.read_text())
     words = [dict(w, text=fix_word(w["text"])) for w in data["words"] if w["type"] == "word"]
+    # re-join words Whisper split: "ke" + "pamist" -> "kepamist", "x" + "-x" -> "x-x"
+    merged = []
+    for w in words:
+        prev = merged[-1] if merged else None
+        if prev and (w["text"].startswith("-") or (prev["text"].lower() == "ke" and w["text"].lower().startswith("pamist"))):
+            prev["text"] = prev["text"] + w["text"]
+            prev["end"] = w["end"]
+            continue
+        merged.append(dict(w))
+    words = merged
     db, hop = loudness_db(SRC)
 
     def first_loud(s, e, thr=-32):

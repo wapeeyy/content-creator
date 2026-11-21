@@ -139,23 +139,13 @@
    "end": 7.14
   },
   {
-   "text": "ciri",
+   "text": "ciri-ciri",
    "start": 8.06,
-   "end": 8.62
-  },
-  {
-   "text": "-ciri",
-   "start": 8.62,
    "end": 8.98
   },
   {
-   "text": "ke",
+   "text": "kepamist",
    "start": 8.98,
-   "end": 9.32
-  },
-  {
-   "text": "pamis",
-   "start": 9.32,
    "end": 9.78
   },
   {
@@ -189,24 +179,14 @@
    "end": 12.36
   },
   {
-   "text": "ciri",
+   "text": "ciri-ciri",
    "start": 12.36,
-   "end": 12.76
-  },
-  {
-   "text": "-ciri",
-   "start": 12.76,
    "end": 12.9
   },
   {
-   "text": "ke",
+   "text": "kepamist",
    "start": 12.9,
-   "end": 13.1
-  },
-  {
-   "text": "pamis",
-   "start": 13.1,
-   "end": 14.1
+   "end": 13.9
   },
   {
    "text": "dalam",
@@ -464,13 +444,8 @@
    "end": 38.73
   },
   {
-   "text": "Pakaian",
+   "text": "Pakaian-pakaian",
    "start": 39.19,
-   "end": 39.51
-  },
-  {
-   "text": "-pakaian",
-   "start": 39.51,
    "end": 40.11
   },
   {
@@ -564,13 +539,8 @@
    "end": 48.39
   },
   {
-   "text": "ciri",
+   "text": "ciri-ciri",
    "start": 48.39,
-   "end": 48.67
-  },
-  {
-   "text": "-ciri",
-   "start": 48.67,
    "end": 48.83
   },
   {
@@ -634,13 +604,8 @@
    "end": 54.34
   },
   {
-   "text": "ciri",
+   "text": "ciri-ciri",
    "start": 54.34,
-   "end": 54.58
-  },
-  {
-   "text": "-ciri",
-   "start": 54.58,
    "end": 54.74
   },
   {
@@ -724,13 +689,8 @@
    "end": 61.86
   },
   {
-   "text": "ciri",
+   "text": "ciri-ciri",
    "start": 61.86,
-   "end": 62.36
-  },
-  {
-   "text": "-ciri",
-   "start": 62.36,
    "end": 62.84
   },
   {
@@ -839,13 +799,8 @@
    "end": 72.78
   },
   {
-   "text": "anak",
+   "text": "anak-anak",
    "start": 72.78,
-   "end": 73.04
-  },
-  {
-   "text": "-anak",
-   "start": 73.04,
    "end": 73.2
   },
   {
@@ -879,7 +834,7 @@
    "end": 78.53
   },
   {
-   "text": "kepamis",
+   "text": "kepamist",
    "start": 78.93,
    "end": 79.37
   },
@@ -894,14 +849,9 @@
    "end": 80.63
   },
   {
-   "text": "Figura",
+   "text": "Figura-figura",
    "start": 81.33,
-   "end": 82.21
-  },
-  {
-   "text": "-figura",
-   "start": 82.21,
-   "end": 82.99
+   "end": 82.33
   },
   {
    "text": "yang",
@@ -969,7 +919,7 @@
    "end": 89.97
   },
   {
-   "text": "Kepamis",
+   "text": "Kepamist",
    "start": 90.15,
    "end": 91.15
   },
@@ -1039,13 +989,8 @@
    "end": 95.97
   },
   {
-   "text": "kepamis",
+   "text": "kepamist-kepamist",
    "start": 95.97,
-   "end": 96.43
-  },
-  {
-   "text": "-kepamis",
-   "start": 96.43,
    "end": 96.83
   },
   {

@@ -121,7 +121,7 @@ const chunkWords = (words: W[]) => {
   return chunks;
 };
 const CHUNKS = chunkWords(edit.words as W[]);
-const HOT = /(matcha|trend|lelaki|leher|bermoral|komen|tinggalkan|rosak|punca|selamatkan|kepamis|pamis|ibu|3)/i;
+const HOT = /(matcha|trend|lelaki|leher|bermoral|komen|tinggalkan|rosak|punca|selamatkan|kepamist|ibu|3)/i;
 
 const clean = (s: string) => s.replace(/[.,?!]+$/, "").replace(/^ke$/i, "KE").toUpperCase();
 
@@ -162,7 +162,7 @@ const Captions = () => {
             style={{
               fontFamily: mont,
               fontWeight: 900,
-              fontSize: 76,
+              fontSize: w.text.length > 13 ? 58 : 76,
               lineHeight: 1.12,
               color: current ? YELLOW : "#fff",
               ...stroke(12),
@@ -223,7 +223,7 @@ const Hook = () => {
           textShadow: "0 10px 0 rgba(0,0,0,0.35)",
         }}
       >
-        KEPAMIS
+        KEPAMIST
       </div>
       <div
         style={{
@@ -333,7 +333,7 @@ const Recap = () => {
         gap: 8,
       }}
     >
-      <div style={{ fontFamily: anton, fontSize: 52, color: YELLOW, textAlign: "center" }}>CIRI-CIRI KEPAMIS</div>
+      <div style={{ fontFamily: anton, fontSize: 52, color: YELLOW, textAlign: "center" }}>CIRI-CIRI KEPAMIST</div>
       {items.map((it, i) => {
         const p = spring({ frame: frame - f(A.itu3ciri + i * 0.3), fps: 30, config: { damping: 12 } });
         return (
