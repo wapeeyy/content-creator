@@ -12,7 +12,6 @@
   "until": 19.94,
   "hot": [
    "matcha",
-   "trend",
    "lelaki",
    "leher",
    "bermoral",
@@ -21,7 +20,8 @@
    "kepamist",
    "ibu",
    "selamatkan",
-   "tinggalkanlah"
+   "tinggalkanlah",
+   "threads"
   ]
  },
  "loop": true,
@@ -411,7 +411,7 @@
    "end": 28.34
   },
   {
-   "text": "trend,",
+   "text": "threads,",
    "start": 28.34,
    "end": 28.56
   },
@@ -431,7 +431,7 @@
    "end": 29.72
   },
   {
-   "text": "trend.",
+   "text": "threads.",
    "start": 29.72,
    "end": 30.14
   },
@@ -1133,18 +1133,31 @@
   {
    "type": "title",
    "at": 26.52,
-   "until": 39.03,
+   "until": 28.54,
    "n": 2,
-   "title": "Kuat main trend",
-   "sticker": "trend",
+   "title": "Kuat main Threads",
+   "sticker": "threads",
    "color": "red"
   },
   {
-   "type": "sticker",
-   "at": 31.7,
-   "sticker": "???",
-   "shake": true,
-   "mood": "boing"
+   "type": "app",
+   "app": "threads",
+   "at": 28.64,
+   "text": "eh kenapa lelaki?",
+   "typeStart": 30.14,
+   "until": 32.97,
+   "cps": 9,
+   "persona": "female"
+  },
+  {
+   "type": "title",
+   "at": 33.02,
+   "until": 39.03,
+   "n": 2,
+   "title": "Kuat main Threads",
+   "sticker": "threads",
+   "color": "red",
+   "mood": "none"
   },
   {
    "type": "sticker",
@@ -1180,7 +1193,7 @@
    "mark": "redflag",
    "items": [
     "OBSES MATCHA",
-    "KUAT MAIN TREND",
+    "KUAT MAIN THREADS",
     "TUDUNG TAPI NAMPAK LEHER"
    ]
   },

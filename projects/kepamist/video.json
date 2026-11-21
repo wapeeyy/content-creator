@@ -3,47 +3,337 @@
   "persona": "female",
   "maxGap": 0.5,
   "fix": {
-    "merungkalkan": "merungkaikan", "track": "trend", "pesangan": "pasangan", "nomor": "nombor",
-    "pakayan": "pakaian", "-pakayan": "-pakaian", "figurah": "figura", "-figurah": "-figura",
-    "chao": "ciao", "kepamis": "kepamist", "-kepamis": "-kepamist", "pamis": "pamist"
+    "merungkalkan": "merungkaikan",
+    "track": "threads",
+    "pesangan": "pasangan",
+    "nomor": "nombor",
+    "pakayan": "pakaian",
+    "-pakayan": "-pakaian",
+    "figurah": "figura",
+    "-figurah": "-figura",
+    "chao": "ciao",
+    "kepamis": "kepamist",
+    "-kepamis": "-kepamist",
+    "pamis": "pamist"
   },
-  "join": [["ke", "pamist"]],
-
+  "join": [
+    [
+      "ke",
+      "pamist"
+    ]
+  ],
   "hook": {
     "coldOpen": [
-      { "from": ["kalau", 1], "to": ["ada", 3, -1.0] },
-      { "from": ["pasangan", 1], "to": ["pasangan", 1], "hold": 0.0 },
-      { "from": ["maka", 0], "to": ["korang", 3, -1.15] }
+      {
+        "from": [
+          "kalau",
+          1
+        ],
+        "to": [
+          "ada",
+          3,
+          -1.0
+        ]
+      },
+      {
+        "from": [
+          "pasangan",
+          1
+        ],
+        "to": [
+          "pasangan",
+          1
+        ],
+        "hold": 0.0
+      },
+      {
+        "from": [
+          "maka",
+          0
+        ],
+        "to": [
+          "korang",
+          3,
+          -1.15
+        ]
+      }
     ],
-    "lines": ["PASANGAN KAU MACAM NI?", "TINGGALKAN!"],
+    "lines": [
+      "PASANGAN KAU MACAM NI?",
+      "TINGGALKAN!"
+    ],
     "sticker": "cross",
     "tag": "3 TANDA DIA KEPAMIST",
-    "until": ["first", 0, -0.4],
-    "hot": ["matcha", "trend", "lelaki", "leher", "bermoral", "komen", "rosak", "kepamist", "ibu", "selamatkan", "tinggalkanlah"]
+    "until": [
+      "first",
+      0,
+      -0.4
+    ],
+    "hot": [
+      "matcha",
+      "lelaki",
+      "leher",
+      "bermoral",
+      "komen",
+      "rosak",
+      "kepamist",
+      "ibu",
+      "selamatkan",
+      "tinggalkanlah",
+      "threads"
+    ]
   },
-  "cut": [{ "from": ["assalamualaikum", 0], "to": ["guys", 0] }],
-  "loop": { "endAfter": ["sana", 1] },
-
+  "cut": [
+    {
+      "from": [
+        "assalamualaikum",
+        0
+      ],
+      "to": [
+        "guys",
+        0
+      ]
+    }
+  ],
+  "loop": {
+    "endAfter": [
+      "sana",
+      1
+    ]
+  },
   "overlays": [
-    { "type": "title", "at": ["first", 0], "until": ["second", 0], "n": 1, "title": "Obses matcha", "sticker": "matcha", "color": "green" },
-    { "type": "sticker", "at": ["matcha", 1], "sticker": "matcha", "pos": "right", "size": 170, "mood": "pop", "dur": 1.3 },
-    { "type": "title", "at": ["second", 0], "until": ["nombor", 0], "n": 2, "title": "Kuat main trend", "sticker": "trend", "color": "red" },
-    { "type": "sticker", "at": ["lelaki", 0], "sticker": "???", "shake": true, "mood": "boing" },
-    { "type": "sticker", "at": ["lelaki", 1], "sticker": "???", "pos": "right", "shake": true, "mood": "scratch" },
-    { "type": "title", "at": ["nombor", 0], "until": ["jumpai", 0], "n": 3, "title": "Tudung tapi\nnampak leher", "sticker": "hijab", "color": "purple" },
-    { "type": "sticker", "at": ["bermoral", 0], "sticker": "cross", "pos": "right", "size": 150, "text": "TAK BERMORAL", "mood": "wrong" },
-    { "type": "recap", "at": ["jumpai", 0], "until": ["komen", 0], "title": "CIRI-CIRI KEPAMIST", "mark": "redflag",
-      "items": ["OBSES MATCHA", "KUAT MAIN TREND", "TUDUNG TAPI NAMPAK LEHER"] },
-    { "type": "cta", "at": ["komen", 0], "text": "TAMBAH KAT KOMEN" },
-    { "type": "stamp", "at": ["tinggalkanlah", 0], "text": "TINGGALKAN!" },
-    { "type": "banner", "at": ["ibu", 0, -0.6], "until": ["tinggalkanlah", 1], "text": "CARI IBU TERBAIK\nUNTUK ANAK-ANAK", "sticker": "ring" },
-    { "type": "stamp", "at": ["tinggalkanlah", 1], "text": "TINGGALKAN!", "mood": "boom", "rotate": 6 },
-    { "type": "banner", "at": ["merosakkan", 0], "until": ["selamatkan", 0], "style": "warning", "text": "MEROSAKKAN\nRUMAH TANGGA", "sticker": "house" },
-    { "type": "sticker", "at": ["rosak", 1], "sticker": "brokenheart", "pos": "right", "size": 170, "mood": "glitch" },
-    { "type": "stamp", "at": ["punca", 0], "text": "PUNCA!", "mood": "reveal", "shake": true },
-    { "type": "banner", "at": ["selamatkan", 0], "until": ["sana", 1, 0.4], "style": "green", "text": "SELAMATKAN\nDIRI ANDA!", "sticker": "shield" }
+    {
+      "type": "title",
+      "at": [
+        "first",
+        0
+      ],
+      "until": [
+        "second",
+        0
+      ],
+      "n": 1,
+      "title": "Obses matcha",
+      "sticker": "matcha",
+      "color": "green"
+    },
+    {
+      "type": "sticker",
+      "at": [
+        "matcha",
+        1
+      ],
+      "sticker": "matcha",
+      "pos": "right",
+      "size": 170,
+      "mood": "pop",
+      "dur": 1.3
+    },
+    {
+      "type": "title",
+      "at": [
+        "second",
+        0
+      ],
+      "until": [
+        "posting",
+        0,
+        -0.7
+      ],
+      "n": 2,
+      "title": "Kuat main Threads",
+      "sticker": "threads",
+      "color": "red"
+    },
+    {
+      "type": "app",
+      "app": "threads",
+      "at": [
+        "posting",
+        0,
+        -0.6
+      ],
+      "text": "eh kenapa lelaki?",
+      "typeStart": [
+        "eh",
+        0
+      ],
+      "until": [
+        "kenapa",
+        1,
+        -0.05
+      ],
+      "cps": 9
+    },
+    {
+      "type": "title",
+      "at": [
+        "kenapa",
+        1
+      ],
+      "until": [
+        "nombor",
+        0
+      ],
+      "n": 2,
+      "title": "Kuat main Threads",
+      "sticker": "threads",
+      "color": "red",
+      "mood": "none"
+    },
+    {
+      "type": "sticker",
+      "at": [
+        "lelaki",
+        1
+      ],
+      "sticker": "???",
+      "pos": "right",
+      "shake": true,
+      "mood": "scratch"
+    },
+    {
+      "type": "title",
+      "at": [
+        "nombor",
+        0
+      ],
+      "until": [
+        "jumpai",
+        0
+      ],
+      "n": 3,
+      "title": "Tudung tapi\nnampak leher",
+      "sticker": "hijab",
+      "color": "purple"
+    },
+    {
+      "type": "sticker",
+      "at": [
+        "bermoral",
+        0
+      ],
+      "sticker": "cross",
+      "pos": "right",
+      "size": 150,
+      "text": "TAK BERMORAL",
+      "mood": "wrong"
+    },
+    {
+      "type": "recap",
+      "at": [
+        "jumpai",
+        0
+      ],
+      "until": [
+        "komen",
+        0
+      ],
+      "title": "CIRI-CIRI KEPAMIST",
+      "mark": "redflag",
+      "items": [
+        "OBSES MATCHA",
+        "KUAT MAIN THREADS",
+        "TUDUNG TAPI NAMPAK LEHER"
+      ]
+    },
+    {
+      "type": "cta",
+      "at": [
+        "komen",
+        0
+      ],
+      "text": "TAMBAH KAT KOMEN"
+    },
+    {
+      "type": "stamp",
+      "at": [
+        "tinggalkanlah",
+        0
+      ],
+      "text": "TINGGALKAN!"
+    },
+    {
+      "type": "banner",
+      "at": [
+        "ibu",
+        0,
+        -0.6
+      ],
+      "until": [
+        "tinggalkanlah",
+        1
+      ],
+      "text": "CARI IBU TERBAIK\nUNTUK ANAK-ANAK",
+      "sticker": "ring"
+    },
+    {
+      "type": "stamp",
+      "at": [
+        "tinggalkanlah",
+        1
+      ],
+      "text": "TINGGALKAN!",
+      "mood": "boom",
+      "rotate": 6
+    },
+    {
+      "type": "banner",
+      "at": [
+        "merosakkan",
+        0
+      ],
+      "until": [
+        "selamatkan",
+        0
+      ],
+      "style": "warning",
+      "text": "MEROSAKKAN\nRUMAH TANGGA",
+      "sticker": "house"
+    },
+    {
+      "type": "sticker",
+      "at": [
+        "rosak",
+        1
+      ],
+      "sticker": "brokenheart",
+      "pos": "right",
+      "size": 170,
+      "mood": "glitch"
+    },
+    {
+      "type": "stamp",
+      "at": [
+        "punca",
+        0
+      ],
+      "text": "PUNCA!",
+      "mood": "reveal",
+      "shake": true
+    },
+    {
+      "type": "banner",
+      "at": [
+        "selamatkan",
+        0
+      ],
+      "until": [
+        "sana",
+        1,
+        0.4
+      ],
+      "style": "green",
+      "text": "SELAMATKAN\nDIRI ANDA!",
+      "sticker": "shield"
+    }
   ],
   "sfx": [],
-
-  "cover": { "at": ["first", 0, 0.6] }
+  "cover": {
+    "at": [
+      "first",
+      0,
+      0.6
+    ]
+  }
 }

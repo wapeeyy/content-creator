@@ -14,6 +14,13 @@ const LIB: Record<string, React.ReactNode> = {
       <path d="M16 8c10-5 18 5 28 0s12-2 12-2v26s-4-4-12 1-18-6-28 0z" fill={C.red} stroke={S} strokeWidth={W} strokeLinejoin="round" />
     </>
   ),
+  threads: (
+    <>
+      <rect x="2" y="2" width="60" height="60" rx="15" fill="#000" stroke={S} strokeWidth="2" />
+      <path d="M41 30c-1-7-5-10-10-10-6 0-10 5-10 12s4 12 11 12c5 0 8-2 9-6 1-5-3-7-8-7-4 0-6 2-6 4s2 3 5 3c5 0 7-3 7-9 0-9-5-15-13-15-10 0-15 8-15 18s6 18 17 18c6 0 10-2 13-6"
+        fill="none" stroke="#fff" strokeWidth="4.5" strokeLinecap="round" transform="translate(1,1) scale(0.97)" />
+    </>
+  ),
   matcha: (
     <>
       <path d="M14 22h36l-4 34a4 4 0 0 1-4 4H22a4 4 0 0 1-4-4z" fill="#fff" stroke={S} strokeWidth={W} />
