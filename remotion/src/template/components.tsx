@@ -183,7 +183,11 @@ export const HookTitle: React.FC<{ lines: string[]; tag?: string; sticker?: stri
         opacity: fadeOut(frame, to, 6),
       }}
     >
-      {small && <div style={{ fontFamily: anton, fontSize: 84, lineHeight: 1.05, color: "#fff", ...stroke(10), letterSpacing: 2 }}>{small}</div>}
+      {small && (
+        <div style={{ fontFamily: anton, fontSize: small.length > 18 ? 66 : small.length > 13 ? 74 : 84, lineHeight: 1.05, color: "#fff", ...stroke(10), letterSpacing: 2, whiteSpace: "nowrap", textAlign: "center" }}>
+          {small}
+        </div>
+      )}
       <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
         {big && (
           <div style={{ fontFamily: anton, fontSize: big.length > 9 ? 110 : big.length > 6 ? (sticker ? 128 : 145) : 160, lineHeight: 1, color: C.yellow, ...stroke(14), transform: "rotate(-3deg)", textShadow: "0 10px 0 rgba(0,0,0,0.35)" }}>

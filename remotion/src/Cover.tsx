@@ -32,7 +32,11 @@ export const Cover: React.FC = () => {
           alignItems: "center",
         }}
       >
-        {small && <div style={{ fontFamily: anton, fontSize: 110, lineHeight: 1.05, color: "#fff", ...stroke(12) }}>{small}</div>}
+        {small && (
+          <div style={{ fontFamily: anton, fontSize: small.length > 18 ? 86 : small.length > 13 ? 98 : 110, lineHeight: 1.05, color: "#fff", ...stroke(12), whiteSpace: "nowrap" }}>
+            {small}
+          </div>
+        )}
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
           {big && (
             <div style={{ fontFamily: anton, fontSize: big.length > 9 ? 150 : big.length > 6 ? 180 : 210, lineHeight: 1, color: C.yellow, ...stroke(16), transform: "rotate(-3deg)" }}>

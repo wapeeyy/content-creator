@@ -6,7 +6,7 @@ Platform sekarang: **TikTok sahaja** (IG/YouTube belum — jangan buat SRT/setup
 ## Aliran kerja setiap video baru
 
 1. `python tools/prep_source.py <projek> "<link Drive / TikTok / fail>"`
-   - muat turun, tukar ke 1080x1920 30fps, colour grade `warm_punch` (lalai), transkrip Whisper `medium` (ms)
+   - muat turun, tukar ke 1080x1920 30fps, **tiada colour grade (video asli — pengguna tak suka warm)**, transkrip Whisper `medium` (ms)
    - baca `projects/<projek>/takes_packed.md` untuk faham isi
 2. **Tanya pengguna dulu** sebelum render, dalam satu mesej:
    - 2–3 pilihan **hook** (ayat cold open + teks hook). Hook = ayat paling kuat/kontroversi/lucu dari video.

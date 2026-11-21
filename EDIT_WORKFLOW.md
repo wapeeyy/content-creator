@@ -15,7 +15,7 @@
 |---|---|
 | **Hook** | Ayat paling kuat dimainkan dulu (cold open) + teks hook besar + sticker + tag merah dari frame pertama, kemudian kilatan putih masuk cerita |
 | **Potongan** | Salam/intro lambat dibuang, jeda > 0.5 s dipendekkan, sudut kamera bertukar setiap potongan |
-| **Colour grade** | `warm_punch`: kulit lebih hangat, gambar lebih tajam (pilihan lain: `clean_bright`, `moody`, `none`) |
+| **Colour grade** | Lalai: video asli (`none`). Pilihan jika diminta: `warm_punch`, `clean_bright`, `moody` |
 | **Caption** | 1–3 perkataan, perkataan semasa kuning |
 | **Grafik** | Kad bernombor, banner, ringkasan, stamp, sticker, butang komen |
 | **SFX ikut situasi** | 24 bunyi — lucu, salah, betul, drama, pendedahan, senarai, komen, peralihan (tak berulang berturut) |
@@ -28,7 +28,7 @@
 ## Arahan teknikal
 
 ```bash
-python tools/prep_source.py <projek> "<link atau fail>" [--grade warm_punch]
+python tools/prep_source.py <projek> "<link atau fail>" [--grade none]
 # tulis projects/<projek>/video.json  (contoh: projects/kepamist/video.json, rujukan medan: CLAUDE.md)
 tools/render_video.sh <projek> --preview   # gambar pegun + safe zone + cover
 tools/render_video.sh <projek> --hook      # 12 s pertama sahaja

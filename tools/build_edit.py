@@ -141,16 +141,20 @@ def main():
 
     # cold open: a punchy line moved to the very start
     hook = cfg.get("hook", {})
-    cold = None
+    # coldOpen may be one range or a list of ranges stitched together (to drop pauses/filler)
+    colds = []
     if hook.get("coldOpen"):
-        co = hook["coldOpen"]
-        cold = (refs.start(co["from"]) - 0.08, refs.end(co["to"]) + co.get("hold", 0.25))
+        ranges = hook["coldOpen"] if isinstance(hook["coldOpen"], list) else [hook["coldOpen"]]
+        for k, co in enumerate(ranges):
+            last = k == len(ranges) - 1
+            colds.append((refs.start(co["from"]) - 0.08,
+                          refs.end(co["to"]) + co.get("hold", 0.25 if last else 0.08)))
 
     timeline = []  # (srcStart, srcEnd, outStart, isCold)
     t = 0.0
-    if cold:
-        timeline.append((cold[0], cold[1], 0.0, True))
-        t = cold[1] - cold[0]
+    for cs, ce in colds:
+        timeline.append((cs, ce, t, True))
+        t += ce - cs
     hook_end = t
     for s, e in segs:
         timeline.append((s, e, t, False))
@@ -166,11 +170,11 @@ def main():
         return None
 
     out_words = []
-    if cold:
+    for cs, ce in colds:
         for w in words:
-            if cold[0] <= w["start"] and w["end"] <= cold[1] + 0.05:
+            if cs <= w["start"] < ce - 0.05:
                 out_words.append({"text": w["text"], "start": remap(w["start"], True),
-                                  "end": remap(w["end"], True), "cold": True})
+                                  "end": remap(min(w["end"], ce), True), "cold": True})
     for w in body:
         s, e = remap(w["start"]), remap(w["end"])
         if s is not None and e is not None:

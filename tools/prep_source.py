@@ -60,7 +60,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("project")
     ap.add_argument("source")
-    ap.add_argument("--grade", default="warm_punch", choices=GRADES)
+    ap.add_argument("--grade", default="none", choices=GRADES)  # user prefers the original look
     ap.add_argument("--language", default="ms")
     ap.add_argument("--model", default="medium")
     args = ap.parse_args()

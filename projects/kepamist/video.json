@@ -10,12 +10,16 @@
   "join": [["ke", "pamist"]],
 
   "hook": {
-    "coldOpen": { "from": ["jika", 0], "to": ["bang", 3] },
-    "lines": ["3 TANDA DIA", "KEPAMIST"],
-    "sticker": "redflag",
-    "tag": "NO. 3 PALING RAMAI TAK SEDAR",
+    "coldOpen": [
+      { "from": ["kalau", 1], "to": ["ada", 3, -1.0] },
+      { "from": ["pasangan", 1], "to": ["pasangan", 1], "hold": 0.0 },
+      { "from": ["maka", 0], "to": ["korang", 3, -1.15] }
+    ],
+    "lines": ["PASANGAN KAU MACAM NI?", "TINGGALKAN!"],
+    "sticker": "cross",
+    "tag": "3 TANDA DIA KEPAMIST",
     "until": ["first", 0, -0.4],
-    "hot": ["matcha", "trend", "lelaki", "leher", "bermoral", "komen", "rosak", "kepamist", "ibu", "selamatkan"]
+    "hot": ["matcha", "trend", "lelaki", "leher", "bermoral", "komen", "rosak", "kepamist", "ibu", "selamatkan", "tinggalkanlah"]
   },
   "cut": [{ "from": ["assalamualaikum", 0], "to": ["guys", 0] }],
   "loop": { "endAfter": ["sana", 1] },
