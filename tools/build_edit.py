@@ -188,9 +188,9 @@ def main():
     overlays = []
     for ov in cfg.get("overlays", []):
         o = dict(ov)
-        o["at"] = at(ov["at"])
-        if "until" in ov:
-            o["until"] = at(ov["until"])
+        for key in ("at", "until", "typeStart", "typeEnd"):
+            if key in ov:
+                o[key] = at(ov[key], "end" if key == "typeEnd" else "start")
         overlays.append(o)
     sfx = [dict(s, at=at(s["at"])) for s in cfg.get("sfx", [])]
     cover = dict(cfg.get("cover", {}))

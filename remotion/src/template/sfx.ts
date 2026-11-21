@@ -17,6 +17,7 @@ export const SFX_MOODS: Record<string, string[]> = {
   notify: ["notif"],
   end: ["ding"],
   rise: ["riser"],
+  key: ["keytap"],
 };
 
 const VOLUME: Record<string, number> = {
@@ -26,7 +27,7 @@ const VOLUME: Record<string, number> = {
   buzzer: 0.4, chime: 0.45, sparkle: 0.45,
   heartbeat: 0.5, drone: 0.4, glitch: 0.45,
   impact: 0.45, bassdrop: 0.4, riser: 0.4,
-  typewriter: 0.5, shutter: 0.5, notif: 0.5, ding: 0.45,
+  typewriter: 0.5, shutter: 0.5, notif: 0.5, ding: 0.45, keytap: 0.3,
 };
 
 export type SfxEvent = { at: number; name: string; vol: number };
@@ -47,7 +48,7 @@ export const resolveSfx = (cues: SfxCue[]): SfxEvent[] => {
     const pool = SFX_MOODS[c.mood] ?? (VOLUME[c.mood] !== undefined ? [c.mood] : SFX_MOODS.pop);
     let i = counters[c.mood] ?? 0;
     let name = pool[i % pool.length];
-    if (name === last && pool.length > 1) {
+    if (name === last && pool.length > 1 && c.mood !== "key") {
       i += 1;
       name = pool[i % pool.length];
     }

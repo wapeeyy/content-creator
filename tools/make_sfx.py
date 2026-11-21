@@ -255,6 +255,12 @@ def notif():
     return norm(x, 0.55)
 
 
+def keytap():  # soft phone-keyboard tap
+    tt = t(0.04)
+    x = lowpass(rng.standard_normal(len(tt)), 3500) * np.exp(-tt * 180) + 0.3 * tone(1800, 0.04) * np.exp(-tt * 250)
+    return norm(x, 0.5)
+
+
 def write(path, x):
     pcm = (np.clip(x, -1, 1) * 32767).astype(np.int16)
     stereo = np.repeat(pcm[:, None], 2, axis=1)
@@ -273,6 +279,6 @@ if __name__ == "__main__":
                          boing=boing, scratch=scratch, boom=boom, buzzer=buzzer, chime=chime,
                          sparkle=sparkle, heartbeat=heartbeat, drone=drone, glitch=glitch,
                          bassdrop=bassdrop, tick=tick, typewriter=typewriter, shutter=shutter,
-                         notif=notif).items():
+                         notif=notif, keytap=keytap).items():
         write(out / f"{name}.wav", fn())
         print("wrote", out / f"{name}.wav")

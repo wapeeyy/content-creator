@@ -78,6 +78,20 @@ def main():
          "--model", args.model, "--language", args.language])
     run([sys.executable, str(Path.home() / "Developer/video-use/helpers/pack_transcripts.py"),
          "--edit-dir", str(pdir), "-o", str(pdir / "takes_packed.md")])
+    # flag places where the speaker mentions an app, so an "app" overlay can be proposed
+    import json as _json
+    words = [w for w in _json.loads((pdir / "transcripts/source.json").read_text())["words"] if w["type"] == "word"]
+    apps = {"threads": "threads", "thread": "threads", "tiktok": "tiktok", "tik": "tiktok", "twitter": "x",
+            "x": "x", "instagram": "instagram", "ig": "instagram", "insta": "instagram"}
+    hits = []
+    for i, w in enumerate(words):
+        key = w["text"].lower().strip(".,?!")
+        if key in apps and (key != "x" or any(v in " ".join(x["text"].lower() for x in words[max(0, i - 3):i]) for v in ("buka", "bukak", "app", "dekat", "kat"))):
+            ctx = " ".join(x["text"] for x in words[max(0, i - 4): i + 10])
+            hits.append(f"  {w['start']:7.2f}s  [{apps[key]}]  ...{ctx}...")
+    if hits:
+        print("\napp mentions (propose an \"app\" overlay):")
+        print("\n".join(hits))
     print(f"\nready: {pdir}\nnext: write {pdir / 'video.json'} then run tools/build_edit.py {args.project}")
 
 

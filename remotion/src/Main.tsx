@@ -22,6 +22,7 @@ import {
   Segment,
 } from "./template/components";
 import { SfxCue, resolveSfx } from "./template/sfx";
+import { AppPhone, appTiming } from "./template/apps";
 import { f } from "./template/theme";
 
 const overlays = P.overlays as Overlay[];
@@ -61,6 +62,18 @@ const autoCues = (o: Overlay): SfxCue[] => {
       return [{ at: o.at, mood: m ?? "end" }];
     case "zoom":
       return m ? [{ at: o.at, mood: m }] : [];
+    case "app": {
+      const tm = appTiming(o);
+      const text: string = o.text ?? "";
+      const taps = text.split("").map((ch, i) => ({ ch, at: tm.typeStart + (i / Math.max(text.length, 1)) * (tm.typeEnd - tm.typeStart) }));
+      return [
+        { at: o.at, mood: "transition" },
+        { at: o.at + 0.3, mood: "pop" },
+        ...taps.filter((k) => k.ch !== " ").map((k) => ({ at: k.at, mood: "key" })),
+        { at: tm.postAt + 0.15, mood: m ?? "notify" },
+        { at: tm.end - 0.3, mood: "transition" },
+      ];
+    }
     default:
       return [];
   }
@@ -106,6 +119,10 @@ const Overlays: React.FC = () => (
           return <CTA key={i} o={o} />;
         case "end":
           return <EndCard key={i} o={o} />;
+        case "app": {
+          const tm = appTiming(o);
+          return <AppPhone key={i} o={o} {...tm} />;
+        }
         default:
           return null;
       }

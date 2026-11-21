@@ -1,8 +1,9 @@
 import { Composition, Still } from "remotion";
 import { Main } from "./Main";
 import { Cover } from "./Cover";
+import { AppDemo } from "./AppDemo";
 import P from "./data/project.json";
-import { FPS } from "./template/theme";
+import { FPS, f } from "./template/theme";
 
 export const Root = () => (
   <>
@@ -15,6 +16,7 @@ export const Root = () => (
       height={1920}
       defaultProps={{ showSafeZone: false }}
     />
+    <Composition id="AppDemo" component={AppDemo} durationInFrames={f(18)} fps={FPS} width={1080} height={1920} />
     <Still id="Cover" component={Cover} width={1080} height={1920} />
   </>
 );
