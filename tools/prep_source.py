@@ -26,6 +26,10 @@ GRADES = {
     "clean_bright": "eq=contrast=1.05:brightness=0.02:saturation=1.10,colorbalance=rm=0.01:bm=-0.01,unsharp=5:5:0.3",
     "moody": "eq=contrast=1.12:saturation=0.95:gamma=0.95,"
              "colorbalance=rs=-0.02:bs=0.03:rh=0.03:bh=-0.03,vignette=PI/5",
+    # neutral "premium": buang cast kuning dinding, hitam lebih dalam, highlight roll-off, vignette lembut
+    "premium": "colorbalance=bs=0.01:rm=-0.01:bm=0.015:rh=-0.015:bh=0.02,"
+               "curves=master='0/0.015 0.1/0.075 0.35/0.37 0.6/0.65 0.85/0.85 1/0.94',"
+               "eq=saturation=1.08:contrast=1.04,vignette=angle=PI/6,unsharp=5:5:0.45",
 }
 
 

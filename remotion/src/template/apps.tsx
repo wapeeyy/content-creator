@@ -9,7 +9,7 @@ import type { Overlay } from "./components";
 // Icons and screens are simplified look-alikes drawn here (not official logos/UI).
 // To use an official logo you own the rights to, pass "icon": "img:file.png".
 
-export type AppName = "threads" | "tiktok" | "x" | "instagram";
+export type AppName = "threads" | "tiktok" | "x" | "instagram" | "whatsapp";
 
 type Theme = {
   label: string;
@@ -47,6 +47,11 @@ export const APP_THEMES: Record<AppName, Theme> = {
     btnBg: "#FE2C55", btnFg: "#FFFFFF", dark: true,
     composeTitle: "Cari", button: "Cari", placeholder: "Cari", done: "",
   },
+  whatsapp: {
+    label: "WhatsApp", bg: "#0B141A", fg: "#E9EDEF", sub: "#8696A0", accent: "#25D366",
+    btnBg: "#25D366", btnFg: "#0B141A", dark: true,
+    composeTitle: "Status", button: "Hantar", placeholder: "Taip status", done: "Status dikemas kini",
+  },
 };
 
 export const AppIcon: React.FC<{ app: AppName; size: number }> = ({ app, size }) => {
@@ -80,6 +85,15 @@ export const AppIcon: React.FC<{ app: AppName; size: number }> = ({ app, size })
           <rect x="6" y="6" width="52" height="52" rx="16" fill="none" stroke="#fff" strokeWidth="5.5" />
           <circle cx="32" cy="32" r="12" fill="none" stroke="#fff" strokeWidth="5.5" />
           <circle cx="47" cy="17" r="3.5" fill="#fff" />
+        </svg>
+      </div>
+    );
+  if (app === "whatsapp")
+    return (
+      <div style={{ ...box, background: "#25D366" }}>
+        <svg width={size * 0.64} height={size * 0.64} viewBox="0 0 64 64">
+          <path d="M32 6a26 26 0 0 0-22.4 39.2L6 58l13.2-3.5A26 26 0 1 0 32 6z" fill="none" stroke="#fff" strokeWidth="5" strokeLinejoin="round" />
+          <path d="M23 20c2-1 3 0 4 3l1 3c0 1-1 2-2 3 1 3 5 7 8 8 1-1 2-2 3-2l3 1c3 1 4 2 3 4-1 3-4 4-7 3-7-2-13-8-15-15-1-3 0-6 2-8z" fill="#fff" />
         </svg>
       </div>
     );

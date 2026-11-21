@@ -1,0 +1,42 @@
+{
+  "title": "Lelaki Pemalas",
+  "persona": "male",
+  "maxGap": 0.5,
+  "fix": {
+    "track": "Threads",
+    "whatsapp,": "WhatsApp,"
+  },
+  "join": [["tinggalkan", "lah"]],
+  "hook": {
+    "coldOpen": [
+      { "from": ["lelaki", 3], "to": ["progress", 0] },
+      { "from": ["tinggalkanlah", 0], "to": ["sebegitu", 1] }
+    ],
+    "lines": ["LELAKI MACAM NI?", "TINGGALKAN!"],
+    "sticker": "redflag",
+    "tag": "LELAKI PEMALAS",
+    "until": ["condemn", 0, -0.2],
+    "hot": ["lelaki", "pemalas", "miracle", "penat", "kemalasan", "whatsapp", "progress", "tiktok", "threads", "tinggalkanlah", "loser", "win", "winner"]
+  },
+  "cut": [
+    { "from": ["what's", 0], "to": ["guys", 0] }
+  ],
+  "loop": { "endAfter": ["winner", 0] },
+  "overlays": [
+    { "type": "banner", "at": ["condemn", 0], "until": ["alasan", 0, -0.3], "style": "red", "text": "LELAKI\nPEMALAS", "sticker": "redflag" },
+    { "type": "sticker", "at": ["miracle", 0], "sticker": "thinking", "pos": "right", "size": 160, "text": "MIRACLE?", "mood": "boing" },
+    { "type": "title", "at": ["alasan", 0, -0.2], "until": ["whatsapp", 0, -0.6], "n": 1, "title": "Alasan \"PENAT\"", "sticker": "clock", "color": "red" },
+    { "type": "app", "app": "whatsapp", "at": ["whatsapp", 0, -0.6], "text": "oh penatnya dengan hidup sekarang ni. kenapalah hidup aku jadi macam ni", "typeStart": ["oh", 0], "typeEnd": ["ni", 3], "until": ["sebagainya", 0, 0.4], "cps": 12 },
+    { "type": "stamp", "at": ["berselindung", 0], "text": "MALAS!", "mood": "boom", "shake": true },
+    { "type": "title", "at": ["cakap", 0], "until": ["tiktok", 0, -0.5], "n": 2, "title": "Banyak kerja,\ntapi TIADA progress", "sticker": "cross", "color": "purple" },
+    { "type": "app", "app": "tiktok", "at": ["tiktok", 0, -0.5], "text": "ali", "until": ["jam", 0, -0.1] },
+    { "type": "stamp", "at": ["jam", 0], "text": "ONLINE 3 JAM", "color": "green", "mood": "drama", "rotate": -5 },
+    { "type": "banner", "at": ["threads", 0, -0.2], "until": ["tinggalkanlah", 0, -0.2], "style": "warning", "text": "POSTING BERLAMBAK\nDI THREADS", "sticker": "eyes" },
+    { "type": "stamp", "at": ["tinggalkanlah", 0], "text": "TINGGALKAN!", "mood": "impact" },
+    { "type": "sticker", "at": ["loser", 0], "sticker": "cross", "pos": "right", "size": 150, "text": "LOSER", "mood": "wrong" },
+    { "type": "banner", "at": ["get", 0], "until": ["sebab", 0, -0.2], "style": "yellow", "text": "GET WITH ME\nINSTEAD", "sticker": "fire" },
+    { "type": "stamp", "at": ["win", 0], "text": "WINNER!", "color": "yellow", "mood": "right", "rotate": 5 }
+  ],
+  "sfx": [],
+  "cover": { "at": ["pemalas", 0, 0.4] }
+}
