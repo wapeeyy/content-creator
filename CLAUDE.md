@@ -24,7 +24,7 @@ Platform sekarang: **TikTok sahaja** (IG/YouTube belum — jangan buat SRT/setup
 - **Loop ending**: tamat sejurus selepas ayat penutup yang kuat (`loop.endAfter`), tiada "ciao/end card" — frame akhir melarut ke frame 0.
 - Caption 1–3 perkataan, Montserrat 900 huruf besar, perkataan semasa kuning, y=1250.
 - Kad tajuk/banner di atas (y≈250), stamp di tengah, CTA komen y≈1060.
-- Bar progres kuning nipis di bawah safe zone.
+- **Tiada bar progres** (pengguna tak mahu — jangan tambah balik).
 - Warna: kuning #FFE14D, merah #FF3B30, hijau #8BC34A, hitam #111 (`remotion/src/template/theme.ts`).
 - Safe zone TikTok+IG: atas 220, bawah 480, kiri 60, kanan 140 (`template/safe.ts`). Semua teks/grafik mesti di dalam.
 - **SFX ikut situasi** (`template/sfx.ts`), jangan ulang bunyi sama berturut:
