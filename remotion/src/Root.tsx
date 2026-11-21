@@ -1,17 +1,20 @@
-import { Composition } from "remotion";
+import { Composition, Still } from "remotion";
 import { Main } from "./Main";
-import edit from "./data/edit.json";
-
-export const FPS = 30;
+import { Cover } from "./Cover";
+import P from "./data/project.json";
+import { FPS } from "./template/theme";
 
 export const Root = () => (
-  <Composition
-    id="Main"
-    component={Main}
-    durationInFrames={Math.ceil(edit.duration * FPS)}
-    fps={FPS}
-    width={1080}
-    height={1920}
-    defaultProps={{ showSafeZone: false }}
-  />
+  <>
+    <Composition
+      id="Main"
+      component={Main}
+      durationInFrames={Math.ceil(P.duration * FPS)}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      defaultProps={{ showSafeZone: false }}
+    />
+    <Still id="Cover" component={Cover} width={1080} height={1920} />
+  </>
 );
