@@ -9,7 +9,6 @@ import {
   Flash,
   HookTitle,
   Overlay,
-  ProgressBar,
   Recap,
   SafeZoneGuide,
   Shade,
@@ -158,7 +157,6 @@ export const Main: React.FC<{ showSafeZone: boolean }> = ({ showSafeZone }) => (
   <AbsoluteFill style={{ backgroundColor: "black" }}>
     <Picture />
     {hookEnd > 0 && <Flash at={hookEnd} />}
-    <ProgressBar from={hookEnd} duration={P.duration} />
     <Captions words={words} hot={hook.hot ?? []} />
     {P.loop && <LoopFade />}
 

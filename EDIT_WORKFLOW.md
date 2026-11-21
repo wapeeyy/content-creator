@@ -20,7 +20,6 @@
 | **Grafik** | Kad bernombor, banner, ringkasan, stamp, sticker, butang komen |
 | **SFX ikut situasi** | 24 bunyi — lucu, salah, betul, drama, pendedahan, senarai, komen, peralihan (tak berulang berturut) |
 | **Suara** | Buang dengung, compressor, kelantangan -14 LUFS |
-| **Bar progres** | Garisan kuning di bawah, tunjuk berapa lama lagi |
 | **Loop ending** | Tamat terus selepas ayat penutup, frame akhir melarut ke frame pertama — penonton tak sedar video berulang |
 | **Cover** | Gambar PNG dengan tajuk besar di tengah (selamat untuk grid profil) |
 | **Safe zone** | Semua teks dalam kawasan selamat TikTok + IG |
