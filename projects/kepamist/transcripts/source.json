@@ -1,0 +1,1790 @@
+{
+  "language_code": "ms",
+  "language_probability": 1.0,
+  "text": "Assalamualaikum guys. So hari ni aku akan merungkalkan dan aku akan mendedahkan ciri -ciri ke pamis guys. So aku telah jumpa 3 ciri -ciri ke pamis dalam hidup aku ni. First thing first dia obses dengan matcha. Obses dan dia akan beli matcha setiap hari. Second thing dia kuat main track, kuat buat posting track. Eh kenapa lelaki? Kenapa lelaki? Eh korang ada tak pesangan macam ni? Dan sebagainya. Nomor 3, dia pakai tudung tapi nampak leher. Pakayan -pakayan yang tidak bermoral dan tidak layak dijadikan contoh kepada masyarakat majmuk di luar sana. So itu antara 3 ciri -ciri yang telah aku jumpai dalam hidup aku ni. So, kalau ada lagi ciri -ciri yang korang nak tambah sila tambah kat komen dan kalau korang pun ada pasangan yang mempunyai ciri -ciri sebegini maka tinggalkanlah pasangan korang Dalam hidup ni bang, kita nak mendirikan rumah tangga, kita nak cari ibu yang terbaik kepada anak -anak kita Suggestion saya, tinggalkanlah. Sebab bang, kepamis ni antara Figurah -figurah yang akan Merosakkan rumah tangga tu bang. Jika sesebuah rumah tangga tu rosak Kepamis lah punca dia bang. Jadi itu sahaja daripada aku. Selamatkan diri anda daripada kepamis -kepamis di luar sana. Itu sahaja? Chao",
+  "words": [
+    {
+      "text": "Assalamualaikum",
+      "start": 1.76,
+      "end": 2.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8498
+    },
+    {
+      "text": "guys.",
+      "start": 2.48,
+      "end": 2.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3079
+    },
+    {
+      "text": " ",
+      "start": 2.88,
+      "end": 2.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "So",
+      "start": 2.94,
+      "end": 3.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4658
+    },
+    {
+      "text": "hari",
+      "start": 3.22,
+      "end": 3.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5427
+    },
+    {
+      "text": "ni",
+      "start": 3.48,
+      "end": 4.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6895
+    },
+    {
+      "text": "aku",
+      "start": 4.32,
+      "end": 4.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4916
+    },
+    {
+      "text": "akan",
+      "start": 4.9,
+      "end": 5.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "merungkalkan",
+      "start": 5.22,
+      "end": 6.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7152
+    },
+    {
+      "text": "dan",
+      "start": 6.48,
+      "end": 6.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8881
+    },
+    {
+      "text": "aku",
+      "start": 6.96,
+      "end": 7.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9212
+    },
+    {
+      "text": "akan",
+      "start": 7.3,
+      "end": 7.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9985
+    },
+    {
+      "text": "mendedahkan",
+      "start": 7.74,
+      "end": 9.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8875
+    },
+    {
+      "text": "ciri",
+      "start": 9.66,
+      "end": 10.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8749
+    },
+    {
+      "text": "-ciri",
+      "start": 10.22,
+      "end": 10.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9262
+    },
+    {
+      "text": "ke",
+      "start": 10.58,
+      "end": 10.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6344
+    },
+    {
+      "text": "pamis",
+      "start": 10.92,
+      "end": 11.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6994
+    },
+    {
+      "text": "guys.",
+      "start": 11.38,
+      "end": 12.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4459
+    },
+    {
+      "text": " ",
+      "start": 12.44,
+      "end": 12.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "So",
+      "start": 12.98,
+      "end": 12.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9284
+    },
+    {
+      "text": "aku",
+      "start": 12.98,
+      "end": 13.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9848
+    },
+    {
+      "text": "telah",
+      "start": 13.14,
+      "end": 13.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9839
+    },
+    {
+      "text": "jumpa",
+      "start": 13.34,
+      "end": 13.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9625
+    },
+    {
+      "text": "3",
+      "start": 13.68,
+      "end": 13.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7709
+    },
+    {
+      "text": "ciri",
+      "start": 13.96,
+      "end": 14.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.895
+    },
+    {
+      "text": "-ciri",
+      "start": 14.36,
+      "end": 14.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9841
+    },
+    {
+      "text": "ke",
+      "start": 14.5,
+      "end": 14.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9753
+    },
+    {
+      "text": "pamis",
+      "start": 14.7,
+      "end": 16.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9831
+    },
+    {
+      "text": "dalam",
+      "start": 16.16,
+      "end": 16.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8644
+    },
+    {
+      "text": "hidup",
+      "start": 16.58,
+      "end": 16.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9952
+    },
+    {
+      "text": "aku",
+      "start": 16.96,
+      "end": 17.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9848
+    },
+    {
+      "text": "ni.",
+      "start": 17.18,
+      "end": 17.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9278
+    },
+    {
+      "text": " ",
+      "start": 17.76,
+      "end": 18.16,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "First",
+      "start": 18.16,
+      "end": 18.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6666
+    },
+    {
+      "text": "thing",
+      "start": 18.18,
+      "end": 18.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7332
+    },
+    {
+      "text": "first",
+      "start": 18.4,
+      "end": 18.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9358
+    },
+    {
+      "text": "dia",
+      "start": 18.64,
+      "end": 18.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8681
+    },
+    {
+      "text": "obses",
+      "start": 18.8,
+      "end": 19.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5955
+    },
+    {
+      "text": "dengan",
+      "start": 19.26,
+      "end": 19.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9767
+    },
+    {
+      "text": "matcha.",
+      "start": 19.54,
+      "end": 21.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6658
+    },
+    {
+      "text": " ",
+      "start": 21.06,
+      "end": 21.46,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Obses",
+      "start": 21.46,
+      "end": 22.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.97
+    },
+    {
+      "text": "dan",
+      "start": 22.18,
+      "end": 22.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9312
+    },
+    {
+      "text": "dia",
+      "start": 22.4,
+      "end": 22.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "akan",
+      "start": 22.66,
+      "end": 22.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.994
+    },
+    {
+      "text": "beli",
+      "start": 22.84,
+      "end": 23.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9951
+    },
+    {
+      "text": "matcha",
+      "start": 23.06,
+      "end": 23.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9931
+    },
+    {
+      "text": "setiap",
+      "start": 23.46,
+      "end": 23.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9943
+    },
+    {
+      "text": "hari.",
+      "start": 23.76,
+      "end": 24.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7792
+    },
+    {
+      "text": " ",
+      "start": 24.04,
+      "end": 25.18,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Second",
+      "start": 25.18,
+      "end": 25.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9819
+    },
+    {
+      "text": "thing",
+      "start": 25.42,
+      "end": 25.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5789
+    },
+    {
+      "text": "dia",
+      "start": 25.9,
+      "end": 26.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5453
+    },
+    {
+      "text": "kuat",
+      "start": 26.36,
+      "end": 26.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9971
+    },
+    {
+      "text": "main",
+      "start": 26.66,
+      "end": 27.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9077
+    },
+    {
+      "text": "track,",
+      "start": 27.0,
+      "end": 27.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6448
+    },
+    {
+      "text": " ",
+      "start": 27.22,
+      "end": 27.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kuat",
+      "start": 27.32,
+      "end": 27.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.997
+    },
+    {
+      "text": "buat",
+      "start": 27.68,
+      "end": 27.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9883
+    },
+    {
+      "text": "posting",
+      "start": 27.9,
+      "end": 28.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9764
+    },
+    {
+      "text": "track.",
+      "start": 28.38,
+      "end": 28.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9837
+    },
+    {
+      "text": "Eh",
+      "start": 28.8,
+      "end": 29.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.1878
+    },
+    {
+      "text": "kenapa",
+      "start": 29.94,
+      "end": 30.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8806
+    },
+    {
+      "text": "lelaki?",
+      "start": 30.36,
+      "end": 31.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.992
+    },
+    {
+      "text": " ",
+      "start": 31.28,
+      "end": 31.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Kenapa",
+      "start": 31.68,
+      "end": 32.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9479
+    },
+    {
+      "text": "lelaki?",
+      "start": 32.0,
+      "end": 32.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9975
+    },
+    {
+      "text": " ",
+      "start": 32.94,
+      "end": 33.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Eh",
+      "start": 33.68,
+      "end": 33.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.937
+    },
+    {
+      "text": "korang",
+      "start": 33.86,
+      "end": 34.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8128
+    },
+    {
+      "text": "ada",
+      "start": 34.06,
+      "end": 34.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9891
+    },
+    {
+      "text": "tak",
+      "start": 34.26,
+      "end": 34.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8314
+    },
+    {
+      "text": "pesangan",
+      "start": 34.4,
+      "end": 34.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6947
+    },
+    {
+      "text": "macam",
+      "start": 34.66,
+      "end": 34.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9749
+    },
+    {
+      "text": "ni?",
+      "start": 34.98,
+      "end": 35.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9123
+    },
+    {
+      "text": " ",
+      "start": 35.8,
+      "end": 37.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Dan",
+      "start": 37.5,
+      "end": 38.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5714
+    },
+    {
+      "text": "sebagainya.",
+      "start": 38.14,
+      "end": 38.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9069
+    },
+    {
+      "text": " ",
+      "start": 38.78,
+      "end": 39.32,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Nomor",
+      "start": 39.32,
+      "end": 39.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5848
+    },
+    {
+      "text": "3,",
+      "start": 39.46,
+      "end": 39.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6967
+    },
+    {
+      "text": " ",
+      "start": 39.96,
+      "end": 40.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "dia",
+      "start": 40.44,
+      "end": 40.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8806
+    },
+    {
+      "text": "pakai",
+      "start": 40.64,
+      "end": 40.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.919
+    },
+    {
+      "text": "tudung",
+      "start": 40.82,
+      "end": 41.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9574
+    },
+    {
+      "text": "tapi",
+      "start": 41.42,
+      "end": 41.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9193
+    },
+    {
+      "text": "nampak",
+      "start": 41.72,
+      "end": 42.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9808
+    },
+    {
+      "text": "leher.",
+      "start": 42.04,
+      "end": 42.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8677
+    },
+    {
+      "text": " ",
+      "start": 42.8,
+      "end": 43.96,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Pakayan",
+      "start": 43.96,
+      "end": 44.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7555
+    },
+    {
+      "text": "-pakayan",
+      "start": 44.28,
+      "end": 44.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9331
+    },
+    {
+      "text": "yang",
+      "start": 44.88,
+      "end": 45.16,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9731
+    },
+    {
+      "text": "tidak",
+      "start": 45.16,
+      "end": 45.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8938
+    },
+    {
+      "text": "bermoral",
+      "start": 45.34,
+      "end": 46.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9793
+    },
+    {
+      "text": "dan",
+      "start": 46.08,
+      "end": 46.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9017
+    },
+    {
+      "text": "tidak",
+      "start": 46.54,
+      "end": 47.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9891
+    },
+    {
+      "text": "layak",
+      "start": 47.72,
+      "end": 48.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.992
+    },
+    {
+      "text": "dijadikan",
+      "start": 48.34,
+      "end": 48.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.953
+    },
+    {
+      "text": "contoh",
+      "start": 48.9,
+      "end": 49.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "kepada",
+      "start": 49.54,
+      "end": 49.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9819
+    },
+    {
+      "text": "masyarakat",
+      "start": 49.86,
+      "end": 50.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9973
+    },
+    {
+      "text": "majmuk",
+      "start": 50.44,
+      "end": 50.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7874
+    },
+    {
+      "text": "di",
+      "start": 50.94,
+      "end": 51.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8458
+    },
+    {
+      "text": "luar",
+      "start": 51.12,
+      "end": 51.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9836
+    },
+    {
+      "text": "sana.",
+      "start": 51.38,
+      "end": 51.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9997
+    },
+    {
+      "text": " ",
+      "start": 51.7,
+      "end": 53.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "So",
+      "start": 53.48,
+      "end": 53.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9433
+    },
+    {
+      "text": "itu",
+      "start": 53.8,
+      "end": 54.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7688
+    },
+    {
+      "text": "antara",
+      "start": 54.08,
+      "end": 54.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9416
+    },
+    {
+      "text": "3",
+      "start": 54.36,
+      "end": 54.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6796
+    },
+    {
+      "text": "ciri",
+      "start": 54.64,
+      "end": 54.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6361
+    },
+    {
+      "text": "-ciri",
+      "start": 54.92,
+      "end": 55.08,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9328
+    },
+    {
+      "text": "yang",
+      "start": 55.08,
+      "end": 55.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9944
+    },
+    {
+      "text": "telah",
+      "start": 55.52,
+      "end": 55.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9934
+    },
+    {
+      "text": "aku",
+      "start": 55.84,
+      "end": 56.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9823
+    },
+    {
+      "text": "jumpai",
+      "start": 56.04,
+      "end": 56.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7306
+    },
+    {
+      "text": "dalam",
+      "start": 56.62,
+      "end": 56.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9834
+    },
+    {
+      "text": "hidup",
+      "start": 56.9,
+      "end": 57.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9941
+    },
+    {
+      "text": "aku",
+      "start": 57.2,
+      "end": 57.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9032
+    },
+    {
+      "text": "ni.",
+      "start": 57.46,
+      "end": 57.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9745
+    },
+    {
+      "text": " ",
+      "start": 57.68,
+      "end": 59.8,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "So,",
+      "start": 59.8,
+      "end": 60.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.315
+    },
+    {
+      "text": " ",
+      "start": 60.44,
+      "end": 60.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kalau",
+      "start": 60.94,
+      "end": 61.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6976
+    },
+    {
+      "text": "ada",
+      "start": 61.26,
+      "end": 61.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9386
+    },
+    {
+      "text": "lagi",
+      "start": 61.64,
+      "end": 61.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9959
+    },
+    {
+      "text": "ciri",
+      "start": 61.86,
+      "end": 62.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.742
+    },
+    {
+      "text": "-ciri",
+      "start": 62.1,
+      "end": 62.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9336
+    },
+    {
+      "text": "yang",
+      "start": 62.26,
+      "end": 62.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9713
+    },
+    {
+      "text": "korang",
+      "start": 62.42,
+      "end": 62.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.896
+    },
+    {
+      "text": "nak",
+      "start": 62.64,
+      "end": 62.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9929
+    },
+    {
+      "text": "tambah",
+      "start": 62.78,
+      "end": 63.02,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9876
+    },
+    {
+      "text": "sila",
+      "start": 63.02,
+      "end": 63.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7452
+    },
+    {
+      "text": "tambah",
+      "start": 63.26,
+      "end": 63.58,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9882
+    },
+    {
+      "text": "kat",
+      "start": 63.58,
+      "end": 63.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8448
+    },
+    {
+      "text": "komen",
+      "start": 63.7,
+      "end": 64.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9028
+    },
+    {
+      "text": "dan",
+      "start": 64.2,
+      "end": 64.8,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3971
+    },
+    {
+      "text": "kalau",
+      "start": 64.8,
+      "end": 65.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.967
+    },
+    {
+      "text": "korang",
+      "start": 65.04,
+      "end": 65.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.996
+    },
+    {
+      "text": "pun",
+      "start": 65.52,
+      "end": 65.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9648
+    },
+    {
+      "text": "ada",
+      "start": 65.82,
+      "end": 67.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9889
+    },
+    {
+      "text": "pasangan",
+      "start": 67.6,
+      "end": 68.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9895
+    },
+    {
+      "text": "yang",
+      "start": 68.14,
+      "end": 68.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9953
+    },
+    {
+      "text": "mempunyai",
+      "start": 68.72,
+      "end": 69.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9956
+    },
+    {
+      "text": "ciri",
+      "start": 69.38,
+      "end": 69.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9878
+    },
+    {
+      "text": "-ciri",
+      "start": 69.88,
+      "end": 70.36,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.994
+    },
+    {
+      "text": "sebegini",
+      "start": 70.36,
+      "end": 71.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8177
+    },
+    {
+      "text": "maka",
+      "start": 71.94,
+      "end": 72.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.843
+    },
+    {
+      "text": "tinggalkanlah",
+      "start": 72.38,
+      "end": 73.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9114
+    },
+    {
+      "text": "pasangan",
+      "start": 73.26,
+      "end": 73.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9958
+    },
+    {
+      "text": "korang",
+      "start": 73.66,
+      "end": 75.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9958
+    },
+    {
+      "text": "Dalam",
+      "start": 75.18,
+      "end": 75.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7111
+    },
+    {
+      "text": "hidup",
+      "start": 75.6,
+      "end": 76.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9865
+    },
+    {
+      "text": "ni",
+      "start": 76.0,
+      "end": 76.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8889
+    },
+    {
+      "text": "bang,",
+      "start": 76.26,
+      "end": 76.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9165
+    },
+    {
+      "text": " ",
+      "start": 76.52,
+      "end": 76.64,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kita",
+      "start": 76.64,
+      "end": 76.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9725
+    },
+    {
+      "text": "nak",
+      "start": 76.92,
+      "end": 77.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9971
+    },
+    {
+      "text": "mendirikan",
+      "start": 77.1,
+      "end": 77.62,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9804
+    },
+    {
+      "text": "rumah",
+      "start": 77.62,
+      "end": 77.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9989
+    },
+    {
+      "text": "tangga,",
+      "start": 77.9,
+      "end": 78.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9953
+    },
+    {
+      "text": " ",
+      "start": 78.3,
+      "end": 78.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kita",
+      "start": 78.5,
+      "end": 78.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9874
+    },
+    {
+      "text": "nak",
+      "start": 78.54,
+      "end": 78.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": "cari",
+      "start": 78.7,
+      "end": 79.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9962
+    },
+    {
+      "text": "ibu",
+      "start": 79.2,
+      "end": 79.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.907
+    },
+    {
+      "text": "yang",
+      "start": 79.5,
+      "end": 79.66,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9903
+    },
+    {
+      "text": "terbaik",
+      "start": 79.66,
+      "end": 80.06,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9984
+    },
+    {
+      "text": "kepada",
+      "start": 80.06,
+      "end": 80.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9764
+    },
+    {
+      "text": "anak",
+      "start": 80.3,
+      "end": 80.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9981
+    },
+    {
+      "text": "-anak",
+      "start": 80.56,
+      "end": 80.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9911
+    },
+    {
+      "text": "kita",
+      "start": 80.72,
+      "end": 81.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9979
+    },
+    {
+      "text": " ",
+      "start": 81.6,
+      "end": 82.68,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Suggestion",
+      "start": 82.68,
+      "end": 83.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.3736
+    },
+    {
+      "text": "saya,",
+      "start": 83.56,
+      "end": 84.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9177
+    },
+    {
+      "text": " ",
+      "start": 84.44,
+      "end": 84.88,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "tinggalkanlah.",
+      "start": 84.88,
+      "end": 85.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8086
+    },
+    {
+      "text": " ",
+      "start": 85.6,
+      "end": 86.84,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Sebab",
+      "start": 86.84,
+      "end": 87.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9727
+    },
+    {
+      "text": "bang,",
+      "start": 87.0,
+      "end": 87.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7123
+    },
+    {
+      "text": " ",
+      "start": 87.68,
+      "end": 89.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "kepamis",
+      "start": 89.5,
+      "end": 89.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.6239
+    },
+    {
+      "text": "ni",
+      "start": 89.94,
+      "end": 90.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7323
+    },
+    {
+      "text": "antara",
+      "start": 90.2,
+      "end": 91.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9906
+    },
+    {
+      "text": " ",
+      "start": 91.6,
+      "end": 92.8,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Figurah",
+      "start": 92.8,
+      "end": 93.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.4281
+    },
+    {
+      "text": "-figurah",
+      "start": 93.68,
+      "end": 94.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9453
+    },
+    {
+      "text": "yang",
+      "start": 94.46,
+      "end": 94.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9656
+    },
+    {
+      "text": "akan",
+      "start": 94.7,
+      "end": 95.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9987
+    },
+    {
+      "text": "Merosakkan",
+      "start": 95.92,
+      "end": 97.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7959
+    },
+    {
+      "text": "rumah",
+      "start": 97.0,
+      "end": 97.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9965
+    },
+    {
+      "text": "tangga",
+      "start": 97.26,
+      "end": 97.7,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.995
+    },
+    {
+      "text": "tu",
+      "start": 97.7,
+      "end": 97.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8449
+    },
+    {
+      "text": "bang.",
+      "start": 97.88,
+      "end": 98.54,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8542
+    },
+    {
+      "text": " ",
+      "start": 98.54,
+      "end": 99.08,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Jika",
+      "start": 99.08,
+      "end": 99.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9704
+    },
+    {
+      "text": "sesebuah",
+      "start": 99.34,
+      "end": 99.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9193
+    },
+    {
+      "text": "rumah",
+      "start": 99.96,
+      "end": 100.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9851
+    },
+    {
+      "text": "tangga",
+      "start": 100.18,
+      "end": 100.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.993
+    },
+    {
+      "text": "tu",
+      "start": 100.56,
+      "end": 100.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8917
+    },
+    {
+      "text": "rosak",
+      "start": 100.68,
+      "end": 101.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9694
+    },
+    {
+      "text": "Kepamis",
+      "start": 101.86,
+      "end": 102.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7286
+    },
+    {
+      "text": "lah",
+      "start": 102.94,
+      "end": 103.12,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.88
+    },
+    {
+      "text": "punca",
+      "start": 103.12,
+      "end": 103.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8394
+    },
+    {
+      "text": "dia",
+      "start": 103.52,
+      "end": 103.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8821
+    },
+    {
+      "text": "bang.",
+      "start": 103.68,
+      "end": 104.32,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9603
+    },
+    {
+      "text": " ",
+      "start": 104.32,
+      "end": 104.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Jadi",
+      "start": 104.98,
+      "end": 105.1,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9582
+    },
+    {
+      "text": "itu",
+      "start": 105.1,
+      "end": 105.28,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8005
+    },
+    {
+      "text": "sahaja",
+      "start": 105.28,
+      "end": 105.52,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.7575
+    },
+    {
+      "text": "daripada",
+      "start": 105.52,
+      "end": 105.76,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.97
+    },
+    {
+      "text": "aku.",
+      "start": 105.76,
+      "end": 106.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9819
+    },
+    {
+      "text": " ",
+      "start": 106.26,
+      "end": 106.78,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Selamatkan",
+      "start": 106.78,
+      "end": 107.2,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9276
+    },
+    {
+      "text": "diri",
+      "start": 107.2,
+      "end": 107.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9968
+    },
+    {
+      "text": "anda",
+      "start": 107.46,
+      "end": 107.78,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9752
+    },
+    {
+      "text": "daripada",
+      "start": 107.78,
+      "end": 108.18,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9757
+    },
+    {
+      "text": "kepamis",
+      "start": 108.18,
+      "end": 108.64,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.8864
+    },
+    {
+      "text": "-kepamis",
+      "start": 108.64,
+      "end": 109.04,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9537
+    },
+    {
+      "text": "di",
+      "start": 109.04,
+      "end": 109.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5189
+    },
+    {
+      "text": "luar",
+      "start": 109.24,
+      "end": 109.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9945
+    },
+    {
+      "text": "sana.",
+      "start": 109.44,
+      "end": 109.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.9996
+    },
+    {
+      "text": "Itu",
+      "start": 109.72,
+      "end": 111.72,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.2573
+    },
+    {
+      "text": "sahaja?",
+      "start": 111.72,
+      "end": 112.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5853
+    },
+    {
+      "text": " ",
+      "start": 112.68,
+      "end": 113.2,
+      "type": "spacing",
+      "speaker_id": "speaker_0"
+    },
+    {
+      "text": "Chao",
+      "start": 113.2,
+      "end": 113.68,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.5402
+    }
+  ],
+  "source": "faster-whisper"
+}

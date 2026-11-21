@@ -1,0 +1,10 @@
+raw/
+edit/
+node_modules/
+out/
+*.mp4
+*.MOV
+*.mov
+projects/*/raw/
+__pycache__/
+*.pyc

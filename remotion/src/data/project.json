@@ -1,0 +1,1260 @@
+{
+ "project": "kepamist",
+ "duration": 101.44,
+ "hookEnd": 5.0,
+ "hook": {
+  "lines": [
+   "PASANGAN KAU MACAM NI?",
+   "TINGGALKAN!"
+  ],
+  "sticker": "cross",
+  "tag": "3 TANDA DIA KEPAMIST",
+  "until": 19.94,
+  "hot": [
+   "matcha",
+   "lelaki",
+   "leher",
+   "bermoral",
+   "komen",
+   "rosak",
+   "kepamist",
+   "ibu",
+   "selamatkan",
+   "tinggalkanlah",
+   "threads"
+  ]
+ },
+ "loop": true,
+ "segments": [
+  {
+   "srcStart": 64.72,
+   "srcEnd": 66.68,
+   "outStart": 0.0,
+   "cold": true
+  },
+  {
+   "srcStart": 67.52,
+   "srcEnd": 68.14,
+   "outStart": 1.96,
+   "cold": true
+  },
+  {
+   "srcStart": 71.86,
+   "srcEnd": 74.28,
+   "outStart": 2.58,
+   "cold": true
+  },
+  {
+   "srcStart": 2.82,
+   "srcEnd": 24.22,
+   "outStart": 5.0,
+   "cold": false
+  },
+  {
+   "srcStart": 25.06,
+   "srcEnd": 33.12,
+   "outStart": 26.4,
+   "cold": false
+  },
+  {
+   "srcStart": 33.56,
+   "srcEnd": 35.98,
+   "outStart": 34.46,
+   "cold": false
+  },
+  {
+   "srcStart": 36.93,
+   "srcEnd": 38.96,
+   "outStart": 36.88,
+   "cold": false
+  },
+  {
+   "srcStart": 39.2,
+   "srcEnd": 42.98,
+   "outStart": 38.91,
+   "cold": false
+  },
+  {
+   "srcStart": 43.68,
+   "srcEnd": 51.88,
+   "outStart": 42.69,
+   "cold": false
+  },
+  {
+   "srcStart": 53.36,
+   "srcEnd": 57.86,
+   "outStart": 50.89,
+   "cold": false
+  },
+  {
+   "srcStart": 59.13,
+   "srcEnd": 81.78,
+   "outStart": 55.39,
+   "cold": false
+  },
+  {
+   "srcStart": 82.56,
+   "srcEnd": 85.78,
+   "outStart": 78.04,
+   "cold": false
+  },
+  {
+   "srcStart": 86.63,
+   "srcEnd": 87.86,
+   "outStart": 81.26,
+   "cold": false
+  },
+  {
+   "srcStart": 89.28,
+   "srcEnd": 91.78,
+   "outStart": 82.49,
+   "cold": false
+  },
+  {
+   "srcStart": 92.68,
+   "srcEnd": 98.72,
+   "outStart": 84.99,
+   "cold": false
+  },
+  {
+   "srcStart": 98.96,
+   "srcEnd": 104.5,
+   "outStart": 91.03,
+   "cold": false
+  },
+  {
+   "srcStart": 104.78,
+   "srcEnd": 106.44,
+   "outStart": 96.57,
+   "cold": false
+  },
+  {
+   "srcStart": 106.66,
+   "srcEnd": 109.87,
+   "outStart": 98.23,
+   "cold": false
+  }
+ ],
+ "words": [
+  {
+   "text": "kalau",
+   "start": 0.08,
+   "end": 0.32,
+   "cold": true
+  },
+  {
+   "text": "korang",
+   "start": 0.32,
+   "end": 0.8,
+   "cold": true
+  },
+  {
+   "text": "pun",
+   "start": 0.8,
+   "end": 1.1,
+   "cold": true
+  },
+  {
+   "text": "ada",
+   "start": 1.1,
+   "end": 1.96,
+   "cold": true
+  },
+  {
+   "text": "pasangan",
+   "start": 2.04,
+   "end": 2.58,
+   "cold": true
+  },
+  {
+   "text": "maka",
+   "start": 2.66,
+   "end": 3.1,
+   "cold": true
+  },
+  {
+   "text": "tinggalkanlah",
+   "start": 3.1,
+   "end": 3.98,
+   "cold": true
+  },
+  {
+   "text": "pasangan",
+   "start": 3.98,
+   "end": 4.38,
+   "cold": true
+  },
+  {
+   "text": "korang",
+   "start": 4.38,
+   "end": 5.0,
+   "cold": true
+  },
+  {
+   "text": "So",
+   "start": 5.12,
+   "end": 5.4
+  },
+  {
+   "text": "hari",
+   "start": 5.4,
+   "end": 5.66
+  },
+  {
+   "text": "ni",
+   "start": 5.66,
+   "end": 6.5
+  },
+  {
+   "text": "aku",
+   "start": 6.5,
+   "end": 7.08
+  },
+  {
+   "text": "akan",
+   "start": 7.08,
+   "end": 7.4
+  },
+  {
+   "text": "merungkaikan",
+   "start": 7.4,
+   "end": 8.4
+  },
+  {
+   "text": "dan",
+   "start": 8.66,
+   "end": 9.14
+  },
+  {
+   "text": "aku",
+   "start": 9.14,
+   "end": 9.48
+  },
+  {
+   "text": "akan",
+   "start": 9.48,
+   "end": 9.92
+  },
+  {
+   "text": "mendedahkan",
+   "start": 9.92,
+   "end": 10.92
+  },
+  {
+   "text": "ciri-ciri",
+   "start": 11.84,
+   "end": 12.76
+  },
+  {
+   "text": "kepamist",
+   "start": 12.76,
+   "end": 13.56
+  },
+  {
+   "text": "guys.",
+   "start": 13.56,
+   "end": 14.56
+  },
+  {
+   "text": "So",
+   "start": 15.16,
+   "end": 15.16
+  },
+  {
+   "text": "aku",
+   "start": 15.16,
+   "end": 15.32
+  },
+  {
+   "text": "telah",
+   "start": 15.32,
+   "end": 15.52
+  },
+  {
+   "text": "jumpa",
+   "start": 15.52,
+   "end": 15.86
+  },
+  {
+   "text": "3",
+   "start": 15.86,
+   "end": 16.14
+  },
+  {
+   "text": "ciri-ciri",
+   "start": 16.14,
+   "end": 16.68
+  },
+  {
+   "text": "kepamist",
+   "start": 16.68,
+   "end": 17.68
+  },
+  {
+   "text": "dalam",
+   "start": 18.34,
+   "end": 18.76
+  },
+  {
+   "text": "hidup",
+   "start": 18.76,
+   "end": 19.14
+  },
+  {
+   "text": "aku",
+   "start": 19.14,
+   "end": 19.36
+  },
+  {
+   "text": "ni.",
+   "start": 19.36,
+   "end": 19.94
+  },
+  {
+   "text": "First",
+   "start": 20.34,
+   "end": 20.36
+  },
+  {
+   "text": "thing",
+   "start": 20.36,
+   "end": 20.58
+  },
+  {
+   "text": "first",
+   "start": 20.58,
+   "end": 20.82
+  },
+  {
+   "text": "dia",
+   "start": 20.82,
+   "end": 20.98
+  },
+  {
+   "text": "obses",
+   "start": 20.98,
+   "end": 21.44
+  },
+  {
+   "text": "dengan",
+   "start": 21.44,
+   "end": 21.72
+  },
+  {
+   "text": "matcha.",
+   "start": 21.72,
+   "end": 22.72
+  },
+  {
+   "text": "Obses",
+   "start": 23.64,
+   "end": 24.36
+  },
+  {
+   "text": "dan",
+   "start": 24.36,
+   "end": 24.58
+  },
+  {
+   "text": "dia",
+   "start": 24.58,
+   "end": 24.84
+  },
+  {
+   "text": "akan",
+   "start": 24.84,
+   "end": 25.02
+  },
+  {
+   "text": "beli",
+   "start": 25.02,
+   "end": 25.24
+  },
+  {
+   "text": "matcha",
+   "start": 25.24,
+   "end": 25.64
+  },
+  {
+   "text": "setiap",
+   "start": 25.64,
+   "end": 25.94
+  },
+  {
+   "text": "hari.",
+   "start": 25.94,
+   "end": 26.22
+  },
+  {
+   "text": "Second",
+   "start": 26.52,
+   "end": 26.76
+  },
+  {
+   "text": "thing",
+   "start": 26.76,
+   "end": 27.24
+  },
+  {
+   "text": "dia",
+   "start": 27.24,
+   "end": 27.7
+  },
+  {
+   "text": "kuat",
+   "start": 27.7,
+   "end": 28.0
+  },
+  {
+   "text": "main",
+   "start": 28.0,
+   "end": 28.34
+  },
+  {
+   "text": "threads,",
+   "start": 28.34,
+   "end": 28.56
+  },
+  {
+   "text": "kuat",
+   "start": 28.66,
+   "end": 29.02
+  },
+  {
+   "text": "buat",
+   "start": 29.02,
+   "end": 29.24
+  },
+  {
+   "text": "posting",
+   "start": 29.24,
+   "end": 29.72
+  },
+  {
+   "text": "threads.",
+   "start": 29.72,
+   "end": 30.14
+  },
+  {
+   "text": "Eh",
+   "start": 30.14,
+   "end": 31.14
+  },
+  {
+   "text": "kenapa",
+   "start": 31.28,
+   "end": 31.7
+  },
+  {
+   "text": "lelaki?",
+   "start": 31.7,
+   "end": 32.62
+  },
+  {
+   "text": "Kenapa",
+   "start": 33.02,
+   "end": 33.34
+  },
+  {
+   "text": "lelaki?",
+   "start": 33.34,
+   "end": 34.28
+  },
+  {
+   "text": "Eh",
+   "start": 34.58,
+   "end": 34.76
+  },
+  {
+   "text": "korang",
+   "start": 34.76,
+   "end": 34.96
+  },
+  {
+   "text": "ada",
+   "start": 34.96,
+   "end": 35.16
+  },
+  {
+   "text": "tak",
+   "start": 35.16,
+   "end": 35.3
+  },
+  {
+   "text": "pasangan",
+   "start": 35.3,
+   "end": 35.56
+  },
+  {
+   "text": "macam",
+   "start": 35.56,
+   "end": 35.88
+  },
+  {
+   "text": "ni?",
+   "start": 35.88,
+   "end": 36.7
+  },
+  {
+   "text": "Dan",
+   "start": 37.45,
+   "end": 38.09
+  },
+  {
+   "text": "sebagainya.",
+   "start": 38.09,
+   "end": 38.73
+  },
+  {
+   "text": "Nombor",
+   "start": 39.03,
+   "end": 39.17
+  },
+  {
+   "text": "3,",
+   "start": 39.17,
+   "end": 39.67
+  },
+  {
+   "text": "dia",
+   "start": 40.15,
+   "end": 40.35
+  },
+  {
+   "text": "pakai",
+   "start": 40.35,
+   "end": 40.53
+  },
+  {
+   "text": "tudung",
+   "start": 40.53,
+   "end": 41.13
+  },
+  {
+   "text": "tapi",
+   "start": 41.13,
+   "end": 41.43
+  },
+  {
+   "text": "nampak",
+   "start": 41.43,
+   "end": 41.75
+  },
+  {
+   "text": "leher.",
+   "start": 41.75,
+   "end": 42.51
+  },
+  {
+   "text": "Pakaian-pakaian",
+   "start": 42.97,
+   "end": 43.89
+  },
+  {
+   "text": "yang",
+   "start": 43.89,
+   "end": 44.17
+  },
+  {
+   "text": "tidak",
+   "start": 44.17,
+   "end": 44.35
+  },
+  {
+   "text": "bermoral",
+   "start": 44.35,
+   "end": 45.09
+  },
+  {
+   "text": "dan",
+   "start": 45.09,
+   "end": 45.55
+  },
+  {
+   "text": "tidak",
+   "start": 45.55,
+   "end": 46.55
+  },
+  {
+   "text": "layak",
+   "start": 46.73,
+   "end": 47.35
+  },
+  {
+   "text": "dijadikan",
+   "start": 47.35,
+   "end": 47.91
+  },
+  {
+   "text": "contoh",
+   "start": 47.91,
+   "end": 48.55
+  },
+  {
+   "text": "kepada",
+   "start": 48.55,
+   "end": 48.87
+  },
+  {
+   "text": "masyarakat",
+   "start": 48.87,
+   "end": 49.45
+  },
+  {
+   "text": "majmuk",
+   "start": 49.45,
+   "end": 49.95
+  },
+  {
+   "text": "di",
+   "start": 49.95,
+   "end": 50.13
+  },
+  {
+   "text": "luar",
+   "start": 50.13,
+   "end": 50.39
+  },
+  {
+   "text": "sana.",
+   "start": 50.39,
+   "end": 50.71
+  },
+  {
+   "text": "So",
+   "start": 51.01,
+   "end": 51.33
+  },
+  {
+   "text": "itu",
+   "start": 51.33,
+   "end": 51.61
+  },
+  {
+   "text": "antara",
+   "start": 51.61,
+   "end": 51.89
+  },
+  {
+   "text": "3",
+   "start": 51.89,
+   "end": 52.17
+  },
+  {
+   "text": "ciri-ciri",
+   "start": 52.17,
+   "end": 52.61
+  },
+  {
+   "text": "yang",
+   "start": 52.61,
+   "end": 53.05
+  },
+  {
+   "text": "telah",
+   "start": 53.05,
+   "end": 53.37
+  },
+  {
+   "text": "aku",
+   "start": 53.37,
+   "end": 53.57
+  },
+  {
+   "text": "jumpai",
+   "start": 53.57,
+   "end": 54.15
+  },
+  {
+   "text": "dalam",
+   "start": 54.15,
+   "end": 54.43
+  },
+  {
+   "text": "hidup",
+   "start": 54.43,
+   "end": 54.73
+  },
+  {
+   "text": "aku",
+   "start": 54.73,
+   "end": 54.99
+  },
+  {
+   "text": "ni.",
+   "start": 54.99,
+   "end": 55.21
+  },
+  {
+   "text": "So,",
+   "start": 56.06,
+   "end": 56.7
+  },
+  {
+   "text": "kalau",
+   "start": 57.2,
+   "end": 57.52
+  },
+  {
+   "text": "ada",
+   "start": 57.52,
+   "end": 57.9
+  },
+  {
+   "text": "lagi",
+   "start": 57.9,
+   "end": 58.12
+  },
+  {
+   "text": "ciri-ciri",
+   "start": 58.12,
+   "end": 58.52
+  },
+  {
+   "text": "yang",
+   "start": 58.52,
+   "end": 58.68
+  },
+  {
+   "text": "korang",
+   "start": 58.68,
+   "end": 58.9
+  },
+  {
+   "text": "nak",
+   "start": 58.9,
+   "end": 59.04
+  },
+  {
+   "text": "tambah",
+   "start": 59.04,
+   "end": 59.28
+  },
+  {
+   "text": "sila",
+   "start": 59.28,
+   "end": 59.52
+  },
+  {
+   "text": "tambah",
+   "start": 59.52,
+   "end": 59.84
+  },
+  {
+   "text": "kat",
+   "start": 59.84,
+   "end": 59.96
+  },
+  {
+   "text": "komen",
+   "start": 59.96,
+   "end": 60.46
+  },
+  {
+   "text": "dan",
+   "start": 60.46,
+   "end": 61.06
+  },
+  {
+   "text": "kalau",
+   "start": 61.06,
+   "end": 61.3
+  },
+  {
+   "text": "korang",
+   "start": 61.3,
+   "end": 61.78
+  },
+  {
+   "text": "pun",
+   "start": 61.78,
+   "end": 62.08
+  },
+  {
+   "text": "ada",
+   "start": 62.08,
+   "end": 63.08
+  },
+  {
+   "text": "pasangan",
+   "start": 63.86,
+   "end": 64.4
+  },
+  {
+   "text": "yang",
+   "start": 64.4,
+   "end": 64.98
+  },
+  {
+   "text": "mempunyai",
+   "start": 64.98,
+   "end": 65.64
+  },
+  {
+   "text": "ciri-ciri",
+   "start": 65.64,
+   "end": 66.62
+  },
+  {
+   "text": "sebegini",
+   "start": 66.62,
+   "end": 67.62
+  },
+  {
+   "text": "maka",
+   "start": 68.2,
+   "end": 68.64
+  },
+  {
+   "text": "tinggalkanlah",
+   "start": 68.64,
+   "end": 69.52
+  },
+  {
+   "text": "pasangan",
+   "start": 69.52,
+   "end": 69.92
+  },
+  {
+   "text": "korang",
+   "start": 69.92,
+   "end": 70.92
+  },
+  {
+   "text": "Dalam",
+   "start": 71.44,
+   "end": 71.86
+  },
+  {
+   "text": "hidup",
+   "start": 71.86,
+   "end": 72.26
+  },
+  {
+   "text": "ni",
+   "start": 72.26,
+   "end": 72.52
+  },
+  {
+   "text": "bang,",
+   "start": 72.52,
+   "end": 72.78
+  },
+  {
+   "text": "kita",
+   "start": 72.9,
+   "end": 73.18
+  },
+  {
+   "text": "nak",
+   "start": 73.18,
+   "end": 73.36
+  },
+  {
+   "text": "mendirikan",
+   "start": 73.36,
+   "end": 73.88
+  },
+  {
+   "text": "rumah",
+   "start": 73.88,
+   "end": 74.16
+  },
+  {
+   "text": "tangga,",
+   "start": 74.16,
+   "end": 74.56
+  },
+  {
+   "text": "kita",
+   "start": 74.76,
+   "end": 74.8
+  },
+  {
+   "text": "nak",
+   "start": 74.8,
+   "end": 74.96
+  },
+  {
+   "text": "cari",
+   "start": 74.96,
+   "end": 75.46
+  },
+  {
+   "text": "ibu",
+   "start": 75.46,
+   "end": 75.76
+  },
+  {
+   "text": "yang",
+   "start": 75.76,
+   "end": 75.92
+  },
+  {
+   "text": "terbaik",
+   "start": 75.92,
+   "end": 76.32
+  },
+  {
+   "text": "kepada",
+   "start": 76.32,
+   "end": 76.56
+  },
+  {
+   "text": "anak-anak",
+   "start": 76.56,
+   "end": 76.98
+  },
+  {
+   "text": "kita",
+   "start": 76.98,
+   "end": 77.86
+  },
+  {
+   "text": "Suggestion",
+   "start": 78.16,
+   "end": 79.04
+  },
+  {
+   "text": "saya,",
+   "start": 79.04,
+   "end": 79.92
+  },
+  {
+   "text": "tinggalkanlah.",
+   "start": 80.36,
+   "end": 81.08
+  },
+  {
+   "text": "Sebab",
+   "start": 81.47,
+   "end": 81.63
+  },
+  {
+   "text": "bang,",
+   "start": 81.63,
+   "end": 82.31
+  },
+  {
+   "text": "kepamist",
+   "start": 82.71,
+   "end": 83.15
+  },
+  {
+   "text": "ni",
+   "start": 83.15,
+   "end": 83.41
+  },
+  {
+   "text": "antara",
+   "start": 83.41,
+   "end": 84.41
+  },
+  {
+   "text": "Figura-figura",
+   "start": 85.11,
+   "end": 86.11
+  },
+  {
+   "text": "yang",
+   "start": 86.77,
+   "end": 87.01
+  },
+  {
+   "text": "akan",
+   "start": 87.01,
+   "end": 88.01
+  },
+  {
+   "text": "Merosakkan",
+   "start": 88.23,
+   "end": 89.23
+  },
+  {
+   "text": "rumah",
+   "start": 89.31,
+   "end": 89.57
+  },
+  {
+   "text": "tangga",
+   "start": 89.57,
+   "end": 90.01
+  },
+  {
+   "text": "tu",
+   "start": 90.01,
+   "end": 90.19
+  },
+  {
+   "text": "bang.",
+   "start": 90.19,
+   "end": 90.85
+  },
+  {
+   "text": "Jika",
+   "start": 91.15,
+   "end": 91.41
+  },
+  {
+   "text": "sesebuah",
+   "start": 91.41,
+   "end": 92.03
+  },
+  {
+   "text": "rumah",
+   "start": 92.03,
+   "end": 92.25
+  },
+  {
+   "text": "tangga",
+   "start": 92.25,
+   "end": 92.63
+  },
+  {
+   "text": "tu",
+   "start": 92.63,
+   "end": 92.75
+  },
+  {
+   "text": "rosak",
+   "start": 92.75,
+   "end": 93.75
+  },
+  {
+   "text": "Kepamist",
+   "start": 93.93,
+   "end": 94.93
+  },
+  {
+   "text": "lah",
+   "start": 95.01,
+   "end": 95.19
+  },
+  {
+   "text": "punca",
+   "start": 95.19,
+   "end": 95.59
+  },
+  {
+   "text": "dia",
+   "start": 95.59,
+   "end": 95.75
+  },
+  {
+   "text": "bang.",
+   "start": 95.75,
+   "end": 96.39
+  },
+  {
+   "text": "Jadi",
+   "start": 96.77,
+   "end": 96.89
+  },
+  {
+   "text": "itu",
+   "start": 96.89,
+   "end": 97.07
+  },
+  {
+   "text": "sahaja",
+   "start": 97.07,
+   "end": 97.31
+  },
+  {
+   "text": "daripada",
+   "start": 97.31,
+   "end": 97.55
+  },
+  {
+   "text": "aku.",
+   "start": 97.55,
+   "end": 98.05
+  },
+  {
+   "text": "Selamatkan",
+   "start": 98.35,
+   "end": 98.77
+  },
+  {
+   "text": "diri",
+   "start": 98.77,
+   "end": 99.03
+  },
+  {
+   "text": "anda",
+   "start": 99.03,
+   "end": 99.35
+  },
+  {
+   "text": "daripada",
+   "start": 99.35,
+   "end": 99.75
+  },
+  {
+   "text": "kepamist-kepamist",
+   "start": 99.75,
+   "end": 100.61
+  },
+  {
+   "text": "di",
+   "start": 100.61,
+   "end": 100.81
+  },
+  {
+   "text": "luar",
+   "start": 100.81,
+   "end": 101.01
+  },
+  {
+   "text": "sana.",
+   "start": 101.01,
+   "end": 101.29
+  }
+ ],
+ "overlays": [
+  {
+   "type": "title",
+   "at": 20.34,
+   "until": 26.52,
+   "n": 1,
+   "title": "Obses matcha",
+   "sticker": "matcha",
+   "color": "green"
+  },
+  {
+   "type": "sticker",
+   "at": 25.24,
+   "sticker": "matcha",
+   "pos": "right",
+   "size": 170,
+   "mood": "pop",
+   "dur": 1.3
+  },
+  {
+   "type": "title",
+   "at": 26.52,
+   "until": 28.54,
+   "n": 2,
+   "title": "Kuat main Threads",
+   "sticker": "threads",
+   "color": "red"
+  },
+  {
+   "type": "app",
+   "app": "threads",
+   "at": 28.64,
+   "text": "eh kenapa lelaki?",
+   "typeStart": 30.14,
+   "until": 32.97,
+   "cps": 9,
+   "persona": "female"
+  },
+  {
+   "type": "title",
+   "at": 33.02,
+   "until": 39.03,
+   "n": 2,
+   "title": "Kuat main Threads",
+   "sticker": "threads",
+   "color": "red",
+   "mood": "none"
+  },
+  {
+   "type": "sticker",
+   "at": 33.34,
+   "sticker": "???",
+   "pos": "right",
+   "shake": true,
+   "mood": "scratch"
+  },
+  {
+   "type": "title",
+   "at": 39.03,
+   "until": 53.57,
+   "n": 3,
+   "title": "Tudung tapi\nnampak leher",
+   "sticker": "hijab",
+   "color": "purple"
+  },
+  {
+   "type": "sticker",
+   "at": 44.35,
+   "sticker": "cross",
+   "pos": "right",
+   "size": 150,
+   "text": "TAK BERMORAL",
+   "mood": "wrong"
+  },
+  {
+   "type": "recap",
+   "at": 53.57,
+   "until": 59.96,
+   "title": "CIRI-CIRI KEPAMIST",
+   "mark": "redflag",
+   "items": [
+    "OBSES MATCHA",
+    "KUAT MAIN THREADS",
+    "TUDUNG TAPI NAMPAK LEHER"
+   ]
+  },
+  {
+   "type": "cta",
+   "at": 59.96,
+   "text": "TAMBAH KAT KOMEN"
+  },
+  {
+   "type": "stamp",
+   "at": 68.64,
+   "text": "TINGGALKAN!"
+  },
+  {
+   "type": "banner",
+   "at": 74.86,
+   "until": 80.36,
+   "text": "CARI IBU TERBAIK\nUNTUK ANAK-ANAK",
+   "sticker": "ring"
+  },
+  {
+   "type": "stamp",
+   "at": 80.36,
+   "text": "TINGGALKAN!",
+   "mood": "boom",
+   "rotate": 6
+  },
+  {
+   "type": "banner",
+   "at": 88.23,
+   "until": 98.35,
+   "style": "warning",
+   "text": "MEROSAKKAN\nRUMAH TANGGA",
+   "sticker": "house"
+  },
+  {
+   "type": "sticker",
+   "at": 92.75,
+   "sticker": "brokenheart",
+   "pos": "right",
+   "size": 170,
+   "mood": "glitch"
+  },
+  {
+   "type": "stamp",
+   "at": 95.19,
+   "text": "PUNCA!",
+   "mood": "reveal",
+   "shake": true
+  },
+  {
+   "type": "banner",
+   "at": 98.35,
+   "until": 101.41,
+   "style": "green",
+   "text": "SELAMATKAN\nDIRI ANDA!",
+   "sticker": "shield"
+  }
+ ],
+ "sfx": [],
+ "cover": {
+  "at": 20.94
+ }
+}
