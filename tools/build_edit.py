@@ -188,6 +188,8 @@ def main():
     overlays = []
     for ov in cfg.get("overlays", []):
         o = dict(ov)
+        if o["type"] == "app":
+            o.setdefault("persona", cfg.get("persona", "female"))
         for key in ("at", "until", "typeStart", "typeEnd"):
             if key in ov:
                 o[key] = at(ov[key], "end" if key == "typeEnd" else "start")

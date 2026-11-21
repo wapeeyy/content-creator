@@ -7,9 +7,9 @@ import { f } from "./template/theme";
 
 // Showcase of the "app" overlay for all four apps (not part of any real video).
 const DEMO: Overlay[] = [
-  { type: "app", app: "threads", at: 0.2, text: "kenapa lelaki macam ni" },
-  { type: "app", app: "x", at: 4.6, text: "kenapa lelaki macam ni", name: "Aku", handle: "aku" },
-  { type: "app", app: "instagram", at: 9.0, text: "kenapa lelaki macam ni 😩" },
+  { type: "app", app: "threads", at: 0.2, text: "kenapa lelaki macam ni", persona: "female" },
+  { type: "app", app: "x", at: 4.6, text: "kenapa perempuan macam ni", persona: "male" },
+  { type: "app", app: "instagram", at: 9.0, text: "kenapa lelaki macam ni 😩", persona: "female" },
   { type: "app", app: "tiktok", at: 13.4, text: "ciri-ciri kepamist", action: "search" },
 ];
 

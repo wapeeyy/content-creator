@@ -38,6 +38,9 @@ Platform sekarang: **TikTok sahaja** (IG/YouTube belum — jangan buat SRT/setup
   "app mentions"), WAJIB cadang overlay `app`: telefon naik → splash app → taip ayat yang disebut (bunyi keytap) →
   tekan Post/Cari → notifikasi. `at` = bila sebut nama app; `typeStart`/`typeEnd` = perkataan pertama/akhir ayat yang ditaip
   supaya taipan selari dengan suara. Ikon/skrin ialah lukisan gaya serupa, bukan logo rasmi.
+  **Nama akaun dalam app ikut watak yang menaip dalam cerita**: watak perempuan (cth video KEPAMIST) → `"persona": "female"`
+  = **Siti** @siti; pengguna sebut watak lelaki → `"persona": "male"` = **Ali** @ali. Set `persona` di atas video.json
+  (lalai untuk semua overlay app) atau pada overlay itu sendiri jika watak bertukar.
   Demo semua app: komposisi `AppDemo` (`remotion/src/AppDemo.tsx`).
 
 ## video.json — jenis overlay
@@ -54,7 +57,7 @@ Rujukan masa guna perkataan: `["perkataan", n]` atau `["perkataan", n, offsetSaa
 | `cta` | `at`, `text`, `sticker` (comment/follow) |
 | `zoom` | `at`, `dur`, `amount`, `shake` |
 | `end` | `at`, `text`, `sticker` (hanya jika tiada loop) |
-| `app` | `at`, `app` (threads/x/instagram/tiktok), `text` (ayat ditaip), `action` (post/search; tiktok lalai search), `typeStart`/`typeEnd` (ref, pilihan), `cps`, `until`, `name`, `handle` |
+| `app` | `at`, `app` (threads/x/instagram/tiktok), `text` (ayat ditaip), `action` (post/search; tiktok lalai search), `typeStart`/`typeEnd` (ref, pilihan), `cps`, `until`, `persona` (female=Siti / male=Ali) |
 
 Mana-mana overlay boleh ada `"mood"` untuk tukar SFX (atau `"none"`). `sfx: [{"at": ref, "mood": "..."}]` untuk bunyi tambahan.
 

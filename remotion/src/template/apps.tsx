@@ -126,6 +126,12 @@ const Keyboard: React.FC<{ dark: boolean; hit?: string; width: number }> = ({ da
   );
 };
 
+// Who is "typing" in the story. Set per video ("persona" in video.json) or per overlay.
+export const PERSONAS: Record<string, { name: string; handle: string; color: string }> = {
+  female: { name: "Siti", handle: "siti", color: "#FF8FB1" },
+  male: { name: "Ali", handle: "ali", color: "#6FB7FF" },
+};
+
 // phone geometry: centred in the safe zone, bottom stays above the captions (y 1250)
 export const PHONE = { w: 540, h: 950, top: 250 };
 
@@ -156,8 +162,9 @@ export const AppPhone: React.FC<{ o: Overlay; typeStart: number; typeEnd: number
   const W = PHONE.w;
   const H = PHONE.h;
   const left = SAFE.left + (SAFE_W - W) / 2;
-  const name = o.name ?? "aku";
-  const handle = o.handle ?? "aku";
+  const persona = PERSONAS[o.persona ?? "female"] ?? PERSONAS.female;
+  const name = o.name ?? persona.name;
+  const handle = o.handle ?? persona.handle;
 
   const header = (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "18px 26px", borderBottom: `1px solid ${th.dark ? "#2F3336" : "#EFEFEF"}` }}>
@@ -169,7 +176,7 @@ export const AppPhone: React.FC<{ o: Overlay; typeStart: number; typeEnd: number
 
   const compose = (
     <div style={{ padding: "22px 26px", display: "flex", gap: 16 }}>
-      <div style={{ width: 72, height: 72, borderRadius: 36, background: C.yellow, border: "3px solid #000", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: mont, fontWeight: 900, fontSize: 34 }}>
+      <div style={{ width: 72, height: 72, borderRadius: 36, background: persona.color, border: "3px solid #000", flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: mont, fontWeight: 900, fontSize: 34 }}>
         {name.slice(0, 1).toUpperCase()}
       </div>
       <div style={{ flex: 1 }}>
