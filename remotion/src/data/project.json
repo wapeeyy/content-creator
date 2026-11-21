@@ -1,845 +1,721 @@
 {
  "project": "vid02",
- "duration": 96.0,
- "hookEnd": 9.33,
- "hook": {
-  "lines": [
-   "LELAKI MACAM NI?",
-   "TINGGALKAN!"
-  ],
-  "sticker": "redflag",
-  "tag": "LELAKI PEMALAS",
-  "until": 14.49,
-  "hot": [
-   "lelaki",
-   "pemalas",
-   "miracle",
-   "penat",
-   "kemalasan",
-   "whatsapp",
-   "progress",
-   "tiktok",
-   "threads",
-   "tinggalkanlah",
-   "loser",
-   "win",
-   "winner"
-  ]
- },
+ "duration": 86.67,
+ "hookEnd": 0.0,
+ "hook": {},
  "loop": true,
+ "captions": false,
  "segments": [
-  {
-   "srcStart": 61.86,
-   "srcEnd": 67.64,
-   "outStart": 0.0,
-   "cold": true
-  },
-  {
-   "srcStart": 80.38,
-   "srcEnd": 83.93,
-   "outStart": 5.78,
-   "cold": true
-  },
   {
    "srcStart": 3.06,
    "srcEnd": 32.89,
-   "outStart": 9.33,
+   "outStart": 0.0,
    "cold": false
   },
   {
    "srcStart": 33.28,
    "srcEnd": 39.67,
-   "outStart": 39.16,
+   "outStart": 29.83,
    "cold": false
   },
   {
    "srcStart": 40.2,
    "srcEnd": 46.4,
-   "outStart": 45.55,
+   "outStart": 36.22,
    "cold": false
   },
   {
    "srcStart": 49.04,
    "srcEnd": 86.76,
-   "outStart": 51.75,
+   "outStart": 42.42,
    "cold": false
   },
   {
    "srcStart": 87.56,
    "srcEnd": 94.09,
-   "outStart": 89.47,
+   "outStart": 80.14,
    "cold": false
   }
  ],
  "words": [
   {
-   "text": "lelaki",
-   "start": 0.08,
-   "end": 0.74,
-   "cold": true
-  },
-  {
-   "text": "yang",
-   "start": 0.74,
-   "end": 2.08,
-   "cold": true
-  },
-  {
-   "text": "cakap",
-   "start": 2.08,
-   "end": 2.38,
-   "cold": true
-  },
-  {
-   "text": "banyak",
-   "start": 2.38,
-   "end": 2.74,
-   "cold": true
-  },
-  {
-   "text": "kerja",
-   "start": 2.74,
-   "end": 4.08,
-   "cold": true
-  },
-  {
-   "text": "tapi",
-   "start": 4.08,
-   "end": 4.82,
-   "cold": true
-  },
-  {
-   "text": "tak",
-   "start": 4.82,
-   "end": 5.08,
-   "cold": true
-  },
-  {
-   "text": "ada",
-   "start": 5.08,
-   "end": 5.28,
-   "cold": true
-  },
-  {
-   "text": "progress",
-   "start": 5.28,
-   "end": 5.7,
-   "cold": true
-  },
-  {
-   "text": "dalam",
-   "start": 5.7,
-   "end": 5.78,
-   "cold": true
-  },
-  {
-   "text": "tinggalkanlah",
-   "start": 5.86,
-   "end": 6.56,
-   "cold": true
-  },
-  {
-   "text": "lelaki-lelaki",
-   "start": 6.56,
-   "end": 7.42,
-   "cold": true
-  },
-  {
-   "text": "loser-loser",
-   "start": 7.42,
-   "end": 7.68,
-   "cold": true
-  },
-  {
-   "text": "sebegitu",
-   "start": 7.68,
-   "end": 9.08,
-   "cold": true
-  },
-  {
-   "text": "get",
-   "start": 9.08,
-   "end": 9.33,
-   "cold": true
-  },
-  {
    "text": "so",
-   "start": 9.45,
-   "end": 9.59
+   "start": 0.12,
+   "end": 0.26
   },
   {
    "text": "hari",
-   "start": 9.59,
-   "end": 9.81
+   "start": 0.26,
+   "end": 0.48
   },
   {
    "text": "ini",
-   "start": 9.81,
-   "end": 10.81
+   "start": 0.48,
+   "end": 1.48
   },
   {
    "text": "aku",
-   "start": 11.03,
-   "end": 12.03
+   "start": 1.7,
+   "end": 2.7
   },
   {
    "text": "nak",
-   "start": 12.77,
-   "end": 13.77
+   "start": 3.44,
+   "end": 4.4399999999999995
   },
   {
    "text": "condemn",
-   "start": 14.69,
-   "end": 15.37
+   "start": 5.36,
+   "end": 6.04
   },
   {
    "text": "lelaki-lelaki",
-   "start": 15.37,
-   "end": 16.369999999999997
+   "start": 6.04,
+   "end": 7.04
   },
   {
    "text": "yang",
-   "start": 16.51,
-   "end": 16.77
+   "start": 7.18,
+   "end": 7.44
   },
   {
    "text": "pemalas",
-   "start": 16.77,
-   "end": 17.77
+   "start": 7.44,
+   "end": 8.440000000000001
   },
   {
    "text": "lelaki-lelaki",
-   "start": 18.25,
-   "end": 19.25
+   "start": 8.92,
+   "end": 9.92
   },
   {
    "text": "yang",
-   "start": 19.87,
-   "end": 20.35
+   "start": 10.54,
+   "end": 11.02
   },
   {
    "text": "mengharapkan",
-   "start": 20.35,
-   "end": 21.31
+   "start": 11.02,
+   "end": 11.98
   },
   {
    "text": "miracle",
-   "start": 21.31,
-   "end": 21.91
+   "start": 11.98,
+   "end": 12.58
   },
   {
    "text": "dalam",
-   "start": 21.91,
-   "end": 22.25
+   "start": 12.58,
+   "end": 12.92
   },
   {
    "text": "kehidupan",
-   "start": 22.25,
-   "end": 22.87
+   "start": 12.92,
+   "end": 13.54
   },
   {
    "text": "mereka",
-   "start": 22.87,
-   "end": 23.77
+   "start": 13.54,
+   "end": 14.44
   },
   {
    "text": "so",
-   "start": 23.77,
-   "end": 24.77
+   "start": 14.44,
+   "end": 15.44
   },
   {
    "text": "lelaki-lelaki",
-   "start": 24.85,
-   "end": 25.85
+   "start": 15.52,
+   "end": 16.52
   },
   {
    "text": "seperti",
-   "start": 25.85,
-   "end": 26.41
+   "start": 16.52,
+   "end": 17.08
   },
   {
    "text": "ini,",
-   "start": 26.41,
-   "end": 27.21
+   "start": 17.08,
+   "end": 17.88
   },
   {
    "text": "diorang",
-   "start": 27.49,
-   "end": 27.87
+   "start": 18.16,
+   "end": 18.54
   },
   {
    "text": "akan",
-   "start": 27.87,
-   "end": 28.17
+   "start": 18.54,
+   "end": 18.84
   },
   {
    "text": "menggunakan",
-   "start": 28.17,
-   "end": 28.71
+   "start": 18.84,
+   "end": 19.38
   },
   {
    "text": "alasan",
-   "start": 28.71,
-   "end": 29.19
+   "start": 19.38,
+   "end": 19.86
   },
   {
    "text": "penat",
-   "start": 29.19,
-   "end": 30.19
+   "start": 19.86,
+   "end": 20.86
   },
   {
    "text": "untuk",
-   "start": 30.39,
-   "end": 30.93
+   "start": 21.06,
+   "end": 21.6
   },
   {
    "text": "menutupi",
-   "start": 30.93,
-   "end": 31.83
+   "start": 21.6,
+   "end": 22.5
   },
   {
    "text": "kemalasan",
-   "start": 31.83,
-   "end": 32.51
+   "start": 22.5,
+   "end": 23.18
   },
   {
    "text": "diorang",
-   "start": 32.51,
-   "end": 33.49
+   "start": 23.18,
+   "end": 24.16
   },
   {
    "text": "Mereka",
-   "start": 33.49,
-   "end": 34.49
+   "start": 24.16,
+   "end": 25.16
   },
   {
    "text": "akan",
-   "start": 35.31,
-   "end": 35.55
+   "start": 25.98,
+   "end": 26.22
   },
   {
    "text": "buka",
-   "start": 35.55,
-   "end": 36.09
+   "start": 26.22,
+   "end": 26.76
   },
   {
    "text": "status",
-   "start": 36.09,
-   "end": 36.93
+   "start": 26.76,
+   "end": 27.6
   },
   {
    "text": "Whatsapp,",
-   "start": 36.93,
-   "end": 37.69
+   "start": 27.6,
+   "end": 28.36
   },
   {
    "text": "mereka",
-   "start": 37.75,
-   "end": 37.95
+   "start": 28.42,
+   "end": 28.62
   },
   {
    "text": "akan",
-   "start": 37.95,
-   "end": 38.31
+   "start": 28.62,
+   "end": 28.98
   },
   {
    "text": "type",
-   "start": 38.31,
-   "end": 38.98
+   "start": 28.98,
+   "end": 29.65
   },
   {
    "text": "Oh",
-   "start": 39.28,
-   "end": 40.02
+   "start": 29.95,
+   "end": 30.69
   },
   {
    "text": "penatnya",
-   "start": 40.02,
-   "end": 40.74
+   "start": 30.69,
+   "end": 31.41
   },
   {
    "text": "dengan",
-   "start": 40.74,
-   "end": 41.0
+   "start": 31.41,
+   "end": 31.67
   },
   {
    "text": "hidup",
-   "start": 41.0,
-   "end": 41.4
+   "start": 31.67,
+   "end": 32.07
   },
   {
    "text": "sekarang",
-   "start": 41.4,
-   "end": 41.94
+   "start": 32.07,
+   "end": 32.61
   },
   {
    "text": "ni",
-   "start": 41.94,
-   "end": 42.61
+   "start": 32.61,
+   "end": 33.28
   },
   {
    "text": "Kenapalah",
-   "start": 42.76,
-   "end": 43.52
+   "start": 33.43,
+   "end": 34.19
   },
   {
    "text": "hidup",
-   "start": 43.52,
-   "end": 43.9
+   "start": 34.19,
+   "end": 34.57
   },
   {
    "text": "aku",
-   "start": 43.9,
-   "end": 44.08
+   "start": 34.57,
+   "end": 34.75
   },
   {
    "text": "jadi",
-   "start": 44.08,
-   "end": 44.36
+   "start": 34.75,
+   "end": 35.03
   },
   {
    "text": "macam",
-   "start": 44.36,
-   "end": 44.7
+   "start": 35.03,
+   "end": 35.37
   },
   {
    "text": "ni",
-   "start": 44.7,
-   "end": 45.37
+   "start": 35.37,
+   "end": 36.04
   },
   {
    "text": "Dan",
-   "start": 45.67,
-   "end": 46.41
+   "start": 36.34,
+   "end": 37.08
   },
   {
    "text": "sebagainya",
-   "start": 46.41,
-   "end": 47.08
+   "start": 37.08,
+   "end": 37.75
   },
   {
    "text": "Posting",
-   "start": 47.43,
-   "end": 48.43
+   "start": 38.1,
+   "end": 39.1
   },
   {
    "text": "mereka",
-   "start": 48.69,
-   "end": 49.21
+   "start": 39.36,
+   "end": 39.88
   },
   {
    "text": "akan",
-   "start": 49.21,
-   "end": 49.83
+   "start": 39.88,
+   "end": 40.5
   },
   {
    "text": "berbau",
-   "start": 49.83,
-   "end": 50.67
+   "start": 40.5,
+   "end": 41.34
   },
   {
    "text": "sebegitu",
-   "start": 50.67,
-   "end": 51.57
+   "start": 41.34,
+   "end": 42.24
   },
   {
    "text": "tapi",
-   "start": 51.87,
-   "end": 52.87
+   "start": 42.54,
+   "end": 43.54
   },
   {
    "text": "in",
-   "start": 52.95,
-   "end": 53.95
+   "start": 43.62,
+   "end": 44.62
   },
   {
    "text": "fact",
-   "start": 54.03,
-   "end": 54.29
+   "start": 44.7,
+   "end": 44.96
   },
   {
    "text": "yang",
-   "start": 54.29,
-   "end": 54.55
+   "start": 44.96,
+   "end": 45.22
   },
   {
    "text": "sebenar",
-   "start": 54.55,
-   "end": 55.03
+   "start": 45.22,
+   "end": 45.7
   },
   {
    "text": "mereka",
-   "start": 55.03,
-   "end": 55.61
+   "start": 45.7,
+   "end": 46.28
   },
   {
    "text": "hanya",
-   "start": 55.61,
-   "end": 56.61
+   "start": 46.28,
+   "end": 47.28
   },
   {
    "text": "berselindung",
-   "start": 57.43,
-   "end": 58.43
+   "start": 48.1,
+   "end": 49.1
   },
   {
    "text": "di",
-   "start": 59.01,
-   "end": 59.25
+   "start": 49.68,
+   "end": 49.92
   },
   {
    "text": "sebalik",
-   "start": 59.25,
-   "end": 59.81
+   "start": 49.92,
+   "end": 50.48
   },
   {
    "text": "kemalasan",
-   "start": 59.81,
-   "end": 60.51
+   "start": 50.48,
+   "end": 51.18
   },
   {
    "text": "mereka",
-   "start": 60.51,
-   "end": 60.87
+   "start": 51.18,
+   "end": 51.54
   },
   {
    "text": "itu",
-   "start": 60.87,
-   "end": 61.13
+   "start": 51.54,
+   "end": 51.8
   },
   {
    "text": "saja",
-   "start": 61.13,
-   "end": 61.71
+   "start": 51.8,
+   "end": 52.38
   },
   {
    "text": "jadi",
-   "start": 61.71,
-   "end": 62.71
+   "start": 52.38,
+   "end": 53.38
   },
   {
    "text": "kalau",
-   "start": 63.39,
-   "end": 63.65
+   "start": 54.06,
+   "end": 54.32
   },
   {
    "text": "kau",
-   "start": 63.65,
-   "end": 63.93
+   "start": 54.32,
+   "end": 54.6
   },
   {
    "text": "orang",
-   "start": 63.93,
-   "end": 64.11
+   "start": 54.6,
+   "end": 54.78
   },
   {
    "text": "jumpa",
-   "start": 64.11,
-   "end": 64.65
+   "start": 54.78,
+   "end": 55.32
   },
   {
    "text": "lelaki",
-   "start": 64.65,
-   "end": 65.31
+   "start": 55.32,
+   "end": 55.98
   },
   {
    "text": "yang",
-   "start": 65.31,
-   "end": 66.31
+   "start": 55.98,
+   "end": 56.98
   },
   {
    "text": "cakap",
-   "start": 66.65,
-   "end": 66.95
+   "start": 57.32,
+   "end": 57.62
   },
   {
    "text": "banyak",
-   "start": 66.95,
-   "end": 67.31
+   "start": 57.62,
+   "end": 57.98
   },
   {
    "text": "kerja",
-   "start": 67.31,
-   "end": 68.31
+   "start": 57.98,
+   "end": 58.98
   },
   {
    "text": "tapi",
-   "start": 68.65,
-   "end": 69.39
+   "start": 59.32,
+   "end": 60.06
   },
   {
    "text": "tak",
-   "start": 69.39,
-   "end": 69.65
+   "start": 60.06,
+   "end": 60.32
   },
   {
    "text": "ada",
-   "start": 69.65,
-   "end": 69.85
+   "start": 60.32,
+   "end": 60.52
   },
   {
    "text": "progress",
-   "start": 69.85,
-   "end": 70.27
+   "start": 60.52,
+   "end": 60.94
   },
   {
    "text": "dalam",
-   "start": 70.27,
-   "end": 70.57
+   "start": 60.94,
+   "end": 61.24
   },
   {
    "text": "kehidupan",
-   "start": 70.57,
-   "end": 71.13
+   "start": 61.24,
+   "end": 61.8
   },
   {
    "text": "dia",
-   "start": 71.13,
-   "end": 71.75
+   "start": 61.8,
+   "end": 62.42
   },
   {
    "text": "tapi",
-   "start": 71.75,
-   "end": 72.75
+   "start": 62.42,
+   "end": 63.42
   },
   {
    "text": "tengok",
-   "start": 73.11,
-   "end": 73.47
+   "start": 63.78,
+   "end": 64.14
   },
   {
    "text": "dekat",
-   "start": 73.47,
-   "end": 73.81
+   "start": 64.14,
+   "end": 64.48
   },
   {
    "text": "tiktok",
-   "start": 73.81,
-   "end": 74.41
+   "start": 64.48,
+   "end": 65.08
   },
   {
    "text": "dia",
-   "start": 74.41,
-   "end": 74.69
+   "start": 65.08,
+   "end": 65.36
   },
   {
    "text": "online,",
-   "start": 74.69,
-   "end": 75.69
+   "start": 65.36,
+   "end": 66.36
   },
   {
    "text": "3",
-   "start": 76.47,
-   "end": 76.49
+   "start": 67.14,
+   "end": 67.16
   },
   {
    "text": "jam",
-   "start": 76.49,
-   "end": 77.05
+   "start": 67.16,
+   "end": 67.72
   },
   {
    "text": "hijau",
-   "start": 77.05,
-   "end": 77.59
+   "start": 67.72,
+   "end": 68.26
   },
   {
    "text": "dia",
-   "start": 77.59,
-   "end": 77.87
+   "start": 68.26,
+   "end": 68.54
   },
   {
    "text": "tu",
-   "start": 77.87,
-   "end": 78.87
+   "start": 68.54,
+   "end": 69.54
   },
   {
    "text": "pas",
-   "start": 78.91,
-   "end": 79.19
+   "start": 69.58,
+   "end": 69.86
   },
   {
    "text": "tu",
-   "start": 79.19,
-   "end": 79.29
+   "start": 69.86,
+   "end": 69.96
   },
   {
    "text": "tengok",
-   "start": 79.29,
-   "end": 79.71
+   "start": 69.96,
+   "end": 70.38
   },
   {
    "text": "dekat",
-   "start": 79.71,
-   "end": 80.41
+   "start": 70.38,
+   "end": 71.08
   },
   {
    "text": "Threads",
-   "start": 80.41,
-   "end": 80.79
+   "start": 71.08,
+   "end": 71.46
   },
   {
    "text": "sebanyak",
-   "start": 80.79,
-   "end": 81.47
+   "start": 71.46,
+   "end": 72.14
   },
   {
    "text": "posting",
-   "start": 81.47,
-   "end": 81.89
+   "start": 72.14,
+   "end": 72.56
   },
   {
    "text": "dia",
-   "start": 81.89,
-   "end": 82.29
+   "start": 72.56,
+   "end": 72.96
   },
   {
    "text": "tu",
-   "start": 82.29,
-   "end": 82.89
+   "start": 72.96,
+   "end": 73.56
   },
   {
    "text": "maka",
-   "start": 82.89,
-   "end": 83.17
+   "start": 73.56,
+   "end": 73.84
   },
   {
    "text": "tinggalkanlah",
-   "start": 83.17,
-   "end": 83.87
+   "start": 73.84,
+   "end": 74.54
   },
   {
    "text": "lelaki-lelaki",
-   "start": 83.87,
-   "end": 84.73
+   "start": 74.54,
+   "end": 75.4
   },
   {
    "text": "loser-loser",
-   "start": 84.73,
-   "end": 84.99
+   "start": 75.4,
+   "end": 75.66
   },
   {
    "text": "sebegitu",
-   "start": 84.99,
-   "end": 85.99
+   "start": 75.66,
+   "end": 76.66
   },
   {
    "text": "get",
-   "start": 86.39,
-   "end": 87.39
+   "start": 77.06,
+   "end": 78.06
   },
   {
    "text": "with",
-   "start": 87.51,
-   "end": 87.73
+   "start": 78.18,
+   "end": 78.4
   },
   {
    "text": "me",
-   "start": 87.73,
-   "end": 87.95
+   "start": 78.4,
+   "end": 78.62
   },
   {
    "text": "instead",
-   "start": 87.95,
-   "end": 88.95
+   "start": 78.62,
+   "end": 79.62
   },
   {
    "text": "sebab",
-   "start": 89.59,
-   "end": 90.39
+   "start": 80.26,
+   "end": 81.06
   },
   {
    "text": "at",
-   "start": 90.39,
-   "end": 90.73
+   "start": 81.06,
+   "end": 81.4
   },
   {
    "text": "the",
-   "start": 90.73,
-   "end": 90.87
+   "start": 81.4,
+   "end": 81.54
   },
   {
    "text": "end",
-   "start": 90.87,
-   "end": 90.97
+   "start": 81.54,
+   "end": 81.64
   },
   {
    "text": "I'm",
-   "start": 90.97,
-   "end": 91.25
+   "start": 81.64,
+   "end": 81.92
   },
   {
    "text": "gonna",
-   "start": 91.25,
-   "end": 91.41
+   "start": 81.92,
+   "end": 82.08
   },
   {
    "text": "win",
-   "start": 91.41,
-   "end": 91.93
+   "start": 82.08,
+   "end": 82.6
   },
   {
    "text": "that's",
-   "start": 91.93,
-   "end": 92.69
+   "start": 82.6,
+   "end": 83.36
   },
   {
    "text": "it,",
-   "start": 92.69,
-   "end": 92.79
+   "start": 83.36,
+   "end": 83.46
   },
   {
    "text": "at",
-   "start": 92.79,
-   "end": 92.95
+   "start": 83.46,
+   "end": 83.62
   },
   {
    "text": "the",
-   "start": 92.95,
-   "end": 93.33
+   "start": 83.62,
+   "end": 84.0
   },
   {
    "text": "end",
-   "start": 93.33,
-   "end": 93.63
+   "start": 84.0,
+   "end": 84.3
   },
   {
    "text": "I'm",
-   "start": 93.63,
-   "end": 94.03
+   "start": 84.3,
+   "end": 84.7
   },
   {
    "text": "gonna",
-   "start": 94.03,
-   "end": 94.49
+   "start": 84.7,
+   "end": 85.16
   },
   {
    "text": "be",
-   "start": 94.49,
-   "end": 95.03
+   "start": 85.16,
+   "end": 85.7
   },
   {
    "text": "a",
-   "start": 95.03,
-   "end": 95.45
+   "start": 85.7,
+   "end": 86.12
   },
   {
    "text": "winner",
-   "start": 95.45,
-   "end": 95.85
+   "start": 86.12,
+   "end": 86.52
   }
  ],
  "overlays": [
   {
    "type": "banner",
-   "at": 14.69,
-   "until": 28.41,
+   "at": 0.26,
+   "until": 19.08,
    "style": "red",
    "text": "LELAKI\nPEMALAS",
    "sticker": "redflag"
   },
   {
    "type": "sticker",
-   "at": 21.31,
+   "at": 11.98,
    "sticker": "thinking",
    "pos": "right",
    "size": 160,
@@ -848,8 +724,8 @@
   },
   {
    "type": "title",
-   "at": 28.51,
-   "until": 36.33,
+   "at": 19.18,
+   "until": 27.0,
    "n": 1,
    "title": "Alasan \"PENAT\"",
    "sticker": "clock",
@@ -858,25 +734,25 @@
   {
    "type": "app",
    "app": "whatsapp",
-   "at": 36.33,
+   "at": 27.0,
    "text": "oh penatnya dengan hidup sekarang ni. kenapalah hidup aku jadi macam ni",
-   "typeStart": 39.28,
-   "typeEnd": 45.37,
-   "until": 46.81,
+   "typeStart": 29.95,
+   "typeEnd": 36.04,
+   "until": 37.48,
    "cps": 12,
    "persona": "male"
   },
   {
    "type": "stamp",
-   "at": 57.43,
+   "at": 48.1,
    "text": "MALAS!",
    "mood": "boom",
    "shake": true
   },
   {
    "type": "title",
-   "at": 66.65,
-   "until": 73.31,
+   "at": 57.32,
+   "until": 63.98,
    "n": 2,
    "title": "Banyak kerja,\ntapi TIADA progress",
    "sticker": "cross",
@@ -885,36 +761,37 @@
   {
    "type": "app",
    "app": "tiktok",
-   "at": 73.31,
+   "at": 63.98,
    "text": "ali",
-   "until": 76.39,
+   "until": 67.06,
    "persona": "male"
   },
   {
    "type": "stamp",
-   "at": 76.49,
+   "at": 67.16,
    "text": "ONLINE 3 JAM",
    "color": "green",
    "mood": "drama",
    "rotate": -5
   },
   {
-   "type": "banner",
-   "at": 80.21,
-   "until": 82.97,
-   "style": "warning",
-   "text": "POSTING BERLAMBAK\nDI THREADS",
-   "sticker": "eyes"
+   "type": "app",
+   "app": "threads",
+   "at": 70.78,
+   "text": "penat gila kerja hari ni",
+   "until": 73.69,
+   "cps": 14,
+   "persona": "male"
   },
   {
    "type": "stamp",
-   "at": 83.17,
+   "at": 73.84,
    "text": "TINGGALKAN!",
    "mood": "impact"
   },
   {
    "type": "sticker",
-   "at": 84.73,
+   "at": 75.4,
    "sticker": "cross",
    "pos": "right",
    "size": 150,
@@ -923,15 +800,15 @@
   },
   {
    "type": "banner",
-   "at": 86.39,
-   "until": 89.47,
+   "at": 77.06,
+   "until": 80.14,
    "style": "yellow",
    "text": "GET WITH ME\nINSTEAD",
    "sticker": "fire"
   },
   {
    "type": "stamp",
-   "at": 91.41,
+   "at": 82.08,
    "text": "WINNER!",
    "color": "yellow",
    "mood": "right",
@@ -940,6 +817,12 @@
  ],
  "sfx": [],
  "cover": {
-  "at": 17.17
+  "at": 7.84,
+  "lines": [
+   "LELAKI MACAM NI?",
+   "TINGGALKAN!"
+  ],
+  "sticker": "redflag",
+  "tag": "LELAKI PEMALAS"
  }
 }

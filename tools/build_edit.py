@@ -212,6 +212,7 @@ def main():
         "hook": {**{k: v for k, v in hook.items() if k != "coldOpen"},
                  **({"until": at(hook["until"])} if "until" in hook else {})},
         "loop": bool(cfg.get("loop")),
+        "captions": cfg.get("captions", True),
         "segments": [{"srcStart": round(s, 3), "srcEnd": round(e, 3), "outStart": round(o, 3), "cold": c}
                      for s, e, o, c in timeline],
         "words": out_words,

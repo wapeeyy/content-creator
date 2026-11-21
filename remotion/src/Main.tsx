@@ -159,7 +159,7 @@ export const Main: React.FC<{ showSafeZone: boolean }> = ({ showSafeZone }) => (
     <Picture />
     {hookEnd > 0 && <Flash at={hookEnd} />}
     <ProgressBar from={hookEnd} duration={P.duration} />
-    <Captions words={words} hot={hook.hot ?? []} />
+    {P.captions !== false && <Captions words={words} hot={hook.hot ?? []} />}
     {P.loop && <LoopFade />}
 
     {SFX.map((s, i) => (

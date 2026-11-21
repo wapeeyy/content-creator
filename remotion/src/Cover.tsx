@@ -8,10 +8,11 @@ import { C, f, stroke } from "./template/theme";
 
 // Profile-grid cover. TikTok/IG grids crop the 9:16 frame to roughly the middle 3:4
 // (y 240-1680), so all text sits between y 900 and 1600.
+const hk = P.hook as { lines?: string[]; tag?: string; sticker?: string };
 const cover = P.cover as { at?: number; lines?: string[]; tag?: string; sticker?: string };
 
 export const Cover: React.FC = () => {
-  const lines = cover.lines ?? P.hook.lines ?? [];
+  const lines = cover.lines ?? hk.lines ?? [];
   const [small, big, ...rest] = lines;
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
@@ -43,14 +44,14 @@ export const Cover: React.FC = () => {
               {big}
             </div>
           )}
-          {(cover.sticker ?? P.hook.sticker) && <Sticker name={cover.sticker ?? P.hook.sticker} size={170} style={{ transform: "rotate(12deg)" }} />}
+          {(cover.sticker ?? hk.sticker) && <Sticker name={cover.sticker ?? hk.sticker} size={170} style={{ transform: "rotate(12deg)" }} />}
         </div>
         {rest.map((l) => (
           <div key={l} style={{ fontFamily: anton, fontSize: 90, color: "#fff", ...stroke(12) }}>
             {l}
           </div>
         ))}
-        {(cover.tag ?? P.hook.tag) && (
+        {(cover.tag ?? hk.tag) && (
           <div
             style={{
               marginTop: 18,
@@ -65,7 +66,7 @@ export const Cover: React.FC = () => {
               transform: "rotate(2deg)",
             }}
           >
-            {cover.tag ?? P.hook.tag}
+            {cover.tag ?? hk.tag}
           </div>
         )}
       </div>
