@@ -1,0 +1,7 @@
+raw/
+edit/
+node_modules/
+out/
+*.mp4
+*.MOV
+*.mov
