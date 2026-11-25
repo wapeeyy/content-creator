@@ -63,7 +63,7 @@ const useCanvas = (draw: (ctx: CanvasRenderingContext2D, w: number, h: number) =
 };
 
 /* ---------- starfield ---------- */
-export const Stars: React.FC<{ opacity?: number; drift?: number; density?: number }> = ({ opacity = 1, drift = 0, density = 1 }) => {
+export const Stars: React.FC<{ opacity?: number; drift?: number; density?: number; k?: number }> = ({ opacity = 1, drift = 0, density = 1, k = 1 }) => {
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
   const stars = useMemo(() => {
@@ -87,12 +87,12 @@ export const Stars: React.FC<{ opacity?: number; drift?: number; density?: numbe
         ctx.globalAlpha = s.a * tw * opacity;
         const y = (s.y + frame * drift * s.z) % h;
         ctx.beginPath();
-        ctx.arc(s.x, y, s.s, 0, TAU);
+        ctx.arc(s.x, y, s.s * k, 0, TAU);
         ctx.fill();
       }
       ctx.globalAlpha = 1;
     },
-    [frame, opacity, drift],
+    [frame, opacity, drift, k],
   );
   return <canvas ref={ref} width={width} height={height} style={{ position: "absolute", inset: 0 }} />;
 };
@@ -125,13 +125,14 @@ const makeGalaxy = (n: number) => {
 };
 
 /** form: 0 = scattered stars → 1 = galaxy; ring: 0..1 orbit draw; core: 0..1 core brightness; t: rotation time (frames) */
-export const Galaxy: React.FC<{ size: number; form?: number; ring?: number; core?: number; t?: number; glow?: number }> = ({
+export const Galaxy: React.FC<{ size: number; form?: number; ring?: number; core?: number; t?: number; glow?: number; sat?: number }> = ({
   size,
   form = 1,
   ring = 1,
   core = 1,
   t,
   glow = 1,
+  sat,
 }) => {
   const frame = useCurrentFrame();
   const time = (t ?? frame) * 0.0021;
@@ -200,7 +201,7 @@ export const Galaxy: React.FC<{ size: number; form?: number; ring?: number; core
         ctx.ellipse(0, 0, oa, ob, 0, -Math.PI / 2, -Math.PI / 2 + TAU * ease(ring));
         ctx.stroke();
         if (ring >= 1) {
-          const sa = (frame * 0.0075) % TAU;
+          const sa = sat ?? (frame * 0.0075) % TAU;
           const sx = Math.cos(sa) * oa, sy = Math.sin(sa) * ob;
           const s2 = ctx.createRadialGradient(sx, sy, 0, sx, sy, W * 0.035);
           s2.addColorStop(0, "rgba(255,255,255,0.95)");
@@ -217,7 +218,7 @@ export const Galaxy: React.FC<{ size: number; form?: number; ring?: number; core
         ctx.restore();
       }
     },
-    [frame, form, ring, core, time, glow],
+    [frame, form, ring, core, time, glow, sat],
   );
   return <canvas ref={ref} width={size} height={size} style={{ width: size, height: size }} />;
 };
