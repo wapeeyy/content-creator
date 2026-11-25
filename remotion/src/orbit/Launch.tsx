@@ -266,7 +266,7 @@ const Finale: React.FC<{ from: number }> = ({ from }) => {
             </div>
             <div style={{ opacity: cta, display: "grid", gap: 24, marginTop: 40, justifyItems: "start" }}>
               {live}
-              <Mono size={30} color={C.ink2}>orbit-nu-eight-39.vercel.app</Mono>
+              <Mono size={30} color={C.ink2}>orbitonsol.com</Mono>
             </div>
           </div>
         </>
@@ -283,7 +283,7 @@ const Finale: React.FC<{ from: number }> = ({ from }) => {
           </div>
           <div style={{ position: "absolute", top: 1490, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", gap: 26, opacity: cta }}>
             {live}
-            <Mono size={30} color={C.ink2}>orbit-nu-eight-39.vercel.app</Mono>
+            <Mono size={30} color={C.ink2}>orbitonsol.com</Mono>
           </div>
         </>
       )}

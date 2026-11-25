@@ -5,7 +5,7 @@ import { C, F, Galaxy, Label, Mono, Stars, Wide } from "./kit";
 // ORBIT brand stills: profile photos, X header, landing-page hero, link-preview (OG) image.
 // Every layout is sized from the canvas width so it renders sharp at full resolution.
 
-const URL = "orbit-nu-eight-39.vercel.app";
+const URL = "orbitonsol.com";
 
 const Space: React.FC<{ children?: React.ReactNode; vignette?: boolean; density?: number }> = ({ children, vignette = true, density = 1 }) => {
   const { width } = useVideoConfig();

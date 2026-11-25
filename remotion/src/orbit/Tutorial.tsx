@@ -56,7 +56,7 @@ const SafariMock: React.FC<{ local: number }> = ({ local }) => {
         <Img src={staticFile("orbit/discover.png")} style={{ width: "100%", opacity: 1 - home }} />
         {/* Safari bottom bar */}
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 150, background: "rgba(28,28,30,0.96)", display: "flex", flexDirection: "column", alignItems: "center", gap: 18, paddingTop: 16, opacity: 1 - home }}>
-          <div style={{ width: "86%", height: 50, borderRadius: 14, background: "#3a3a3c", display: "grid", placeItems: "center", fontFamily: "system-ui", fontSize: 22, color: "#ddd" }}>orbit-nu-eight-39.vercel.app</div>
+          <div style={{ width: "86%", height: 50, borderRadius: 14, background: "#3a3a3c", display: "grid", placeItems: "center", fontFamily: "system-ui", fontSize: 22, color: "#ddd" }}>orbitonsol.com</div>
           <div style={{ display: "flex", justifyContent: "space-around", width: "86%", fontSize: 34, color: "#0a84ff" }}>
             <span>‹</span><span>›</span>
             <span style={{ fontSize: 30, border: "3px solid #0a84ff", borderRadius: 6, width: 34, height: 34, display: "grid", placeItems: "center", lineHeight: 1 }}>↑</span>
@@ -67,7 +67,7 @@ const SafariMock: React.FC<{ local: number }> = ({ local }) => {
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 640, background: "#1c1c1e", borderRadius: "28px 28px 0 0", transform: `translateY(${(1 - sheet) * 660}px)`, padding: 28, fontFamily: "system-ui", color: "#fff", opacity: 1 - home }}>
           <div style={{ display: "flex", gap: 16, alignItems: "center", marginBottom: 26 }}>
             <Img src={staticFile("orbit/icon.png")} style={{ width: 64, height: 64, borderRadius: 14 }} />
-            <div style={{ fontSize: 24 }}>ORBIT<br /><span style={{ color: "#8e8e93", fontSize: 19 }}>orbit-nu-eight-39.vercel.app</span></div>
+            <div style={{ fontSize: 24 }}>ORBIT<br /><span style={{ color: "#8e8e93", fontSize: 19 }}>orbitonsol.com</span></div>
           </div>
           {["Copy", "Add to Reading List", "Add to Home Screen", "Find on Page"].map((t, i) => (
             <div key={t} style={{ padding: "22px 18px", background: i === 2 && local > s(4) ? "#3a3a3c" : "#2c2c2e", borderRadius: i === 0 ? "14px 14px 0 0" : i === 3 ? "0 0 14px 14px" : 0, borderTop: i ? "1px solid #3a3a3c" : 0, fontSize: 26, display: "flex", justifyContent: "space-between" }}>
@@ -106,7 +106,7 @@ const ChromeMock: React.FC<{ local: number }> = ({ local }) => {
     <div style={{ width: 620, height: 1270, borderRadius: 50, border: "2px solid rgba(255,255,255,0.28)", background: "#0b0b0d", padding: 16 }}>
       <div style={{ width: "100%", height: "100%", borderRadius: 40, overflow: "hidden", position: "relative", background: "#000" }}>
         <div style={{ height: 92, background: "#202124", display: "flex", alignItems: "center", gap: 14, padding: "0 20px", fontFamily: "system-ui" }}>
-          <div style={{ flex: 1, height: 54, borderRadius: 27, background: "#303134", color: "#e8eaed", fontSize: 22, display: "flex", alignItems: "center", paddingLeft: 22 }}>orbit-nu-eight-39.vercel.app</div>
+          <div style={{ flex: 1, height: 54, borderRadius: 27, background: "#303134", color: "#e8eaed", fontSize: 22, display: "flex", alignItems: "center", paddingLeft: 22 }}>orbitonsol.com</div>
           <span style={{ color: "#e8eaed", fontSize: 36 }}>⋮</span>
         </div>
         <Img src={staticFile("orbit/discover.png")} style={{ width: "100%" }} />
@@ -120,7 +120,7 @@ const ChromeMock: React.FC<{ local: number }> = ({ local }) => {
           <div style={{ fontSize: 30, marginBottom: 20 }}>Install app?</div>
           <div style={{ display: "flex", gap: 18, alignItems: "center", marginBottom: 30 }}>
             <Img src={staticFile("orbit/icon.png")} style={{ width: 70, height: 70, borderRadius: 16 }} />
-            <span style={{ fontSize: 24 }}>ORBIT<br /><span style={{ color: "#9aa0a6", fontSize: 19 }}>orbit-nu-eight-39.vercel.app</span></span>
+            <span style={{ fontSize: 24 }}>ORBIT<br /><span style={{ color: "#9aa0a6", fontSize: 19 }}>orbitonsol.com</span></span>
           </div>
           <div style={{ display: "flex", justifyContent: "flex-end", gap: 40, fontSize: 24, color: "#8ab4f8" }}><span>Cancel</span><span style={{ fontWeight: 600 }}>Install</span></div>
         </div>
@@ -218,7 +218,7 @@ export const OrbitTutorial: React.FC = () => {
         <div style={land ? { position: "absolute", left: 140, top: 140 } : { marginTop: -260 }}><Galaxy size={land ? 800 : 700} /></div>
         <div style={land ? { position: "absolute", left: 1000, top: 0, bottom: 0, display: "grid", alignContent: "center", justifyItems: "start", gap: 26 } : { position: "absolute", top: 1100, width: "100%", display: "grid", justifyItems: "center", gap: 26 }}>
           <Wide size={130} track={0.42} style={land ? { textAlign: "left", paddingLeft: 0 } : {}}>Orbit</Wide>
-          <Mono size={32} color={C.ink}>orbit-nu-eight-39.vercel.app</Mono>
+          <Mono size={32} color={C.ink}>orbitonsol.com</Mono>
           <Label size={24}>Full guide: Subscribe tab → Guide (PDF)</Label>
           <Label size={20} color={C.faint} style={{ marginTop: 30 }}>Not financial advice · DYOR</Label>
         </div>
