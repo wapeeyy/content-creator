@@ -9,7 +9,7 @@ const KEY = process.env.ORBIT_OWNER_KEY;
   const b = await chromium.launch();
   const result = [];
   for (const ca of cas) {
-    const c = await b.newContext({ viewport: { width: 980, height: 1400 }, deviceScaleFactor: 2 });
+    const c = await b.newContext({ viewport: { width: Number(process.env.VW || 980), height: 1400 }, deviceScaleFactor: 2 });
     await c.addInitScript((k) => {
       localStorage.setItem('orbit.install.dismissed', '1');
       localStorage.setItem('orbit.key.v1', k);
@@ -27,7 +27,7 @@ const KEY = process.env.ORBIT_OWNER_KEY;
       await p.waitForTimeout(3500);
     }
     // clean chart for marketing: no whale emoji markers, no RSI pane
-    for (const name of ['Whales', 'RSI']) {
+    for (const name of (process.env.OFF || 'Whales,RSI').split(',')) {
       const btn = p.locator('.layers button', { hasText: name }).first();
       if ((await btn.getAttribute('class'))?.includes('on')) await btn.click();
     }
