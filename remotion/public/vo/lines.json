@@ -1,0 +1,182 @@
+{
+ "launch": [
+  {
+   "at": 1.0,
+   "end": 8.2,
+   "dur": 3.75,
+   "speed": 1.0,
+   "file": "launch_00.wav",
+   "text": "Every minute, hundreds of new coins are born on Solana."
+  },
+  {
+   "at": 8.4,
+   "end": 12.0,
+   "dur": 2.07,
+   "speed": 1.0,
+   "file": "launch_01.wav",
+   "text": "Most of them are built to fall."
+  },
+  {
+   "at": 12.6,
+   "end": 17.0,
+   "dur": 3.16,
+   "speed": 1.0,
+   "file": "launch_02.wav",
+   "text": "Introducing ORBIT. Solana coin intelligence."
+  },
+  {
+   "at": 17.4,
+   "end": 24.0,
+   "dur": 4.5,
+   "speed": 1.0,
+   "file": "launch_03.wav",
+   "text": "One app to find, check, and understand every coin, before you buy."
+  },
+  {
+   "at": 24.2,
+   "end": 28.0,
+   "dur": 3.52,
+   "speed": 1.0,
+   "file": "launch_04.wav",
+   "text": "See every new pair. Trending, new, and top volume."
+  },
+  {
+   "at": 28.2,
+   "end": 32.0,
+   "dur": 3.24,
+   "speed": 1.0,
+   "file": "launch_05.wav",
+   "text": "Score the risk. Zero to one hundred, in seconds."
+  },
+  {
+   "at": 32.2,
+   "end": 36.0,
+   "dur": 3.2,
+   "speed": 1.0,
+   "file": "launch_06.wav",
+   "text": "Follow the wallets. What they buy, sell, and earn."
+  },
+  {
+   "at": 36.2,
+   "end": 40.0,
+   "dur": 3.63,
+   "speed": 1.0,
+   "file": "launch_07.wav",
+   "text": "Read the chart. The high, the low, and the volume zone."
+  },
+  {
+   "at": 40.2,
+   "end": 44.0,
+   "dur": 3.73,
+   "speed": 1.1,
+   "file": "launch_08.wav",
+   "text": "Practise without risk. Ten fake SOL, real prices."
+  },
+  {
+   "at": 44.2,
+   "end": 49.0,
+   "dur": 3.78,
+   "speed": 1.0,
+   "file": "launch_09.wav",
+   "text": "Two hundred pairs per list. Refreshed every thirty seconds."
+  },
+  {
+   "at": 52.6,
+   "end": 56.0,
+   "dur": 1.94,
+   "speed": 1.0,
+   "file": "launch_10.wav",
+   "text": "ORBIT. Now live on Solana."
+  },
+  {
+   "at": 56.2,
+   "end": 60.0,
+   "dur": 3.61,
+   "speed": 1.05,
+   "file": "launch_11.wav",
+   "text": "Not financial advice. Always do your own research."
+  }
+ ],
+ "tutorial": [
+  {
+   "at": 0.4,
+   "end": 4.0,
+   "dur": 2.5,
+   "speed": 1.0,
+   "file": "tutorial_00.wav",
+   "text": "Here is how to install and use ORBIT."
+  },
+  {
+   "at": 4.4,
+   "end": 12.5,
+   "dur": 5.93,
+   "speed": 1.0,
+   "file": "tutorial_01.wav",
+   "text": "On iPhone, open the link in Safari. Tap Share, then Add to Home Screen, and tap Add."
+  },
+  {
+   "at": 12.9,
+   "end": 19.5,
+   "dur": 6.38,
+   "speed": 1.0,
+   "file": "tutorial_02.wav",
+   "text": "On Android, open the link in Chrome. Open the menu, choose Install app, then tap Install."
+  },
+  {
+   "at": 19.9,
+   "end": 28.5,
+   "dur": 7.1,
+   "speed": 1.0,
+   "file": "tutorial_03.wav",
+   "text": "In Discover, All pairs shows every trending and new Solana pair. Use the filters, then tap any coin."
+  },
+  {
+   "at": 28.9,
+   "end": 36.5,
+   "dur": 6.36,
+   "speed": 1.0,
+   "file": "tutorial_04.wav",
+   "text": "The ORBIT Report gives a safety score from zero to one hundred. Read every warning before you buy."
+  },
+  {
+   "at": 36.9,
+   "end": 43.5,
+   "dur": 5.57,
+   "speed": 1.0,
+   "file": "tutorial_05.wav",
+   "text": "The chart marks the high, the low, and the volume zone, where most people bought and sold."
+  },
+  {
+   "at": 43.9,
+   "end": 51.5,
+   "dur": 5.91,
+   "speed": 1.0,
+   "file": "tutorial_06.wav",
+   "text": "Tap any top holder to trace the wallet: what it buys, what it sells, and how much it made."
+  },
+  {
+   "at": 51.9,
+   "end": 58.5,
+   "dur": 6.25,
+   "speed": 1.05,
+   "file": "tutorial_07.wav",
+   "text": "Practise first. Trade with ten fake SOL at real prices, with no real money at risk."
+  },
+  {
+   "at": 58.9,
+   "end": 67.0,
+   "dur": 7.53,
+   "speed": 1.0,
+   "file": "tutorial_08.wav",
+   "text": "To unlock everything, open the Subscribe tab and pay with Phantom or Solflare. Pro turns on automatically."
+  },
+  {
+   "at": 67.4,
+   "end": 72.0,
+   "dur": 2.65,
+   "speed": 1.0,
+   "file": "tutorial_09.wav",
+   "text": "ORBIT. Your guide to every Solana coin."
+  }
+ ]
+}
