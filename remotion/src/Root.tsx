@@ -4,6 +4,7 @@ import { Cover } from "./Cover";
 import { AppDemo } from "./AppDemo";
 import { OrbitLaunch, LAUNCH_FRAMES } from "./orbit/Launch";
 import { OrbitTutorial, TUTORIAL_FRAMES } from "./orbit/Tutorial";
+import { PkgCardPro, PkgCardUltra, PkgProVideo, PkgUltraVideo, pkgFrames } from "./orbit/Package";
 import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandOG, BrandXHeader } from "./orbit/Brand";
 import P from "./data/project.json";
 import { FPS, f } from "./template/theme";
@@ -26,6 +27,10 @@ export const Root = () => (
     <Still id="BrandXHeader" component={BrandXHeader} width={3000} height={1000} />
     <Still id="BrandHero" component={BrandHero} width={3840} height={2160} />
     <Still id="BrandHeroClean" component={BrandHeroClean} width={3840} height={2160} />
+    <Still id="PkgCardPro" component={PkgCardPro} width={1080} height={1350} />
+    <Still id="PkgCardUltra" component={PkgCardUltra} width={1080} height={1350} />
+    <Composition id="PkgProVideo" component={PkgProVideo} durationInFrames={pkgFrames("pro")} fps={30} width={1080} height={1920} />
+    <Composition id="PkgUltraVideo" component={PkgUltraVideo} durationInFrames={pkgFrames("ultra")} fps={30} width={1080} height={1920} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitLaunch" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1080} height={1920} />

@@ -1,0 +1,66 @@
+{
+ "pro": [
+  {
+   "file": "pkg_pro_00.wav",
+   "dur": 3.05,
+   "text": "ORBIT Pro. Read the chart, and avoid the rugs."
+  },
+  {
+   "file": "pkg_pro_01.wav",
+   "dur": 8.45,
+   "text": "Every chart is marked for you. Higher highs, lower lows, breaks of structure, support and resistance, and the volume profile."
+  },
+  {
+   "file": "pkg_pro_02.wav",
+   "dur": 5.14,
+   "text": "The ORBIT Read gives you the bias, the key levels, and exactly what to watch next."
+  },
+  {
+   "file": "pkg_pro_03.wav",
+   "dur": 6.76,
+   "text": "The ORBIT Report scores every coin from zero to one hundred, and flags the dev and insider wallets."
+  },
+  {
+   "file": "pkg_pro_04.wav",
+   "dur": 5.91,
+   "text": "Trace any wallet, practise with ten fake SOL, and set alerts on the levels that matter."
+  },
+  {
+   "file": "pkg_pro_05.wav",
+   "dur": 5.78,
+   "text": "ORBIT Pro. Twenty three dollars a month. Start today at orbit on sol dot com."
+  }
+ ],
+ "ultra": [
+  {
+   "file": "pkg_ultra_00.wav",
+   "dur": 2.94,
+   "text": "ORBIT Ultra. See what the whales do, first."
+  },
+  {
+   "file": "pkg_ultra_01.wav",
+   "dur": 6.44,
+   "text": "Every big buy and every big sell is pinned to the chart. Tap a whale, and trace the wallet behind it."
+  },
+  {
+   "file": "pkg_ultra_02.wav",
+   "dur": 6.4,
+   "text": "Read every timeframe at once. Five minutes, one hour, four hours, and the daily, on one screen."
+  },
+  {
+   "file": "pkg_ultra_03.wav",
+   "dur": 3.29,
+   "text": "Unlimited price alerts, and everything in Pro."
+  },
+  {
+   "file": "pkg_ultra_04.wav",
+   "dur": 7.42,
+   "text": "Coming next for Ultra: a smart money watchlist, alerts even when the app is closed, and trading from your own wallet."
+  },
+  {
+   "file": "pkg_ultra_05.wav",
+   "dur": 6.76,
+   "text": "Plus a private Ultra group. ORBIT Ultra. Fifty nine dollars a month, at orbit on sol dot com."
+  }
+ ]
+}
