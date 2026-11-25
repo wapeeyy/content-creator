@@ -1,9 +1,36 @@
 import React from "react";
-import { AbsoluteFill, interpolate, Img, staticFile, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Audio, interpolate, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, F, Galaxy, Label, Mono, Phone, Stars, Wide, fade, ramp } from "./kit";
 
 // ORBIT tutorial — install + how to use. 1080×1920, 30 fps, captions only (no voice-over).
 const s = (sec: number) => Math.round(sec * 30);
+
+// click sounds for every tap (scene start + tap offset), whoosh at each scene
+const TAPS: Record<number, number[]> = {
+  1: [1.2, 4, 5.2],
+  2: [1.0, 3.0, 5.0],
+  3: [2, 4.5, 7],
+  8: [4],
+};
+const TutSound: React.FC = () => (
+  <>
+    {SCENES.map((sc, i) => (
+      <React.Fragment key={i}>
+        <Sequence from={sc.at} durationInFrames={s(1)} layout="none">
+          <Audio src={staticFile(i === 0 || i === SCENES.length - 1 ? "sfx/whoosh_heavy.wav" : "sfx/whoosh.wav")} volume={0.45} />
+        </Sequence>
+        {(TAPS[i] ?? []).map((t) => (
+          <Sequence key={t} from={sc.at + s(t)} durationInFrames={s(0.5)} layout="none">
+            <Audio src={staticFile("sfx/click.wav")} volume={0.8} />
+          </Sequence>
+        ))}
+      </React.Fragment>
+    ))}
+    <Sequence from={SCENES[SCENES.length - 1].at + s(0.6)} durationInFrames={s(1.2)} layout="none">
+      <Audio src={staticFile("sfx/sparkle.wav")} volume={0.4} />
+    </Sequence>
+  </>
+);
 
 type Scene = { at: number; len: number; step: string; title: string; text: string; render: (local: number) => React.ReactNode };
 
@@ -119,41 +146,51 @@ const SCENES: Scene[] = [
   { at: 0, len: s(4), step: "", title: "How to use ORBIT", text: "Install it on your phone, then find, check and practise trading Solana coins.", render: () => null },
   { at: s(4), len: s(8.5), step: "01 · Install — iPhone", title: "Add to Home Screen", text: "Open the link in Safari → tap Share → Add to Home Screen → Add.", render: (l) => <SafariMock local={l} /> },
   { at: s(12.5), len: s(7), step: "02 · Install — Android", title: "Install app", text: "Open the link in Chrome → ⋮ menu → Install app → Install.", render: (l) => <ChromeMock local={l} /> },
-  { at: s(19.5), len: s(9), step: "03 · Discover", title: "Find coins", text: "All pairs shows every trending & new Solana pair. Use Filters, then tap a coin.", render: (l) => <AppShot src="orbit/pairs.png" local={l} len={s(9)} scroll={[0, 240]} taps={[{ x: 330, y: 70, at: s(2) }, { x: 120, y: 330, at: s(4.5) }, { x: 300, y: 560, at: s(7) }]} /> },
+  { at: s(19.5), len: s(9), step: "03 · Discover", title: "Find coins", text: "All pairs shows every trending & new Solana pair. Use Filters, then tap a coin.", render: (l) => <AppShot src="orbit/pairs.png" local={l} len={s(9)} scroll={[0, 300]} taps={[{ x: 330, y: 70, at: s(2) }, { x: 120, y: 330, at: s(4.5) }, { x: 300, y: 560, at: s(7) }]} /> },
   { at: s(28.5), len: s(8), step: "04 · ORBIT Report", title: "Check the risk", text: "A 0–100 safety score. Read every red and gold line before you buy.", render: (l) => <AppShot src="orbit/report.png" local={l} len={s(8)} /> },
-  { at: s(36.5), len: s(7), step: "05 · Chart", title: "Read the chart", text: "High, low and the volume zone — where most people bought and sold.", render: (l) => <AppShot src="orbit/chart.png" local={l} len={s(7)} scroll={[0, 120]} /> },
-  { at: s(43.5), len: s(8), step: "06 · Wallet", title: "Trace any wallet", text: "Tap a top holder to see what it buys, sells and how much it made.", render: (l) => <AppShot src="orbit/wallet.png" local={l} len={s(8)} scroll={[160, 640]} /> },
-  { at: s(51.5), len: s(7), step: "07 · Demo", title: "Practise first", text: "Trade with 10 fake SOL at real prices. No real money at risk.", render: (l) => <AppShot src="orbit/demo.png" local={l} len={s(7)} scroll={[180, 520]} /> },
+  { at: s(36.5), len: s(7), step: "05 · Chart", title: "Read the chart", text: "High, low and the volume zone — where most people bought and sold.", render: (l) => <AppShot src="orbit/chart.png" local={l} len={s(7)} scroll={[0, 220]} /> },
+  { at: s(43.5), len: s(8), step: "06 · Wallet", title: "Trace any wallet", text: "Tap a top holder to see what it buys, sells and how much it made.", render: (l) => <AppShot src="orbit/wallet.png" local={l} len={s(8)} scroll={[640, 1380]} /> },
+  { at: s(51.5), len: s(7), step: "07 · Demo", title: "Practise first", text: "Trade with 10 fake SOL at real prices. No real money at risk.", render: (l) => <AppShot src="orbit/demo.png" local={l} len={s(7)} scroll={[620, 1080]} /> },
   { at: s(58.5), len: s(8.5), step: "08 · Pro", title: "Unlock everything", text: "Subscribe tab → Open wallet & pay with Phantom or Solflare. Pro turns on by itself.", render: (l) => <AppShot src="orbit/pay.png" local={l} len={s(8.5)} taps={[{ x: 310, y: 640, at: s(4) }]} /> },
   { at: s(67), len: s(5), step: "", title: "", text: "", render: () => null },
 ];
 export const TUTORIAL_FRAMES = s(72);
 
-const Caption: React.FC<{ sc: Scene; frame: number }> = ({ sc, frame }) => {
+const Caption: React.FC<{ sc: Scene; frame: number; land: boolean }> = ({ sc, frame, land }) => {
   const o = fade(frame, sc.at, sc.at + 10, sc.at + sc.len - 8, sc.at + sc.len);
+  const align = land ? ("left" as const) : ("center" as const);
   return (
-    <div style={{ position: "absolute", top: 150, left: 70, right: 70, opacity: o, textAlign: "center" }}>
-      <Label size={26} color={C.gold} style={{ textAlign: "center" }}>{sc.step}</Label>
-      <Wide size={66} weight={500} track={0.12} style={{ marginTop: 14 }}>{sc.title}</Wide>
-      <div style={{ fontFamily: F.thin, fontWeight: 500, fontSize: 36, lineHeight: 1.35, color: C.ink2, marginTop: 18 }}>{sc.text}</div>
+    <div
+      style={
+        land
+          ? { position: "absolute", left: 160, width: 860, top: 0, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center", opacity: o, textAlign: align }
+          : { position: "absolute", top: 150, left: 70, right: 70, opacity: o, textAlign: align }
+      }
+    >
+      <Label size={26} color={C.gold} style={{ textAlign: align }}>{sc.step}</Label>
+      <Wide size={land ? 76 : 66} weight={500} track={0.12} style={{ marginTop: 14, textAlign: align, ...(land ? { paddingLeft: 0 } : {}) }}>{sc.title}</Wide>
+      <div style={{ fontFamily: F.thin, fontWeight: 500, fontSize: land ? 40 : 36, lineHeight: 1.35, color: C.ink2, marginTop: 18 }}>{sc.text}</div>
     </div>
   );
 };
 
 export const OrbitTutorial: React.FC = () => {
   const frame = useCurrentFrame();
+  const { width, height } = useVideoConfig();
+  const land = width > height;
   const intro = SCENES[0];
   const outro = SCENES[SCENES.length - 1];
   return (
     <AbsoluteFill style={{ background: C.void }}>
+      <TutSound />
       <Stars opacity={0.8} drift={0.12} />
       {/* intro */}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fade(frame, 0, 10, intro.len - 10, intro.len) }}>
-        <div style={{ marginTop: -160 }}><Galaxy size={760} /></div>
-        <div style={{ position: "absolute", top: 1180, width: "100%" }}>
-          <Label size={28} style={{ textAlign: "center" }}>Tutorial</Label>
-          <Wide size={84} track={0.3} style={{ marginTop: 18 }}>How to use</Wide>
-          <Wide size={140} track={0.42}>Orbit</Wide>
+        <div style={land ? { position: "absolute", left: 140, top: 140 } : { marginTop: -160 }}><Galaxy size={land ? 800 : 760} /></div>
+        <div style={land ? { position: "absolute", left: 1000, top: 0, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" } : { position: "absolute", top: 1180, width: "100%" }}>
+          <Label size={28} style={{ textAlign: land ? "left" : "center" }}>Tutorial</Label>
+          <Wide size={84} track={0.3} style={{ marginTop: 18, ...(land ? { textAlign: "left", paddingLeft: 0 } : {}) }}>How to use</Wide>
+          <Wide size={140} track={0.42} style={land ? { textAlign: "left", paddingLeft: 0 } : {}}>Orbit</Wide>
         </div>
       </AbsoluteFill>
       {SCENES.slice(1, -1).map((sc) => {
@@ -163,8 +200,14 @@ export const OrbitTutorial: React.FC = () => {
         const rise = interpolate(ramp(frame, sc.at, sc.at + 18), [0, 1], [80, 0]);
         return (
           <React.Fragment key={sc.at}>
-            <Caption sc={sc} frame={frame} />
-            <div style={{ position: "absolute", top: 560, width: "100%", display: "flex", justifyContent: "center", opacity: o, transform: `translateY(${rise}px)` }}>
+            <Caption sc={sc} frame={frame} land={land} />
+            <div
+              style={
+                land
+                  ? { position: "absolute", right: 200, top: 70, opacity: o, transform: `translateY(${rise}px) scale(0.73)`, transformOrigin: "top right" }
+                  : { position: "absolute", top: 560, width: "100%", display: "flex", justifyContent: "center", opacity: o, transform: `translateY(${rise}px)` }
+              }
+            >
               {sc.render(local)}
             </div>
           </React.Fragment>
@@ -172,9 +215,9 @@ export const OrbitTutorial: React.FC = () => {
       })}
       {/* outro */}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: fade(frame, outro.at, outro.at + 12, outro.at + outro.len - 2, outro.at + outro.len + 30) }}>
-        <div style={{ marginTop: -260 }}><Galaxy size={700} /></div>
-        <div style={{ position: "absolute", top: 1100, width: "100%", display: "grid", justifyItems: "center", gap: 26 }}>
-          <Wide size={130} track={0.42}>Orbit</Wide>
+        <div style={land ? { position: "absolute", left: 140, top: 140 } : { marginTop: -260 }}><Galaxy size={land ? 800 : 700} /></div>
+        <div style={land ? { position: "absolute", left: 1000, top: 0, bottom: 0, display: "grid", alignContent: "center", justifyItems: "start", gap: 26 } : { position: "absolute", top: 1100, width: "100%", display: "grid", justifyItems: "center", gap: 26 }}>
+          <Wide size={130} track={0.42} style={land ? { textAlign: "left", paddingLeft: 0 } : {}}>Orbit</Wide>
           <Mono size={32} color={C.ink}>orbit-nu-eight-39.vercel.app</Mono>
           <Label size={24}>Full guide: Subscribe tab → Guide (PDF)</Label>
           <Label size={20} color={C.faint} style={{ marginTop: 30 }}>Not financial advice · DYOR</Label>

@@ -22,5 +22,7 @@ export const Root = () => (
     <Still id="Cover" component={Cover} width={1080} height={1920} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitLaunch" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="OrbitLaunchX" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1920} height={1080} />
+    <Composition id="OrbitTutorialX" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1920} height={1080} />
   </>
 );
