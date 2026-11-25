@@ -1,0 +1,169 @@
+{
+ "date": "25 Nov 2026",
+ "reads": [
+  {
+   "sym": "4CHAN",
+   "tf": "15m",
+   "chart": "orbit/daily/4CHAN-15m.png",
+   "bias": "Ranging",
+   "score": "-5",
+   "levels": [
+    [
+     "Now",
+     "$0.0004235",
+     "RSI 56"
+    ],
+    [
+     "S1",
+     "$0.0004104",
+     "-3.1%"
+    ],
+    [
+     "S2",
+     "$0.0003717",
+     "-12.2%"
+    ],
+    [
+     "POC",
+     "$0.0003054",
+     "-27.9%"
+    ],
+    [
+     "Value",
+     "$0.00009962 \u2013 $0.001060",
+     "70% vol"
+    ]
+   ],
+   "watch": [
+    "Lose $0.0003978 \u2192 likely revisit $0.0003717",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.0007070 \u2013 $0.0009228"
+   ],
+   "change": "+1277%"
+  },
+  {
+   "sym": "BASKET",
+   "tf": "15m",
+   "chart": "orbit/daily/BASKET-15m.png",
+   "bias": "Bearish",
+   "score": "-40",
+   "levels": [
+    [
+     "R1",
+     "$0.001028",
+     "+25.2%"
+    ],
+    [
+     "Now",
+     "$0.0008207",
+     "RSI 38"
+    ],
+    [
+     "POC",
+     "$0.0002365",
+     "-71.2%"
+    ],
+    [
+     "Value",
+     "$0.00005161 \u2013 $0.001383",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.001462",
+     "+78.1%"
+    ]
+   ],
+   "watch": [
+    "Break and close above $0.001080 \u2192 next resistance open sky (new high)",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.001182 \u2013 $0.001531",
+    "Bearish view is invalid on a close above $0.001462"
+   ],
+   "change": "+1118%"
+  },
+  {
+   "sym": "JIMMY",
+   "tf": "1h",
+   "chart": "orbit/daily/JIMMY-1h.png",
+   "bias": "Bullish",
+   "score": "+55",
+   "levels": [
+    [
+     "Now",
+     "$0.001237",
+     "RSI 50"
+    ],
+    [
+     "S1",
+     "$0.001104",
+     "-10.7%"
+    ],
+    [
+     "POC",
+     "$0.0003300",
+     "-73.3%"
+    ],
+    [
+     "Value",
+     "$0.000008809 \u2013 $0.001352",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.001036",
+     "-16.3%"
+    ]
+   ],
+   "watch": [
+    "Lose $0.001036 \u2192 likely revisit $0.000008809",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.0009010 \u2013 $0.001177",
+    "Bullish view is invalid on a close below $0.001036"
+   ],
+   "change": "+75%"
+  },
+  {
+   "sym": "ANSEM",
+   "tf": "1h",
+   "chart": "orbit/daily/ANSEM-1h.png",
+   "bias": "Bearish",
+   "score": "-55",
+   "levels": [
+    [
+     "R2",
+     "$0.03311",
+     "+81.2%"
+    ],
+    [
+     "R1",
+     "$0.03029",
+     "+65.7%"
+    ],
+    [
+     "Now",
+     "$0.01827",
+     "RSI 35"
+    ],
+    [
+     "POC",
+     "$0.02005",
+     "+9.7%"
+    ],
+    [
+     "Value",
+     "$0.01532 \u2013 $0.02566",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.02489",
+     "+36.2%"
+    ]
+   ],
+   "watch": [
+    "Break and close above $0.03060 \u2192 next resistance $0.03311",
+    "Golden pocket (0.5\u20130.618 of the drop): $0.02652 \u2013 $0.03059",
+    "Bearish view is invalid on a close above $0.02489"
+   ],
+   "change": "-12.9%"
+  }
+ ]
+}
