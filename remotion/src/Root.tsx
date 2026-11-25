@@ -4,6 +4,7 @@ import { Cover } from "./Cover";
 import { AppDemo } from "./AppDemo";
 import { OrbitLaunch, LAUNCH_FRAMES } from "./orbit/Launch";
 import { OrbitTutorial, TUTORIAL_FRAMES } from "./orbit/Tutorial";
+import { AdSquare, AdWide } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
 import { PkgCardPro, PkgCardUltra, PkgProVideo, PkgUltraVideo, pkgFrames } from "./orbit/Package";
 import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandOG, BrandXHeader } from "./orbit/Brand";
@@ -34,6 +35,8 @@ export const Root = () => (
     <Composition id="PkgUltraVideo" component={PkgUltraVideo} durationInFrames={pkgFrames("ultra")} fps={30} width={1080} height={1920} />
     <Still id="XDailyBoard" component={XDailyBoard} width={1600} height={900} defaultProps={{ date: "", reads: [] } as DailyProps} />
     <Still id="XReadCard" component={XReadCard} width={1600} height={900} defaultProps={{ date: "", reads: [], index: 0 } as DailyProps} />
+    <Still id="AdWide" component={AdWide} width={1600} height={900} />
+    <Still id="AdSquare" component={AdSquare} width={1080} height={1080} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitLaunch" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1080} height={1920} />
