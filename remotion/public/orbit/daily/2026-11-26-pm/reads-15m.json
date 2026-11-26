@@ -1,0 +1,67 @@
+[
+ {
+  "ca": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+  "sym": "Pompom",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-26-pm/Pompom-15m.png",
+  "read": {
+   "bias": "Bearish",
+   "score": "-90",
+   "levels": [
+    [
+     "R2",
+     "$0.0001704",
+     "+138%"
+    ],
+    [
+     "R1",
+     "$0.0001167",
+     "+63.4%"
+    ],
+    [
+     "Now",
+     "$0.00007145",
+     "RSI 36"
+    ],
+    [
+     "POC",
+     "$0.0003174",
+     "+344%"
+    ],
+    [
+     "Value",
+     "$0.0001121 – $0.0004513",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0001708",
+     "+139%"
+    ]
+   ],
+   "why": [
+    "Lower highs and lower lows — downtrend structure",
+    "Last break: BOS down through $0.00007718",
+    "EMA 20 below EMA 50 — short-term momentum down",
+    "Price below VWAP — sellers in control of the session",
+    "Price below the point of control (busiest price)",
+    "RSI 36 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.0001201 → next resistance $0.0001704",
+    "Golden pocket (0.5–0.618 of the pump): $0.0002956 – $0.0003799",
+    "Bearish view is invalid on a close above $0.0001708"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bearish",
+    "",
+    "45",
+    "—",
+    "$0.0001167"
+   ]
+  ]
+ }
+]
