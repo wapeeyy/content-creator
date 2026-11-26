@@ -4,6 +4,7 @@ import { Cover } from "./Cover";
 import { AppDemo } from "./AppDemo";
 import { OrbitLaunch, LAUNCH_FRAMES } from "./orbit/Launch";
 import { OrbitTutorial, TUTORIAL_FRAMES } from "./orbit/Tutorial";
+import { OrbitUpdate, UPDATE_FRAMES } from "./orbit/Update";
 import { OrbitPromo1, PROMO1_FRAMES } from "./orbit/Promo";
 import { AdSquare, AdWide } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
@@ -39,6 +40,7 @@ export const Root = () => (
     <Still id="AdWide" component={AdWide} width={1600} height={900} />
     <Still id="AdSquare" component={AdSquare} width={1080} height={1080} />
     <Composition id="OrbitPromo1" component={OrbitPromo1} durationInFrames={PROMO1_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="OrbitUpdate" component={OrbitUpdate} durationInFrames={UPDATE_FRAMES} fps={30} width={1080} height={1920} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />
     <Still id="BrandBot" component={BrandBot} width={1280} height={720} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
