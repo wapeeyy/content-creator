@@ -1,0 +1,67 @@
+[
+ {
+  "ca": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+  "sym": "PUMPCHAN",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-26-pump/PUMPCHAN-15m.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+90",
+   "levels": [
+    [
+     "Now",
+     "$0.009669",
+     "RSI 66"
+    ],
+    [
+     "S1",
+     "$0.009046",
+     "-6.4%"
+    ],
+    [
+     "S2",
+     "$0.004408",
+     "-54.4%"
+    ],
+    [
+     "POC",
+     "$0.006276",
+     "-35.1%"
+    ],
+    [
+     "Value",
+     "$0.004814 – $0.009863",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.007885",
+     "-18.5%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: BOS up through $0.008972",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 66 — neutral"
+   ],
+   "watch": [
+    "Lose $0.008888 → likely revisit $0.004408",
+    "Golden pocket (0.5–0.618 of the pump): $0.004092 – $0.005346",
+    "Bullish view is invalid on a close below $0.007885"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "67",
+    "$0.009019",
+    "—"
+   ]
+  ]
+ }
+]

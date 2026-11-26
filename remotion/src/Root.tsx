@@ -9,6 +9,7 @@ import { EXPLAIN_FRAMES, OrbitExplain, OrbitExplainSquare } from "./orbit/Explai
 import { OrbitPromo1, PROMO1_FRAMES } from "./orbit/Promo";
 import { AdSquare, AdWide, XFeature } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
+import { XPump, type PumpProps } from "./orbit/Pump";
 import { PkgCardPro, PkgCardUltra, PkgProVideo, PkgUltraVideo, pkgFrames } from "./orbit/Package";
 import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandBot, BrandOG, BrandXHeader } from "./orbit/Brand";
 import P from "./data/project.json";
@@ -38,6 +39,7 @@ export const Root = () => (
     <Composition id="PkgUltraVideo" component={PkgUltraVideo} durationInFrames={pkgFrames("ultra")} fps={30} width={1080} height={1920} />
     <Still id="XDailyBoard" component={XDailyBoard} width={1600} height={900} defaultProps={{ date: "", reads: [] } as DailyProps} />
     <Still id="XReadCard" component={XReadCard} width={1600} height={900} defaultProps={{ date: "", reads: [], index: 0 } as DailyProps} />
+    <Still id="XPump" component={XPump} width={1600} height={900} defaultProps={{ sym: "", ca: "", date: "", chart: "", headline: "", stats: [], bias: "", score: 0, checks: [] } as PumpProps} />
     <Still id="AdWide" component={AdWide} width={1600} height={900} />
     <Still id="AdSquare" component={AdSquare} width={1080} height={1080} />
     <Still id="XFeature" component={XFeature} width={1600} height={900} />
