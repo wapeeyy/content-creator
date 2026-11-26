@@ -1,0 +1,186 @@
+{
+ "date": "26 Nov 2026",
+ "reads": [
+  {
+   "sym": "PUMP",
+   "tf": "1h",
+   "chart": "orbit/daily/PUMP-1h.png",
+   "bias": "Ranging",
+   "score": "-20",
+   "levels": [
+    [
+     "Now",
+     "$0.002616",
+     "RSI 71"
+    ],
+    [
+     "S1",
+     "$0.002499",
+     "-4.5%"
+    ],
+    [
+     "S2",
+     "$0.002462",
+     "-5.9%"
+    ],
+    [
+     "POC",
+     "$0.002543",
+     "-2.8%"
+    ],
+    [
+     "Value",
+     "$0.002359 \u2013 $0.002679",
+     "70% vol"
+    ]
+   ],
+   "watch": [
+    "Lose $0.002491 \u2192 likely revisit $0.002462",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.002428 \u2013 $0.002503"
+   ],
+   "change": "+7.9%"
+  },
+  {
+   "sym": "POMPOM",
+   "tf": "15m",
+   "chart": "orbit/daily/Pompom-15m.png",
+   "bias": "Bearish",
+   "score": "-90",
+   "levels": [
+    [
+     "R2",
+     "$0.0002161",
+     "+43.3%"
+    ],
+    [
+     "R1",
+     "$0.0001686",
+     "+11.8%"
+    ],
+    [
+     "Now",
+     "$0.0001508",
+     "RSI 43"
+    ],
+    [
+     "S1",
+     "$0.0001158",
+     "-23.2%"
+    ],
+    [
+     "POC",
+     "$0.0003174",
+     "+110%"
+    ],
+    [
+     "Value",
+     "$0.0001478 \u2013 $0.0004870",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0001662",
+     "+10.2%"
+    ]
+   ],
+   "watch": [
+    "Break and close above $0.0001752 \u2192 next resistance $0.0002161",
+    "Lose $0.0001091 \u2192 likely revisit $0.0001478",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.0002956 \u2013 $0.0003799",
+    "Bearish view is invalid on a close above $0.0001662"
+   ],
+   "change": "+456%"
+  },
+  {
+   "sym": "JIMMY",
+   "tf": "1h",
+   "chart": "orbit/daily/JIMMY-1h.png",
+   "bias": "Ranging",
+   "score": "-10",
+   "levels": [
+    [
+     "R1",
+     "$0.001104",
+     "+19.8%"
+    ],
+    [
+     "Now",
+     "$0.0009213",
+     "RSI 47"
+    ],
+    [
+     "S1",
+     "$0.0006322",
+     "-31.4%"
+    ],
+    [
+     "POC",
+     "$0.0003300",
+     "-64.2%"
+    ],
+    [
+     "Value",
+     "$0.0001840 \u2013 $0.001410",
+     "70% vol"
+    ]
+   ],
+   "watch": [
+    "Break and close above $0.001173 \u2192 next resistance open sky (new high)",
+    "Lose $0.0005809 \u2192 likely revisit $0.0001840",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.0009010 \u2013 $0.001177"
+   ],
+   "change": "-49%"
+  },
+  {
+   "sym": "4CHAN",
+   "tf": "15m",
+   "chart": "orbit/daily/4CHAN-15m.png",
+   "bias": "Bearish",
+   "score": "-55",
+   "levels": [
+    [
+     "R2",
+     "$0.0002645",
+     "+119%"
+    ],
+    [
+     "R1",
+     "$0.0001304",
+     "+7.9%"
+    ],
+    [
+     "Now",
+     "$0.0001209",
+     "RSI 38"
+    ],
+    [
+     "S1",
+     "$0.00009229",
+     "-23.7%"
+    ],
+    [
+     "POC",
+     "$0.0003054",
+     "+153%"
+    ],
+    [
+     "Value",
+     "$0.00009962 \u2013 $0.001014",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0002900",
+     "+140%"
+    ]
+   ],
+   "watch": [
+    "Break and close above $0.0001372 \u2192 next resistance $0.0002645",
+    "Lose $0.00008624 \u2192 likely revisit $0.00009962",
+    "Golden pocket (0.5\u20130.618 of the pump): $0.0007070 \u2013 $0.0009228",
+    "Bearish view is invalid on a close above $0.0002900"
+   ],
+   "change": "-88%"
+  }
+ ]
+}
