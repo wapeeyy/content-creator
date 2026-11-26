@@ -181,13 +181,14 @@ const Sound: React.FC = () => (
 );
 
 /** caption: the voice line, short and readable on mute */
-const Caption: React.FC<{ text: string; l: number; len: number }> = ({ text, l, len }) => (
-  <div style={{ position: "absolute", left: 80, right: 160, top: 1290, opacity: fade(l, 0, 8, len - 8, len), fontFamily: F.thin, fontWeight: 500, fontSize: 36, lineHeight: 1.35, color: C.ink, textAlign: "center", textShadow: "0 2px 18px rgba(0,0,0,0.9)" }}>
+const Caption: React.FC<{ text: string; l: number; len: number; sq?: boolean }> = ({ text, l, len, sq }) => (
+  <div style={{ position: "absolute", left: sq ? 70 : 80, right: sq ? 70 : 160, top: sq ? 880 : 1290, fontSize: sq ? 31 : 36, opacity: fade(l, 0, 8, len - 8, len), fontFamily: F.thin, fontWeight: 500, lineHeight: 1.35, color: C.ink, textAlign: "center", textShadow: "0 2px 18px rgba(0,0,0,0.9)" }}>
     {text}
   </div>
 );
 
-export const OrbitExplain: React.FC = () => {
+/** sq: 1:1 square (1080x1080) layout of the same video */
+export const OrbitExplain: React.FC<{ sq?: boolean }> = ({ sq }) => {
   const frame = useCurrentFrame();
   const introEnd = s(TL[0].start + TL[0].len);
   const outroAt = s(TL[19].start) - 6;
@@ -197,11 +198,11 @@ export const OrbitExplain: React.FC = () => {
       <Stars opacity={0.85} drift={0.14} />
       {/* hook */}
       <AbsoluteFill style={{ opacity: fade(frame, 0, 2, introEnd - 10, introEnd), alignItems: "center" }}>
-        <div style={{ marginTop: 230, transform: `scale(${interpolate(frame, [0, introEnd], [1.15, 1])})` }}>
+        <div style={{ marginTop: sq ? -60 : 230, transform: `scale(${interpolate(frame, [0, introEnd], [1.15, 1]) * (sq ? 0.75 : 1)})` }}>
           <Galaxy size={640} glow={1.3} />
         </div>
-        <div style={{ position: "absolute", top: 930, left: 90, right: 90, textAlign: "center" }}>
-          <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: 86, lineHeight: 1.1, color: C.ink }}>
+        <div style={{ position: "absolute", top: sq ? 610 : 930, left: 90, right: 90, textAlign: "center" }}>
+          <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: sq ? 74 : 86, lineHeight: 1.1, color: C.ink }}>
             Stop guessing on <span style={{ color: C.gold }}>Solana coins</span> you don't understand.
           </div>
         </div>
@@ -217,25 +218,25 @@ export const OrbitExplain: React.FC = () => {
         const rise = interpolate(ramp(frame, a, a + 18), [0, 1], [70, 0]);
         return (
           <AbsoluteFill key={i} style={{ opacity: o }}>
-            <div style={{ position: "absolute", top: 160, left: 70, right: 70, textAlign: "center" }}>
+            <div style={{ position: "absolute", top: sq ? 50 : 160, left: 70, right: 70, textAlign: "center" }}>
               <Label size={26} color={toneColor(sc.tone)} style={{ textAlign: "center" }}>{sc.step}</Label>
               <Wide size={56} weight={500} track={0.1} style={{ marginTop: 12 }}>{sc.title}</Wide>
               <div style={{ fontFamily: F.thin, fontWeight: 500, fontSize: 31, lineHeight: 1.3, color: C.ink2, marginTop: 12 }}>{sc.sub}</div>
             </div>
-            <div style={{ position: "absolute", top: 440, height: 820, width: "100%", display: "flex", justifyContent: "center", alignItems: "center", transform: `translateY(${rise}px)` }}>
-              {sc.render(l, len)}
+            <div style={{ position: "absolute", top: sq ? 240 : 440, height: sq ? 620 : 820, width: "100%", display: "flex", justifyContent: "center", alignItems: "center", transform: `translateY(${rise}px)` }}>
+              <div style={{ transform: sq ? "scale(0.74)" : undefined }}>{sc.render(l, len)}</div>
             </div>
-            <Caption text={TEXT[i]} l={l} len={len} />
+            <Caption text={TEXT[i]} l={l} len={len} sq={sq} />
           </AbsoluteFill>
         );
       })}
 
-      {frame >= outroAt && <Outro from={outroAt} />}
+      {frame >= outroAt && <Outro from={outroAt} sq={sq} />}
     </AbsoluteFill>
   );
 };
 
-const Outro: React.FC<{ from: number }> = ({ from }) => {
+const Outro: React.FC<{ from: number; sq?: boolean }> = ({ from, sq }) => {
   const frame = useCurrentFrame();
   const o = ramp(frame, from, from + 14);
   const flash = interpolate(frame, [from, from + 3, from + 20], [0, 0.4, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
@@ -243,10 +244,10 @@ const Outro: React.FC<{ from: number }> = ({ from }) => {
   const b = ramp(frame, from + s(4.2), from + s(4.8));
   return (
     <AbsoluteFill style={{ opacity: o, alignItems: "center" }}>
-      <div style={{ marginTop: 160 }}>
+      <div style={{ marginTop: sq ? -40 : 160, transform: sq ? "scale(0.6)" : undefined }}>
         <Galaxy size={480} glow={1.3} />
       </div>
-      <div style={{ position: "absolute", top: 700, width: "100%", textAlign: "center", display: "grid", justifyItems: "center", gap: 18 }}>
+      <div style={{ position: "absolute", top: sq ? 330 : 700, width: "100%", textAlign: "center", display: "grid", justifyItems: "center", gap: 18, transform: sq ? "scale(0.86)" : undefined, transformOrigin: "top center" }}>
         <Wide size={96} track={0.42}>Orbit</Wide>
         {["Try it free.", "Prove it in demo.", "Then trade with confidence."].map((t, k) => (
           <div key={t} style={{ opacity: line(k), fontFamily: F.thin, fontWeight: 300, fontSize: 58, color: k === 2 ? C.gold : C.ink }}>{t}</div>
@@ -261,3 +262,5 @@ const Outro: React.FC<{ from: number }> = ({ from }) => {
     </AbsoluteFill>
   );
 };
+
+export const OrbitExplainSquare: React.FC = () => <OrbitExplain sq />;
