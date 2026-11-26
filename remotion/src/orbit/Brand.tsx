@@ -114,3 +114,24 @@ export const BrandOG: React.FC = () => {
     </Space>
   );
 };
+
+/** Telegram bot description picture (16:9, delivered at 640×360) */
+export const BrandBot: React.FC = () => {
+  const { width, height } = useVideoConfig();
+  const g = Math.round(height * 0.95);
+  return (
+    <Space density={1.4}>
+      <div style={{ position: "absolute", left: -width * 0.02, top: (height - g) / 2 }}>
+        <Galaxy size={g} t={420} glow={1.3} sat={2.5} />
+      </div>
+      <div style={{ position: "absolute", left: width * 0.53, right: width * 0.04, top: 0, bottom: 0, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <Wide size={height * 0.15} track={0.42} style={{ textAlign: "left", paddingLeft: 0 }}>Orbit</Wide>
+        <Label size={height * 0.034} style={{ marginTop: height * 0.03 }}>Solana coin intelligence</Label>
+        <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: height * 0.05, lineHeight: 1.35, color: C.ink2, marginTop: height * 0.06 }}>
+          Price alerts and smart-money trades, straight to Telegram.
+        </div>
+        <Label size={height * 0.03} color={C.gold} style={{ marginTop: height * 0.06 }}>ORBIT Ultra</Label>
+      </div>
+    </Space>
+  );
+};

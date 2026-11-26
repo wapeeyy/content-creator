@@ -8,7 +8,7 @@ import { OrbitPromo1, PROMO1_FRAMES } from "./orbit/Promo";
 import { AdSquare, AdWide } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
 import { PkgCardPro, PkgCardUltra, PkgProVideo, PkgUltraVideo, pkgFrames } from "./orbit/Package";
-import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandOG, BrandXHeader } from "./orbit/Brand";
+import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandBot, BrandOG, BrandXHeader } from "./orbit/Brand";
 import P from "./data/project.json";
 import { FPS, f } from "./template/theme";
 
@@ -40,6 +40,7 @@ export const Root = () => (
     <Still id="AdSquare" component={AdSquare} width={1080} height={1080} />
     <Composition id="OrbitPromo1" component={OrbitPromo1} durationInFrames={PROMO1_FRAMES} fps={30} width={1080} height={1920} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />
+    <Still id="BrandBot" component={BrandBot} width={1280} height={720} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitLaunch" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitLaunchX" component={OrbitLaunch} durationInFrames={LAUNCH_FRAMES} fps={30} width={1920} height={1080} />
