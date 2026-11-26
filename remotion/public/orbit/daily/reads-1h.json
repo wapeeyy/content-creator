@@ -1,134 +1,57 @@
 [
  {
-  "ca": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-  "sym": "PUMP",
+  "ca": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+  "sym": "BASKET",
   "tf": "1h",
-  "chart": "/home/user/content-creator/remotion/public/orbit/daily/PUMP-1h.png",
+  "chart": "remotion/public/orbit/daily/BASKET-1h.png",
   "read": {
-   "bias": "Ranging",
-   "score": "-20",
-   "levels": [
-    [
-     "Now",
-     "$0.002616",
-     "RSI 71"
-    ],
-    [
-     "S1",
-     "$0.002499",
-     "-4.5%"
-    ],
-    [
-     "S2",
-     "$0.002462",
-     "-5.9%"
-    ],
-    [
-     "POC",
-     "$0.002543",
-     "-2.8%"
-    ],
-    [
-     "Value",
-     "$0.002359 – $0.002679",
-     "70% vol"
-    ]
-   ],
-   "why": [
-    "Lower highs and lower lows — downtrend structure",
-    "Last break: CHoCH down through $0.002451",
-    "EMA 20 above EMA 50 — short-term momentum up",
-    "Price above VWAP — buyers in control of the session",
-    "Price above the point of control (busiest price)",
-    "RSI 71 — overbought, pullback risk"
-   ],
-   "watch": [
-    "Lose $0.002491 → likely revisit $0.002462",
-    "Golden pocket (0.5–0.618 of the pump): $0.002428 – $0.002503"
-   ]
-  },
-  "mtf": [
-   [
-    "5m",
-    "Bullish",
-    "",
-    "48",
-    "$0.002510",
-    "—"
-   ],
-   [
-    "1h",
-    "Ranging",
-    "",
-    "71",
-    "$0.002499",
-    "—"
-   ],
-   [
-    "4h",
-    "Bearish",
-    "",
-    "59",
-    "—",
-    "$0.002754"
-   ],
-   [
-    "1D",
-    "Bearish",
-    "",
-    "35",
-    "$0.002139",
-    "$0.003779"
-   ]
-  ]
- },
- {
-  "ca": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
-  "sym": "JIMMY",
-  "tf": "1h",
-  "chart": "/home/user/content-creator/remotion/public/orbit/daily/JIMMY-1h.png",
-  "read": {
-   "bias": "Ranging",
-   "score": "-10",
+   "bias": "Bullish",
+   "score": "+60",
    "levels": [
     [
      "R1",
-     "$0.001104",
-     "+19.8%"
+     "$0.0009388",
+     "+3.0%"
     ],
     [
      "Now",
-     "$0.0009213",
-     "RSI 47"
+     "$0.0009113",
+     "RSI 56"
     ],
     [
      "S1",
-     "$0.0006322",
-     "-31.4%"
+     "$0.0005276",
+     "-42.1%"
     ],
     [
      "POC",
-     "$0.0003300",
-     "-64.2%"
+     "$0.0007542",
+     "-17.2%"
     ],
     [
      "Value",
-     "$0.0001840 – $0.001410",
+     "$0.00005161 – $0.001235",
      "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0005603",
+     "-38.5%"
     ]
    ],
    "why": [
-    "Lower highs and lower lows — downtrend structure",
-    "Last break: CHoCH down through $0.001036",
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: CHoCH up through $0.0009108",
     "EMA 20 above EMA 50 — short-term momentum up",
-    "Price above VWAP — buyers in control of the session",
+    "Price below VWAP — sellers in control of the session",
     "Price above the point of control (busiest price)",
-    "RSI 47 — neutral"
+    "RSI 56 — neutral"
    ],
    "watch": [
-    "Break and close above $0.001173 → next resistance open sky (new high)",
-    "Lose $0.0005809 → likely revisit $0.0001840",
-    "Golden pocket (0.5–0.618 of the pump): $0.0009010 – $0.001177"
+    "Break and close above $0.0009874 → next resistance open sky (new high)",
+    "Lose $0.0004790 → likely revisit $0.00005161",
+    "Golden pocket (0.5–0.618 of the pump): $0.001182 – $0.001531",
+    "Bullish view is invalid on a close below $0.0005603"
    ]
   },
   "mtf": [
@@ -136,17 +59,25 @@
     "5m",
     "Ranging",
     "",
-    "65",
-    "$0.0008552",
-    "$0.001042"
+    "45",
+    "$0.0008565",
+    "$0.0009672"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "56",
+    "$0.0005276",
+    "$0.0009388"
    ]
   ]
  },
  {
-  "ca": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-  "sym": "4CHAN",
+  "ca": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+  "sym": "Pompom",
   "tf": "1h",
-  "chart": "/home/user/content-creator/remotion/public/orbit/daily/4CHAN-1h.png",
+  "chart": "remotion/public/orbit/daily/Pompom-1h.png",
   "read": null,
   "mtf": [
    [
@@ -155,7 +86,75 @@
     "",
     "43",
     "—",
-    "$0.0002744"
+    "$0.0001167"
+   ]
+  ]
+ },
+ {
+  "ca": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+  "sym": "JIMMY",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/JIMMY-1h.png",
+  "read": {
+   "bias": "Ranging",
+   "score": "-5",
+   "levels": [
+    [
+     "R1",
+     "$0.001013",
+     "+22.0%"
+    ],
+    [
+     "Now",
+     "$0.0008310",
+     "RSI 47"
+    ],
+    [
+     "S1",
+     "$0.0006253",
+     "-24.8%"
+    ],
+    [
+     "POC",
+     "$0.0003300",
+     "-60.3%"
+    ],
+    [
+     "Value",
+     "$0.0001840 – $0.001410",
+     "70% vol"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: CHoCH down through $0.001036",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price below VWAP — sellers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 47 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.001054 → next resistance open sky (new high)",
+    "Lose $0.0005838 → likely revisit $0.0001840",
+    "Golden pocket (0.5–0.618 of the pump): $0.0009010 – $0.001177"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Ranging",
+    "",
+    "52",
+    "$0.0008155",
+    "$0.0008445"
+   ],
+   [
+    "1h",
+    "Ranging",
+    "",
+    "47",
+    "$0.0006253",
+    "$0.001013"
    ]
   ]
  }

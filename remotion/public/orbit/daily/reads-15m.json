@@ -3,45 +3,40 @@
   "ca": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
   "sym": "Pompom",
   "tf": "15m",
-  "chart": "/home/user/content-creator/remotion/public/orbit/daily/Pompom-15m.png",
+  "chart": "remotion/public/orbit/daily/Pompom-15m.png",
   "read": {
    "bias": "Bearish",
    "score": "-90",
    "levels": [
     [
      "R2",
-     "$0.0002161",
-     "+43.3%"
+     "$0.0001704",
+     "+53.2%"
     ],
     [
      "R1",
-     "$0.0001686",
-     "+11.8%"
+     "$0.0001167",
+     "+5.0%"
     ],
     [
      "Now",
-     "$0.0001508",
-     "RSI 43"
-    ],
-    [
-     "S1",
-     "$0.0001158",
-     "-23.2%"
+     "$0.0001112",
+     "RSI 41"
     ],
     [
      "POC",
      "$0.0003174",
-     "+110%"
+     "+185%"
     ],
     [
      "Value",
-     "$0.0001478 – $0.0004870",
+     "$0.0001121 – $0.0004513",
      "70% vol"
     ],
     [
      "Invalid",
-     "$0.0001662",
-     "+10.2%"
+     "$0.0001708",
+     "+53.6%"
     ]
    ],
    "why": [
@@ -50,84 +45,12 @@
     "EMA 20 below EMA 50 — short-term momentum down",
     "Price below VWAP — sellers in control of the session",
     "Price below the point of control (busiest price)",
-    "RSI 43 — neutral"
+    "RSI 41 — neutral"
    ],
    "watch": [
-    "Break and close above $0.0001752 → next resistance $0.0002161",
-    "Lose $0.0001091 → likely revisit $0.0001478",
+    "Break and close above $0.0001205 → next resistance $0.0001704",
     "Golden pocket (0.5–0.618 of the pump): $0.0002956 – $0.0003799",
-    "Bearish view is invalid on a close above $0.0001662"
-   ]
-  },
-  "mtf": [
-   [
-    "5m",
-    "Bearish",
-    "",
-    "52",
-    "$0.0001158",
-    "$0.0001641"
-   ]
-  ]
- },
- {
-  "ca": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-  "sym": "4CHAN",
-  "tf": "15m",
-  "chart": "/home/user/content-creator/remotion/public/orbit/daily/4CHAN-15m.png",
-  "read": {
-   "bias": "Bearish",
-   "score": "-55",
-   "levels": [
-    [
-     "R2",
-     "$0.0002645",
-     "+119%"
-    ],
-    [
-     "R1",
-     "$0.0001304",
-     "+7.9%"
-    ],
-    [
-     "Now",
-     "$0.0001209",
-     "RSI 38"
-    ],
-    [
-     "S1",
-     "$0.00009229",
-     "-23.7%"
-    ],
-    [
-     "POC",
-     "$0.0003054",
-     "+153%"
-    ],
-    [
-     "Value",
-     "$0.00009962 – $0.001014",
-     "70% vol"
-    ],
-    [
-     "Invalid",
-     "$0.0002900",
-     "+140%"
-    ]
-   ],
-   "why": [
-    "Mixed swings — no clean trend structure",
-    "Last break: BOS down through $0.0001236",
-    "EMA 20 below EMA 50 — short-term momentum down",
-    "Price below VWAP — sellers in control of the session",
-    "Price below the point of control (busiest price)",
-    "RSI 38 — neutral"
-   ],
-   "watch": [
-    "Break and close above $0.0001372 → next resistance $0.0002645",
-    "Lose $0.00008624 → likely revisit $0.00009962",
-    "Golden pocket (0.5–0.618 of the pump): $0.0007070 – $0.0009228",
-    "Bearish view is invalid on a close above $0.0002900"
+    "Bearish view is invalid on a close above $0.0001708"
    ]
   },
   "mtf": [
@@ -137,7 +60,7 @@
     "",
     "43",
     "—",
-    "$0.0002744"
+    "$0.0001167"
    ]
   ]
  }
