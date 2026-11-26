@@ -6,7 +6,7 @@ import { OrbitLaunch, LAUNCH_FRAMES } from "./orbit/Launch";
 import { OrbitTutorial, TUTORIAL_FRAMES } from "./orbit/Tutorial";
 import { OrbitUpdate, UPDATE_FRAMES } from "./orbit/Update";
 import { OrbitPromo1, PROMO1_FRAMES } from "./orbit/Promo";
-import { AdSquare, AdWide } from "./orbit/Ad";
+import { AdSquare, AdWide, XFeature } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
 import { PkgCardPro, PkgCardUltra, PkgProVideo, PkgUltraVideo, pkgFrames } from "./orbit/Package";
 import { BrandAvatar, BrandAvatarWord, BrandHero, BrandHeroClean, BrandBot, BrandOG, BrandXHeader } from "./orbit/Brand";
@@ -39,6 +39,7 @@ export const Root = () => (
     <Still id="XReadCard" component={XReadCard} width={1600} height={900} defaultProps={{ date: "", reads: [], index: 0 } as DailyProps} />
     <Still id="AdWide" component={AdWide} width={1600} height={900} />
     <Still id="AdSquare" component={AdSquare} width={1080} height={1080} />
+    <Still id="XFeature" component={XFeature} width={1600} height={900} />
     <Composition id="OrbitPromo1" component={OrbitPromo1} durationInFrames={PROMO1_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitUpdate" component={OrbitUpdate} durationInFrames={UPDATE_FRAMES} fps={30} width={1080} height={1920} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />

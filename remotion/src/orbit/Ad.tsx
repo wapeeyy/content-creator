@@ -85,3 +85,44 @@ export const AdSquare: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+// X post: "Rug check. Smart money. Clear reads." — three real panels from the live app
+const Panel: React.FC<{ label: string; img: string; note: string }> = ({ label, img, note }) => (
+  <div style={{ display: "flex", flexDirection: "column", gap: 16, flex: 1 }}>
+    <Label size={15} color={C.gold}>{label}</Label>
+    <div style={{ borderRadius: 16, overflow: "hidden", border: "1px solid rgba(255,255,255,0.16)", background: "#05060a", boxShadow: "0 30px 90px rgba(0,0,0,0.8), 0 0 60px rgba(140,120,255,0.12)" }}>
+      <Img src={staticFile(img)} style={{ width: "100%", display: "block" }} />
+    </div>
+    <div style={{ fontFamily: F.thin, fontWeight: 400, fontSize: 19, color: C.ink2, lineHeight: 1.35 }}>{note}</div>
+  </div>
+);
+
+export const XFeature: React.FC = () => {
+  const { width } = useVideoConfig();
+  return (
+    <AbsoluteFill style={{ background: C.void }}>
+      <Stars density={1} k={width / 1400} />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(140,120,255,0.12), rgba(0,0,0,0) 55%)" }} />
+      <div style={{ position: "absolute", right: -60, top: -150, opacity: 0.5 }}>
+        <Galaxy size={460} t={420} glow={1.2} sat={2.5} />
+      </div>
+      <div style={{ position: "absolute", left: 80, top: 60, display: "flex", gap: 22, alignItems: "baseline" }}>
+        <Wide size={26} track={0.42} style={{ textAlign: "left", paddingLeft: 0 }}>Orbit</Wide>
+        <Label size={13}>Solana coin intelligence</Label>
+      </div>
+      <div style={{ position: "absolute", left: 80, right: 80, top: 130, fontFamily: F.thin, fontWeight: 300, fontSize: 62, color: C.ink, lineHeight: 1.1 }}>
+        Rug check. Smart money. Clear reads.
+        <div style={{ fontSize: 26, color: C.ink2, marginTop: 12 }}>All in one place.</div>
+      </div>
+      <div style={{ position: "absolute", left: 80, right: 80, top: 330, display: "flex", gap: 36, alignItems: "flex-start" }}>
+        <Panel label="Rug check" img="orbit/daily/feat-rug.png" note="Sell test, LP lock, top holders and dev wallet in seconds." />
+        <Panel label="Smart money" img="orbit/daily/feat-whales.png" note="Every whale buy and sell, with the wallet behind it." />
+        <Panel label="Clear reads" img="orbit/daily/feat-read-top.png" note="Bias, key levels and what to watch on any chart." />
+      </div>
+      <div style={{ position: "absolute", left: 80, bottom: 52 }}>
+        <Cta size={17} />
+      </div>
+      <Label size={12} color={C.faint} style={{ position: "absolute", right: 80, bottom: 60 }}>Pro free for 7 days · not financial advice</Label>
+    </AbsoluteFill>
+  );
+};
