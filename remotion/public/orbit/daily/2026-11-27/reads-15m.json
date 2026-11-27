@@ -1,0 +1,76 @@
+[
+ {
+  "ca": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
+  "sym": "Snowball",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-27/Snowball-15m.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+55",
+   "levels": [
+    [
+     "R1",
+     "$0.0007982",
+     "+53.6%"
+    ],
+    [
+     "Now",
+     "$0.0005197",
+     "RSI 55"
+    ],
+    [
+     "S1",
+     "$0.00002533",
+     "-95.1%"
+    ],
+    [
+     "POC",
+     "$0.00003739",
+     "-92.8%"
+    ],
+    [
+     "Value",
+     "$0.000006737 – $0.0005176",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0003665",
+     "-29.5%"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: BOS up through $0.0005173",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 55 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.0008241 → next resistance open sky (new high)",
+    "Lose $-0.000002710 → likely revisit $0.000006737",
+    "Golden pocket (0.5–0.618 of the pump): $0.0003190 – $0.0004154",
+    "Bullish view is invalid on a close below $0.0003665"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "46",
+    "$0.0002032",
+    "—"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "65",
+    "$0.00001469",
+    "—"
+   ]
+  ]
+ }
+]

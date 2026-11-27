@@ -1,0 +1,270 @@
+[
+ {
+  "ca": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+  "sym": "mihao",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-27/mihao-1h.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+40",
+   "levels": [
+    [
+     "R2",
+     "$0.007058",
+     "+26.9%"
+    ],
+    [
+     "R1",
+     "$0.005973",
+     "+7.4%"
+    ],
+    [
+     "Now",
+     "$0.005563",
+     "RSI 55"
+    ],
+    [
+     "S1",
+     "$0.005511",
+     "-0.9%"
+    ],
+    [
+     "S2",
+     "$0.004692",
+     "-15.6%"
+    ],
+    [
+     "POC",
+     "$0.008166",
+     "+46.8%"
+    ],
+    [
+     "Value",
+     "$0.005437 – $0.009335",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.004313",
+     "-22.5%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: CHoCH up through $0.004934",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price below VWAP — sellers in control of the session",
+    "Price below the point of control (busiest price)",
+    "RSI 55 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.006048 → next resistance $0.007058",
+    "Lose $0.005420 → likely revisit $0.004692",
+    "Golden pocket (0.5–0.618 of the drop): $0.006996 – $0.007732",
+    "Bullish view is invalid on a close below $0.004313"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bearish",
+    "",
+    "52",
+    "$0.005471",
+    "$0.005592"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "55",
+    "$0.005511",
+    "$0.005973"
+   ],
+   [
+    "4h",
+    "Bearish",
+    "",
+    "46",
+    "$0.004074",
+    "$0.006063"
+   ],
+   [
+    "1D",
+    "Bearish",
+    "",
+    "47",
+    "—",
+    "—"
+   ]
+  ]
+ },
+ {
+  "ca": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+  "sym": "JIMMY",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-27/JIMMY-1h.png",
+  "read": {
+   "bias": "Bearish",
+   "score": "-55",
+   "levels": [
+    [
+     "R2",
+     "$0.0009627",
+     "+113%"
+    ],
+    [
+     "R1",
+     "$0.0006253",
+     "+38.5%"
+    ],
+    [
+     "Now",
+     "$0.0004513",
+     "RSI 38"
+    ],
+    [
+     "S1",
+     "$0.0003703",
+     "-17.9%"
+    ],
+    [
+     "POC",
+     "$0.0007387",
+     "+63.7%"
+    ],
+    [
+     "Value",
+     "$0.0001840 – $0.001352",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.001332",
+     "+195%"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: CHoCH down through $0.0007196",
+    "EMA 20 below EMA 50 — short-term momentum down",
+    "Price below VWAP — sellers in control of the session",
+    "Price below the point of control (busiest price)",
+    "RSI 38 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.0006667 → next resistance $0.0009627",
+    "Lose $0.0003356 → likely revisit $0.0001840",
+    "Golden pocket (0.5–0.618 of the pump): $0.0009010 – $0.001177",
+    "Bearish view is invalid on a close above $0.001332"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Ranging",
+    "",
+    "36",
+    "$0.0004382",
+    "$0.0006277"
+   ],
+   [
+    "1h",
+    "Bearish",
+    "",
+    "38",
+    "$0.0003703",
+    "$0.0006253"
+   ]
+  ]
+ },
+ {
+  "ca": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+  "sym": "PUMP",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-27/PUMP-1h.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+60",
+   "levels": [
+    [
+     "Now",
+     "$0.002595",
+     "RSI 54"
+    ],
+    [
+     "S1",
+     "$0.002530",
+     "-2.5%"
+    ],
+    [
+     "S2",
+     "$0.002460",
+     "-5.2%"
+    ],
+    [
+     "POC",
+     "$0.002559",
+     "-1.4%"
+    ],
+    [
+     "Value",
+     "$0.002359 – $0.002647",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.002529",
+     "-2.5%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: CHoCH down through $0.002451",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 54 — neutral"
+   ],
+   "watch": [
+    "Lose $0.002524 → likely revisit $0.002460",
+    "Golden pocket (0.5–0.618 of the pump): $0.002428 – $0.002503",
+    "Bullish view is invalid on a close below $0.002529"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bearish",
+    "",
+    "53",
+    "$0.002585",
+    "$0.002606"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "54",
+    "$0.002530",
+    "—"
+   ],
+   [
+    "4h",
+    "Ranging",
+    "",
+    "56",
+    "—",
+    "$0.002801"
+   ],
+   [
+    "1D",
+    "Bearish",
+    "",
+    "35",
+    "$0.002139",
+    "$0.003779"
+   ]
+  ]
+ }
+]
