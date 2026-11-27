@@ -80,7 +80,7 @@ export const XReadCard: React.FC<DailyProps> = ({ reads, index = 0, date }) => {
       <Brand right={`ORBIT read · ${r.tf.toUpperCase()} · ${date}`} />
       <div style={{ position: "absolute", left: 70, top: 170, width: 470 }}>
         <Label size={16}>Solana · {r.tf}</Label>
-        <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: 96, color: C.ink, letterSpacing: "0.04em", lineHeight: 1.05, marginTop: 8 }}>${r.sym}</div>
+        <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: r.sym.length > 7 ? Math.max(52, Math.round(96 * 7 / r.sym.length)) : 96, color: C.ink, letterSpacing: "0.04em", lineHeight: 1.05, marginTop: 8 }}>${r.sym}</div>
         {r.change && <Mono size={20} color={r.change.startsWith("-") ? C.down : C.up}>24h {r.change}</Mono>}
         <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: 54, letterSpacing: "0.14em", textTransform: "uppercase", color: tone(r.bias), marginTop: 22 }}>{r.bias}</div>
         <div style={{ marginTop: 16 }}>
