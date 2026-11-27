@@ -14,6 +14,9 @@ export type PumpProps = {
   bias: string;
   score: number;
   checks: Check[];
+  tag?: string; // top-right label, default "Pumping now"
+  tf?: string; // chart timeframe, default "15m"
+  checksTitle?: string;
 };
 
 const col = (s: Check["s"]) => (s === "ok" ? C.up : s === "warn" ? C.gold : C.down);
@@ -35,11 +38,11 @@ export const XPump: React.FC<PumpProps> = (p) => {
           </div>
           <Wide size={24} track={0.42} style={{ textAlign: "left", paddingLeft: 0 }}>Orbit</Wide>
         </div>
-        <Label size={13}>Pumping now · {p.date}</Label>
+        <Label size={13}>{p.tag ?? "Pumping now"} · {p.date}</Label>
       </div>
       {/* coin */}
       <div style={{ position: "absolute", left: 60, top: 120, width: 500 }}>
-        <Label size={14} color={C.ink2}>Solana · 15m</Label>
+        <Label size={14} color={C.ink2}>Solana · {p.tf ?? "15m"}</Label>
         <div style={{ fontFamily: F.thin, fontWeight: 300, fontSize: 84, color: C.ink, lineHeight: 1, marginTop: 10 }}>${p.sym}</div>
         <div style={{ fontFamily: F.mono, fontSize: 30, color: C.up, marginTop: 10 }}>{p.headline}</div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px 24px", marginTop: 24 }}>
@@ -52,8 +55,8 @@ export const XPump: React.FC<PumpProps> = (p) => {
         </div>
         <div style={{ marginTop: 26, display: "flex", alignItems: "baseline", gap: 16 }}>
           <Label size={12}>ORBIT Read</Label>
-          <span style={{ fontFamily: F.thin, fontWeight: 500, fontSize: 34, letterSpacing: "0.18em", color: p.score >= 0 ? C.up : C.down }}>{p.bias.toUpperCase()}</span>
-          <span style={{ fontFamily: F.mono, fontSize: 22, color: C.ink2 }}>{p.score > 0 ? "+" : ""}{p.score}</span>
+          <span style={{ fontFamily: F.thin, fontWeight: 500, fontSize: 34, letterSpacing: "0.18em", color: p.score > 0 ? C.up : p.score < 0 ? C.down : C.gold }}>{p.bias.toUpperCase()}</span>
+          {p.score !== 0 && <span style={{ fontFamily: F.mono, fontSize: 22, color: C.ink2 }}>{p.score > 0 ? "+" : ""}{p.score}</span>}
         </div>
       </div>
       {/* chart */}
@@ -62,7 +65,7 @@ export const XPump: React.FC<PumpProps> = (p) => {
       </div>
       {/* checks */}
       <div style={{ position: "absolute", left: 620, right: 60, top: 120 }}>
-        <Label size={14} color={C.gold}>What ORBIT checked</Label>
+        <Label size={14} color={C.gold}>{p.checksTitle ?? "What ORBIT checked"}</Label>
         <div style={{ marginTop: 14, display: "grid", gap: 9 }}>
           {p.checks.map((c) => (
             <div key={c.k} style={{ display: "grid", gridTemplateColumns: "82px 200px 1fr", alignItems: "center", gap: 16, padding: "12px 18px", borderRadius: 12, border: `1px solid ${c.s === "ok" ? "rgba(111,227,168,0.28)" : c.s === "warn" ? "rgba(243,217,164,0.35)" : "rgba(255,107,120,0.4)"}`, background: "rgba(10,11,18,0.85)" }}>

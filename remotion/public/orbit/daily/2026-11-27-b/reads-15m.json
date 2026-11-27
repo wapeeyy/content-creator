@@ -1,0 +1,62 @@
+[
+ {
+  "ca": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+  "sym": "CATE",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-27-b/CATE-15m.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+55",
+   "levels": [
+    [
+     "Now",
+     "$0.01861",
+     "RSI 67"
+    ],
+    [
+     "S1",
+     "$0.01721",
+     "-7.5%"
+    ],
+    [
+     "POC",
+     "$0.01796",
+     "-3.5%"
+    ],
+    [
+     "Value",
+     "$0.01751 – $0.01813",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.01718",
+     "-7.7%"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: CHoCH up through $0.01771",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 67 — neutral"
+   ],
+   "watch": [
+    "Lose $0.01718 → likely revisit $0.01751",
+    "Golden pocket (0.5–0.618 of the pump): $0.01773 – $0.01791",
+    "Bullish view is invalid on a close below $0.01718"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Ranging",
+    "",
+    "71",
+    "—",
+    "—"
+   ]
+  ]
+ }
+]

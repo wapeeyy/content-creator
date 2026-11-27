@@ -1,0 +1,84 @@
+[
+ {
+  "ca": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+  "sym": "CATE",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-27-b/CATE-1h.png",
+  "read": null,
+  "mtf": [
+   [
+    "5m",
+    "Ranging",
+    "",
+    "71",
+    "—",
+    "—"
+   ]
+  ]
+ },
+ {
+  "ca": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+  "sym": "CBUCKS",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-27-b/CBUCKS-1h.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+90",
+   "levels": [
+    [
+     "Now",
+     "$0.007584",
+     "RSI 69"
+    ],
+    [
+     "S1",
+     "$0.006391",
+     "-15.7%"
+    ],
+    [
+     "S2",
+     "$0.005938",
+     "-21.7%"
+    ],
+    [
+     "POC",
+     "$0.003890",
+     "-48.7%"
+    ],
+    [
+     "Value",
+     "$0.003460 – $0.005917",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.005978",
+     "-21.2%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: BOS up through $0.006960",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 69 — neutral"
+   ],
+   "watch": [
+    "Lose $0.006317 → likely revisit $0.005938",
+    "Golden pocket (0.5–0.618 of the pump): $0.004968 – $0.005548",
+    "Bullish view is invalid on a close below $0.005978"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "59",
+    "$0.006510",
+    "—"
+   ]
+  ]
+ }
+]
