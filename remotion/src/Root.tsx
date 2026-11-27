@@ -6,6 +6,7 @@ import { OrbitLaunch, LAUNCH_FRAMES } from "./orbit/Launch";
 import { OrbitTutorial, TUTORIAL_FRAMES } from "./orbit/Tutorial";
 import { OrbitUpdate, UPDATE_FRAMES } from "./orbit/Update";
 import { EXPLAIN_FRAMES, OrbitExplain, OrbitExplainSquare } from "./orbit/Explain";
+import { GUIDE_FRAMES, OrbitGuide, OrbitGuideSquare } from "./orbit/Guide";
 import { OrbitPromo1, PROMO1_FRAMES } from "./orbit/Promo";
 import { AdSquare, AdWide, XFeature } from "./orbit/Ad";
 import { XDailyBoard, XReadCard, type DailyProps } from "./orbit/DailyX";
@@ -47,6 +48,8 @@ export const Root = () => (
     <Composition id="OrbitUpdate" component={OrbitUpdate} durationInFrames={UPDATE_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitExplain" component={OrbitExplain} durationInFrames={EXPLAIN_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="OrbitExplainSquare" component={OrbitExplainSquare} durationInFrames={EXPLAIN_FRAMES} fps={30} width={1080} height={1080} />
+    <Composition id="OrbitGuide" component={OrbitGuide} durationInFrames={GUIDE_FRAMES} fps={30} width={1080} height={1920} />
+    <Composition id="OrbitGuideSquare" component={OrbitGuideSquare} durationInFrames={GUIDE_FRAMES} fps={30} width={1080} height={1080} />
     <Still id="BrandOG" component={BrandOG} width={2400} height={1260} />
     <Still id="BrandBot" component={BrandBot} width={1280} height={720} />
     <Composition id="OrbitTutorial" component={OrbitTutorial} durationInFrames={TUTORIAL_FRAMES} fps={30} width={1080} height={1920} />
