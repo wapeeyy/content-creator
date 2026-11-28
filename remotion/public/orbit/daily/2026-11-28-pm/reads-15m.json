@@ -1,0 +1,67 @@
+[
+ {
+  "ca": "GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump",
+  "sym": "MoonBoy",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-28-pm/MoonBoy-15m.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+60",
+   "levels": [
+    [
+     "Now",
+     "$0.0008433",
+     "RSI 65"
+    ],
+    [
+     "S1",
+     "$0.0006133",
+     "-27.3%"
+    ],
+    [
+     "S2",
+     "$0.0004666",
+     "-44.7%"
+    ],
+    [
+     "POC",
+     "$0.0004650",
+     "-44.9%"
+    ],
+    [
+     "Value",
+     "$0.0003455 – $0.0007316",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0004059",
+     "-51.9%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: CHoCH down through $0.0004439",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 65 — neutral"
+   ],
+   "watch": [
+    "Lose $0.0005958 → likely revisit $0.0004666",
+    "Golden pocket (0.5–0.618 of the pump): $0.0004793 – $0.0005661",
+    "Bullish view is invalid on a close below $0.0004059"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "60",
+    "$0.0007335",
+    "$0.0009197"
+   ]
+  ]
+ }
+]
