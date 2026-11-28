@@ -1,0 +1,248 @@
+[
+ {
+  "ca": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+  "sym": "JIMMY",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-28/JIMMY-1h.png",
+  "read": {
+   "bias": "Ranging",
+   "score": "-5",
+   "levels": [
+    [
+     "R1",
+     "$0.0009788",
+     "+12.4%"
+    ],
+    [
+     "Now",
+     "$0.0008710",
+     "RSI 59"
+    ],
+    [
+     "S1",
+     "$0.0007246",
+     "-16.8%"
+    ],
+    [
+     "S2",
+     "$0.0006368",
+     "-26.9%"
+    ],
+    [
+     "POC",
+     "$0.0007387",
+     "-15.2%"
+    ],
+    [
+     "Value",
+     "$0.0001840 – $0.001293",
+     "70% vol"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: CHoCH up through $0.0007296",
+    "EMA 20 below EMA 50 — short-term momentum down",
+    "Price below VWAP — sellers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 59 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.001017 → next resistance open sky (new high)",
+    "Lose $0.0006970 → likely revisit $0.0006368",
+    "Golden pocket (0.5–0.618 of the pump): $0.0009010 – $0.001177"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "50",
+    "$0.0007417",
+    "$0.001005"
+   ],
+   [
+    "1h",
+    "Ranging",
+    "",
+    "59",
+    "$0.0007246",
+    "$0.0009788"
+   ]
+  ]
+ },
+ {
+  "ca": "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+  "sym": "PUMPCHAN",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-28/PUMPCHAN-1h.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+80",
+   "levels": [
+    [
+     "Now",
+     "$0.01650",
+     "RSI 79"
+    ],
+    [
+     "S1",
+     "$0.01053",
+     "-36.2%"
+    ],
+    [
+     "S2",
+     "$0.009126",
+     "-44.7%"
+    ],
+    [
+     "POC",
+     "$0.009072",
+     "-45.0%"
+    ],
+    [
+     "Value",
+     "$0.003816 – $0.01138",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.009371",
+     "-43.2%"
+    ]
+   ],
+   "why": [
+    "Higher highs and higher lows — uptrend structure",
+    "Last break: BOS up through $0.01533",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price above VWAP — buyers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 79 — overbought, pullback risk"
+   ],
+   "watch": [
+    "Lose $0.01033 → likely revisit $0.009126",
+    "Golden pocket (0.5–0.618 of the pump): $0.006457 – $0.008441",
+    "Bullish view is invalid on a close below $0.009371"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bullish",
+    "",
+    "53",
+    "$0.01560",
+    "$0.01647"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "79",
+    "$0.01053",
+    "—"
+   ]
+  ]
+ },
+ {
+  "ca": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+  "sym": "CATE",
+  "tf": "1h",
+  "chart": "remotion/public/orbit/daily/2026-11-28/CATE-1h.png",
+  "read": {
+   "bias": "Bullish",
+   "score": "+25",
+   "levels": [
+    [
+     "R2",
+     "$0.02004",
+     "+10.5%"
+    ],
+    [
+     "R1",
+     "$0.01831",
+     "+0.9%"
+    ],
+    [
+     "Now",
+     "$0.01815",
+     "RSI 49"
+    ],
+    [
+     "S1",
+     "$0.01810",
+     "-0.3%"
+    ],
+    [
+     "S2",
+     "$0.01756",
+     "-3.2%"
+    ],
+    [
+     "POC",
+     "$0.01780",
+     "-1.9%"
+    ],
+    [
+     "Value",
+     "$0.01723 – $0.01966",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.01753",
+     "-3.4%"
+    ]
+   ],
+   "why": [
+    "Mixed swings — no clean trend structure",
+    "Last break: CHoCH up through $0.01828",
+    "EMA 20 above EMA 50 — short-term momentum up",
+    "Price below VWAP — sellers in control of the session",
+    "Price above the point of control (busiest price)",
+    "RSI 49 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.01839 → next resistance $0.02004",
+    "Lose $0.01800 → likely revisit $0.01756",
+    "Golden pocket (0.5–0.618 of the pump): $0.01792 – $0.01869",
+    "Bullish view is invalid on a close below $0.01753"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Ranging",
+    "",
+    "51",
+    "$0.01805",
+    "$0.01840"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "49",
+    "$0.01810",
+    "$0.01831"
+   ],
+   [
+    "4h",
+    "Ranging",
+    "",
+    "52",
+    "$0.01598",
+    "$0.02203"
+   ],
+   [
+    "1D",
+    "Bearish",
+    "",
+    "36",
+    "$0.01552",
+    "$0.02328"
+   ]
+  ]
+ }
+]

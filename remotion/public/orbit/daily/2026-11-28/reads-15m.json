@@ -1,0 +1,86 @@
+[
+ {
+  "ca": "9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump",
+  "sym": "Snowball",
+  "tf": "15m",
+  "chart": "remotion/public/orbit/daily/2026-11-28/Snowball-15m.png",
+  "read": {
+   "bias": "Bearish",
+   "score": "-90",
+   "levels": [
+    [
+     "R2",
+     "$0.0004677",
+     "+35.1%"
+    ],
+    [
+     "R1",
+     "$0.0004177",
+     "+20.7%"
+    ],
+    [
+     "Now",
+     "$0.0003461",
+     "RSI 33"
+    ],
+    [
+     "S1",
+     "$0.00006766",
+     "-80.5%"
+    ],
+    [
+     "S2",
+     "$0.00002023",
+     "-94.2%"
+    ],
+    [
+     "POC",
+     "$0.0006161",
+     "+78.0%"
+    ],
+    [
+     "Value",
+     "$0.0003960 – $0.0008620",
+     "70% vol"
+    ],
+    [
+     "Invalid",
+     "$0.0006823",
+     "+97.1%"
+    ]
+   ],
+   "why": [
+    "Lower highs and lower lows — downtrend structure",
+    "Last break: CHoCH down through $0.0005569",
+    "EMA 20 below EMA 50 — short-term momentum down",
+    "Price below VWAP — sellers in control of the session",
+    "Price below the point of control (busiest price)",
+    "RSI 33 — neutral"
+   ],
+   "watch": [
+    "Break and close above $0.0004311 → next resistance $0.0004677",
+    "Lose $0.00004991 → likely revisit $0.00002023",
+    "Golden pocket (0.5–0.618 of the pump): $0.0004033 – $0.0005255",
+    "Bearish view is invalid on a close above $0.0006823"
+   ]
+  },
+  "mtf": [
+   [
+    "5m",
+    "Bearish",
+    "",
+    "30",
+    "—",
+    "$0.0004177"
+   ],
+   [
+    "1h",
+    "Bullish",
+    "",
+    "41",
+    "$0.00001469",
+    "$0.0004427"
+   ]
+  ]
+ }
+]

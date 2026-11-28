@@ -25,6 +25,10 @@ const KEY = process.env.ORBIT_OWNER_KEY;
     if (tf !== '15m') {
       await p.locator('.tf button', { hasText: new RegExp(`^${tf}$`, 'i') }).first().click();
       await p.waitForTimeout(3500);
+      // reset the zoom (double-click the time axis) so the whole chart fits after a timeframe change
+      const bb = await p.locator('.chart-box').boundingBox();
+      if (bb) await p.mouse.dblclick(bb.x + bb.width / 2, bb.y + bb.height - 8);
+      await p.waitForTimeout(1200);
     }
     // clean chart for marketing: no whale emoji markers, no RSI pane
     for (const name of (process.env.OFF || 'Whales,RSI').split(',')) {
